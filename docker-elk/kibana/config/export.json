@@ -1,0 +1,317 @@
+[
+  {
+    "_id": "ec47af60-2774-11e7-a05e-6969ca544d6c",
+    "_type": "dashboard",
+    "_source": {
+      "title": "RX Dashboard - YIELD",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"7e9c6cc0-29f0-11e7-8e63-11eb5c2eaf3b\",\"panelIndex\":1,\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":10,\"id\":\"dd75b5c0-2f69-11e7-993f-69f6cf124efa\",\"panelIndex\":2,\"row\":6,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"90985270-2f6a-11e7-993f-69f6cf124efa\",\"panelIndex\":3,\"row\":6,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":7,\"id\":\"bd226880-3082-11e7-8f8a-29d84255d69c\",\"panelIndex\":4,\"row\":1,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\"},{\"col\":1,\"id\":\"4f1a4ef0-3084-11e7-8f8a-29d84255d69c\",\"panelIndex\":5,\"row\":5,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":4,\"id\":\"fb52e6a0-3084-11e7-8f8a-29d84255d69c\",\"panelIndex\":6,\"row\":5,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{\"P-2\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-1\":{\"vis\":{\"colors\":{\"source:PU1\":\"#EAB839\",\"source:PU2\":\"#E24D42\",\"source:PU3\":\"#C15C17\",\"source:PU4\":\"#F9934E\"}}},\"P-5\":{\"vis\":{\"colors\":{\"PU1\":\"#EAB839\",\"PU2\":\"#E24D42\",\"PU3\":\"#C15C17\",\"PU4\":\"#F9934E\"}}},\"P-6\":{\"vis\":{\"colors\":{\"rx10025878\":\"#82B5D8\"}}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "2015-06-04T18:37:00.000Z",
+      "timeFrom": "2015-06-04T02:58:55.836Z",
+      "refreshInterval": {
+        "display": "Off",
+        "pause": false,
+        "value": 0
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "0c170640-2772-11e7-a05e-6969ca544d6c",
+    "_type": "search",
+    "_source": {
+      "title": "PU Power",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "source",
+        "PAC",
+        "PDC",
+        "WH"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"highlightAll\":true,\"filter\":[{\"meta\":{\"negate\":false,\"index\":\"logstash-*\",\"key\":\"tags\",\"value\":\"puplog1\",\"disabled\":false,\"alias\":null},\"query\":{\"match\":{\"tags\":{\"query\":\"puplog1\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}"
+      }
+    }
+  },
+  {
+    "_id": "c71c5770-29f1-11e7-8e63-11eb5c2eaf3b",
+    "_type": "search",
+    "_source": {
+      "title": "PU periodic log 3 - F, IL1, IL2, IL3, VL1, VL2, VL3",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "source",
+        "iu",
+        "CITEMP"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"highlightAll\":true,\"filter\":[{\"meta\":{\"negate\":false,\"index\":\"logstash-*\",\"key\":\"tags\",\"value\":\"puplog3\",\"disabled\":false,\"alias\":null},\"query\":{\"match\":{\"tags\":{\"query\":\"puplog3\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}"
+      }
+    }
+  },
+  {
+    "_id": "89cc56a0-2770-11e7-855b-a31284e556ca",
+    "_type": "search",
+    "_source": {
+      "title": "CI RAM usage",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "source",
+        "MEMPRIVATE",
+        "MEMSHARED",
+        "MEMOTHER"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"highlightAll\":true,\"filter\":[{\"meta\":{\"negate\":false,\"index\":\"logstash-*\",\"key\":\"tags\",\"value\":\"ciplog1\",\"disabled\":false,\"alias\":null},\"query\":{\"match\":{\"tags\":{\"query\":\"ciplog1\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}"
+      }
+    }
+  },
+  {
+    "_id": "2bcff980-2770-11e7-855b-a31284e556ca",
+    "_type": "search",
+    "_source": {
+      "title": "citemp",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "source",
+        "iu",
+        "CITEMP"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"highlightAll\":true,\"filter\":[{\"meta\":{\"negate\":false,\"index\":\"logstash-*\",\"key\":\"tags\",\"value\":\"citemp\",\"disabled\":false,\"alias\":null},\"query\":{\"match\":{\"tags\":{\"query\":\"citemp\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}"
+      }
+    }
+  },
+  {
+    "_id": "a0e16a70-276f-11e7-855b-a31284e556ca",
+    "_type": "search",
+    "_source": {
+      "title": "Messages",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "level",
+        "source",
+        "application",
+        "msg"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"highlightAll\":true,\"filter\":[],\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_id": "7e9c6cc0-29f0-11e7-8e63-11eb5c2eaf3b",
+    "_type": "visualization",
+    "_source": {
+      "title": "AC power",
+      "visState": "{\"title\":\"AC power\",\"type\":\"area\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"interpolate\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{\"max\":500000,\"min\":0}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"PAC\",\"customLabel\":\"AC power\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"5\",\"enabled\":true,\"type\":\"filters\",\"schema\":\"group\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"source:PU1\",\"analyze_wildcard\":true}}},\"label\":\"\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"source:PU2\",\"analyze_wildcard\":true}}}},{\"input\":{\"query\":{\"query_string\":{\"query\":\"source:PU3\",\"analyze_wildcard\":true}}}},{\"input\":{\"query\":{\"query_string\":{\"query\":\"source:PU4\",\"analyze_wildcard\":true}}}}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "0c170640-2772-11e7-a05e-6969ca544d6c",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "1e39efa0-29f1-11e7-8e63-11eb5c2eaf3b",
+    "_type": "visualization",
+    "_source": {
+      "title": "CI Temperature",
+      "visState": "{\"title\":\"CI Temperature\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"cardinal\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"CITEMP\",\"customLabel\":\"°C\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "2bcff980-2770-11e7-855b-a31284e556ca",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "25fa9c00-2774-11e7-a05e-6969ca544d6c",
+    "_type": "visualization",
+    "_source": {
+      "title": "CI RAM",
+      "visState": "{\"title\":\"CI RAM\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"MEMOTHER\",\"customLabel\":\"CI RAM (other)\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"MEMPRIVATE\",\"customLabel\":\"CI RAM (private)\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"MEMSHARED\",\"customLabel\":\"CI RAM (shared)\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Time\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "89cc56a0-2770-11e7-855b-a31284e556ca",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "3b9f8030-29f3-11e7-8e63-11eb5c2eaf3b",
+    "_type": "visualization",
+    "_source": {
+      "title": "frequency",
+      "visState": "{\"title\":\"frequency\",\"type\":\"line\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":true,\"yAxis\":{\"max\":51,\"min\":49}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"F\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "c71c5770-29f1-11e7-8e63-11eb5c2eaf3b",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d383d3b0-2831-11e7-b9b7-c7eae7d800b1",
+    "_type": "visualization",
+    "_source": {
+      "title": "PDC TimeLion",
+      "visState": "{\"type\":\"timelion\",\"title\":\"PDC TimeLion\",\"params\":{\"expression\":\".es(metric='avg:VDC').multiply(.es(metric='avg:IDC')).label('PDC = VDC * IDC (calcualted)'), .es(metric='avg:PDC').label('PDC from logfile').title('PDC (TimeLion)')\",\"interval\":\"auto\"}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    }
+  },
+  {
+    "_id": "a18e8010-29f0-11e7-8e63-11eb5c2eaf3b",
+    "_type": "visualization",
+    "_source": {
+      "title": "DC power",
+      "visState": "{\"title\":\"DC power\",\"type\":\"area\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"interpolate\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{\"max\":500000,\"min\":0}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"PDC\",\"customLabel\":\"AC power\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"5\",\"enabled\":true,\"type\":\"filters\",\"schema\":\"group\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"source:PU1\",\"analyze_wildcard\":true}}},\"label\":\"\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"source:PU2\",\"analyze_wildcard\":true}}}},{\"input\":{\"query\":{\"query_string\":{\"query\":\"source:PU3\",\"analyze_wildcard\":true}}}},{\"input\":{\"query\":{\"query_string\":{\"query\":\"source:PU4\",\"analyze_wildcard\":true}}}}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "0c170640-2772-11e7-a05e-6969ca544d6c",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "299cf430-2831-11e7-a15f-8dea06ac1611",
+    "_type": "visualization",
+    "_source": {
+      "title": "PDC calculation",
+      "visState": "{\"title\":\"PDC calculation\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(metric='avg:VDC').multiply(.es(metric='avg:IDC')).label('PDC = VDC * IDC (calcualted)'), .es(metric='avg:PDC').label('PDC from logfile')\",\"interval\":\"auto\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "bd226880-3082-11e7-8f8a-29d84255d69c",
+    "_type": "visualization",
+    "_source": {
+      "title": "YIELD Heatmap",
+      "visState": "{\"title\":\"YIELD Heatmap\",\"type\":\"tile_map\",\"params\":{\"mapType\":\"Heatmap\",\"isDesaturated\":true,\"addTooltip\":true,\"heatMaxZoom\":16,\"heatMinOpacity\":\"0.57\",\"heatRadius\":25,\"heatBlur\":15,\"heatNormalizeData\":true,\"legendPosition\":\"bottomright\",\"mapZoom\":2,\"mapCenter\":[15,5],\"wms\":{\"enabled\":false,\"url\":\"https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer\",\"options\":{\"version\":\"1.3.0\",\"layers\":\"0\",\"format\":\"image/png\",\"transparent\":true,\"attribution\":\"Maps provided by USGS\",\"styles\":\"\"}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"WH\",\"customLabel\":\"WH\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.location\",\"autoPrecision\":true,\"precision\":2}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"mapZoom\":5,\"mapCenter\":[47.197338415697,7.91015625]}",
+      "description": "",
+      "savedSearchId": "0c170640-2772-11e7-a05e-6969ca544d6c",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"meta\":{\"negate\":false,\"index\":\"logstash-*\",\"key\":\"geoip.location\",\"value\":\"{\\n  \\\"lat\\\": 47.27922900257082,\\n  \\\"lon\\\": 7.671203613281251\\n} to {\\n  \\\"lat\\\": 47.155637851831415,\\n  \\\"lon\\\": 7.9026031494140625\\n}\",\"disabled\":false,\"alias\":null},\"geo_bounding_box\":{\"geoip.location\":{\"bottom_right\":{\"lat\":47.155637851831415,\"lon\":7.9026031494140625},\"top_left\":{\"lat\":47.27922900257082,\"lon\":7.671203613281251}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "90985270-2f6a-11e7-993f-69f6cf124efa",
+    "_type": "visualization",
+    "_source": {
+      "title": "TOTAL YIELD",
+      "visState": "{\"title\":\"TOTAL YIELD\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"54\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"WH\",\"customLabel\":\"YIELD (WH)\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "0c170640-2772-11e7-a05e-6969ca544d6c",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "dd75b5c0-2f69-11e7-993f-69f6cf124efa",
+    "_type": "visualization",
+    "_source": {
+      "title": "YIELD",
+      "visState": "{\"title\":\"YIELD\",\"type\":\"table\",\"params\":{\"perPage\":4,\"showPartialRows\":false,\"showMeticsAtAllLevels\":true,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"WH\",\"customLabel\":\"WH\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"schema\":\"bucket\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"source:PU1\",\"analyze_wildcard\":true}}},\"label\":\"PU1\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"source:PU2\",\"analyze_wildcard\":true}}},\"label\":\"PU2\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"source:PU3\",\"analyze_wildcard\":true}}},\"label\":\"PU3\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"source:PU4\",\"analyze_wildcard\":true}}},\"label\":\"PU4\"}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "0c170640-2772-11e7-a05e-6969ca544d6c",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "4f1a4ef0-3084-11e7-8f8a-29d84255d69c",
+    "_type": "visualization",
+    "_source": {
+      "title": "YIELD per Power Unit",
+      "visState": "{\"title\":\"YIELD per Power Unit\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"WH\",\"customLabel\":\"WH\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"source.keyword\",\"size\":4,\"order\":\"asc\",\"orderBy\":\"_term\",\"customLabel\":\"Power Unit\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "0c170640-2772-11e7-a05e-6969ca544d6c",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "fb52e6a0-3084-11e7-8f8a-29d84255d69c",
+    "_type": "visualization",
+    "_source": {
+      "title": "YIELD per Inverter Unit",
+      "visState": "{\"title\":\"YIELD per Inverter Unit\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"bottom\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"WH\",\"customLabel\":\"WH\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"iu.keyword\",\"size\":4,\"order\":\"asc\",\"orderBy\":\"_term\",\"customLabel\":\"Inverter Unit\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "0c170640-2772-11e7-a05e-6969ca544d6c",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  }
+]

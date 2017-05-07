@@ -1,0 +1,598 @@
+Jun 30 01:01:26 rx10025878 syslogd: restart
+Jun 30 01:01:26 nto CI: INFO	sysinit	Starting /etc/rc2.d/S24firmwareupdater 
+Jun 30 01:01:27 nto CI: INFO	rxsetup.sh	--update usb 
+Jun 30 01:01:35 nto CI: INFO	sysinit	Starting /etc/rc2.d/S26crond 
+Jun 30 01:01:35 nto cron: started
+Jun 30 01:01:36 nto CI: INFO	sysinit	Starting /etc/rc2.d/S28mq 
+Jun 30 01:01:36 nto CI: INFO	sysinit	Starting /etc/rc2.d/S40display 
+Jun 30 01:01:37 nto CI: INFO	sysinit	Starting /etc/rc2.d/S41guici 
+Jun 30 01:01:39 nto CI: INFO	sysinit	Starting /etc/rc2.d/S42systemdata 
+Jun 30 01:01:40 nto CI: INFO	systemdata	systemdata: Startup
+Jun 30 01:01:40 nto CI: INFO	systemdata	systemdata: startup
+Jun 30 01:01:40 nto CI: INFO	sysinit	Starting /etc/rc2.d/S43configuration 
+Jun 30 01:01:40 nto CI: INFO	rxsetup.sh	--config load 
+Jun 30 01:01:41 nto CI: INFO	boardinformation	binfo: Board Information startup ...
+Jun 30 01:01:41 nto CI: WARNING	systemdata	datapool: /sdcli-2175002: READ - server datapool is empty. Key Id 5006 needs to be published first.
+Jun 30 01:01:42 nto CI: INFO	configuration	Loading file >/opt/solarmax/configuration/misc.csv< 
+Jun 30 01:01:42 nto CI: INFO	configuration	Loading file >/opt/solarmax/configuration/control.csv< 
+Jun 30 01:01:43 nto CI: INFO	configuration	Loading file >/opt/solarmax/configuration/type20960.csv< 
+Jun 30 01:01:43 nto CI: INFO	configuration	Loading file >/opt/solarmax/configuration/ssf1.csv< 
+Jun 30 01:01:43 nto CI: INFO	configuration	Loading file >/opt/solarmax/configuration/fieldtestglz.csv< 
+Jun 30 01:01:44 nto CI: INFO	configuration	configuration: startup
+Jun 30 01:01:44 nto CI: INFO	configuration	configuration: config: step 1 - create all keys
+Jun 30 01:01:45 nto CI: INFO	configuration	configuration: config: step 2 - load default values
+Jun 30 01:01:45 nto CI: INFO	configuration	configuration: config: default - loading /tmp/defaultconfig.csv
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: config: default - end of file /tmp/defaultconfig.csv - 302 keys loaded
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: config: step 3 - load user modified values
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: config: user - loading /etc/userconfig.csv
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: config: user - end of file /etc/userconfig.csv - 0 keys loaded
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: cisettings: step 1 - create all keys
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: cisettings: step 2 - load default values
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: cisettings: default - loading /opt/solarmax/configuration/cisettings.csv
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: cisettings: default - end of file /opt/solarmax/configuration/cisettings.csv - 25 keys loaded
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: cisettings: step 3 - load user modified values
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: cisettings: user - loading /etc/usercisettings.csv
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5101 changed, saving cisettings to disk
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5101 added to cisettings (1 keys in list)
+Jun 30 01:01:46 nto CI: WARNING	configuration	configuration: cisettings: user - already in list, skipping Key Id 5101 (USER_MODIFIED_DATAKEY_ID_5101)
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5103 changed, saving cisettings to disk
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5103 added to cisettings (2 keys in list)
+Jun 30 01:01:46 nto CI: WARNING	configuration	configuration: cisettings: user - already in list, skipping Key Id 5103 (USER_MODIFIED_DATAKEY_ID_5103)
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5104 changed, saving cisettings to disk
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5104 added to cisettings (3 keys in list)
+Jun 30 01:01:46 nto CI: WARNING	configuration	configuration: cisettings: user - already in list, skipping Key Id 5104 (USER_MODIFIED_DATAKEY_ID_5104)
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5105 changed, saving cisettings to disk
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5105 added to cisettings (4 keys in list)
+Jun 30 01:01:46 nto CI: WARNING	configuration	configuration: cisettings: user - already in list, skipping Key Id 5105 (USER_MODIFIED_DATAKEY_ID_5105)
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5007 changed, saving cisettings to disk
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5007 added to cisettings (5 keys in list)
+Jun 30 01:01:46 nto CI: WARNING	configuration	configuration: cisettings: user - already in list, skipping Key Id 5007 (USER_MODIFIED_DATAKEY_ID_5007)
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: cisettings: user - end of file /etc/usercisettings.csv - 5 keys loaded
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: configuration successfully loaded, waiting for remote validation requests...
+Jun 30 01:01:46 nto CI: INFO	configuration	configuration: daemon: forking a background process
+Jun 30 01:01:47 nto CI: INFO	sysinit	Starting /etc/rc2.d/S46xtbus 
+Jun 30 01:01:48 nto CI: INFO	sysinit	Starting /etc/rc2.d/S47adc 
+Jun 30 01:01:48 nto CI: INFO	adc	adc: startup
+Jun 30 01:01:48 nto CI: INFO	sysinit	Starting /etc/rc2.d/S47pulogger 
+Jun 30 01:01:48 nto CI: INFO	pulogger	pulogger: Startup
+Jun 30 01:01:48 nto CI: INFO	pulogger	pulogger: starting logger for PU1 - reading from /dev/xtbus/pu1/logger
+Jun 30 01:01:48 nto CI: INFO	pulogger	pulogger: starting logger for PU2 - reading from /dev/xtbus/pu2/logger
+Jun 30 01:01:49 nto CI: INFO	pulogger	pulogger: starting logger for PU3 - reading from /dev/xtbus/pu3/logger
+Jun 30 01:01:49 nto CI: INFO	pulogger	pulogger: starting logger for PU4 - reading from /dev/xtbus/pu4/logger
+Jun 30 01:01:49 nto CI: INFO	sysinit	Starting /etc/rc2.d/S48gpio 
+Jun 30 01:01:49 nto CI: INFO	pulogger	pulogger: pulogger startup completed
+Jun 30 01:01:49 nto CI: INFO	gpio	gpio: startup
+Jun 30 01:01:49 nto CI: INFO	sysinit	Starting /etc/rc2.d/S51puupdater 
+Jun 30 01:01:49 nto CI: INFO	puupdater1	puupdater: Startup
+Jun 30 01:01:49 nto CI: INFO	puupdater1	puupdater: PU-Updater startup
+Jun 30 01:01:49 nto CI: INFO	puupdater1	puupdater: flushing xtbus maxcomm buffer >/dev/xtbus/pu1/maxcomm<
+Jun 30 01:01:49 nto CI: INFO	puupdater1	puupdater: Terminating application with EXIT_SUCCESS
+Jun 30 01:01:50 nto CI: INFO	puupdater2	puupdater: Startup
+Jun 30 01:01:50 nto CI: INFO	puupdater2	puupdater: PU-Updater startup
+Jun 30 01:01:50 nto CI: INFO	puupdater2	puupdater: flushing xtbus maxcomm buffer >/dev/xtbus/pu2/maxcomm<
+Jun 30 01:01:50 nto CI: INFO	puupdater2	puupdater: Terminating application with EXIT_SUCCESS
+Jun 30 01:01:50 nto CI: INFO	puupdater3	puupdater: Startup
+Jun 30 01:01:50 nto CI: INFO	puupdater3	puupdater: PU-Updater startup
+Jun 30 01:01:50 nto CI: INFO	puupdater3	puupdater: flushing xtbus maxcomm buffer >/dev/xtbus/pu3/maxcomm<
+Jun 30 01:01:50 nto CI: INFO	puupdater3	puupdater: Terminating application with EXIT_SUCCESS
+Jun 30 01:01:50 nto CI: INFO	puupdater4	puupdater: Startup
+Jun 30 01:01:50 nto CI: INFO	puupdater4	puupdater: PU-Updater startup
+Jun 30 01:01:50 nto CI: INFO	puupdater4	puupdater: flushing xtbus maxcomm buffer >/dev/xtbus/pu4/maxcomm<
+Jun 30 01:01:50 nto CI: INFO	puupdater4	puupdater: Terminating application with EXIT_SUCCESS
+Jun 30 01:01:50 nto CI: INFO	sysinit	Starting /etc/rc2.d/S52pumanager 
+Jun 30 01:01:50 nto CI: INFO	pumanager1	pumanager: Startup
+Jun 30 01:01:51 nto CI: INFO	pumanager1	pumanager: READ from CSV: loading /tmp/defaultconfig.csv
+Jun 30 01:01:52 nto CI: INFO	pumanager1	pumanager: READ from CSV: end of file /tmp/defaultconfig.csv
+Jun 30 01:01:52 nto CI: INFO	pumanager1	pumanager: Subscribed for 270 data keys to synchronize with PU
+Jun 30 01:01:52 nto CI: INFO	pumanager1	pumanager: PU control master FSM disabled, reboot PU and block until (re)enabled...
+Jun 30 01:01:52 nto CI: INFO	pumanager1	pumanager: Send PU_CONTROL_SLAVE_COMMAND_RESET...
+Jun 30 01:01:52 nto CI: INFO	pumanager1	pumanager: FSM State: WAIT_FOR_POWER
+Jun 30 01:01:52 nto CI: INFO	pumanager1	pumanager: Wait for PU enable...
+Jun 30 01:01:52 nto CI: INFO	pumanager1	pumanager: daemon: forking a background process
+Jun 30 01:01:52 nto CI: INFO	pumanager2	pumanager: Startup
+Jun 30 01:01:52 nto CI: INFO	pumanager2	pumanager: READ from CSV: loading /tmp/defaultconfig.csv
+Jun 30 01:01:53 nto PU1: INFO	BootFsm	********** Hello from Solarmax RX! ********** 
+Jun 30 01:01:53 nto PU1: DEBUG	BootFsm	Reset cause is an expected SW reset (e.g. firmware update or remote reset) 
+Jun 30 01:01:53 nto PU1: INFO	BootFsm	Basic system successfully built, duration: 85.62ms 
+Jun 30 01:01:53 nto PU1: INFO	BootFsm	Communication system successfully built, duration: 0.23ms 
+Jun 30 01:01:53 nto PU1: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_POWER_OK, wait for PU_CONTROL_SLAVE_COMMAND_PREPARE_FOR_CONFIG... 
+Jun 30 01:01:53 nto CI: INFO	pumanager2	pumanager: READ from CSV: end of file /tmp/defaultconfig.csv
+Jun 30 01:01:53 nto CI: INFO	pumanager2	pumanager: Subscribed for 270 data keys to synchronize with PU
+Jun 30 01:01:53 nto CI: INFO	pumanager2	pumanager: PU control master FSM disabled, reboot PU and block until (re)enabled...
+Jun 30 01:01:53 nto CI: INFO	pumanager2	pumanager: Send PU_CONTROL_SLAVE_COMMAND_RESET...
+Jun 30 01:01:53 nto CI: INFO	pumanager2	pumanager: FSM State: WAIT_FOR_POWER
+Jun 30 01:01:53 nto CI: INFO	pumanager2	pumanager: Wait for PU enable...
+Jun 30 01:01:53 nto CI: INFO	pumanager2	pumanager: daemon: forking a background process
+Jun 30 01:01:54 nto CI: INFO	pumanager3	pumanager: Startup
+Jun 30 01:01:54 nto CI: INFO	pumanager3	pumanager: READ from CSV: loading /tmp/defaultconfig.csv
+Jun 30 01:01:55 nto PU2: INFO	BootFsm	********** Hello from Solarmax RX! ********** 
+Jun 30 01:01:55 nto PU2: DEBUG	BootFsm	Reset cause is an expected SW reset (e.g. firmware update or remote reset) 
+Jun 30 01:01:55 nto PU2: INFO	BootFsm	Basic system successfully built, duration: 85.62ms 
+Jun 30 01:01:55 nto PU2: INFO	BootFsm	Communication system successfully built, duration: 0.23ms 
+Jun 30 01:01:55 nto PU2: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_POWER_OK, wait for PU_CONTROL_SLAVE_COMMAND_PREPARE_FOR_CONFIG... 
+Jun 30 01:01:55 nto CI: INFO	pumanager3	pumanager: READ from CSV: end of file /tmp/defaultconfig.csv
+Jun 30 01:01:55 nto CI: INFO	pumanager3	pumanager: Subscribed for 270 data keys to synchronize with PU
+Jun 30 01:01:55 nto CI: INFO	pumanager3	pumanager: PU control master FSM disabled, reboot PU and block until (re)enabled...
+Jun 30 01:01:55 nto CI: INFO	pumanager3	pumanager: Send PU_CONTROL_SLAVE_COMMAND_RESET...
+Jun 30 01:01:55 nto CI: INFO	pumanager3	pumanager: FSM State: WAIT_FOR_POWER
+Jun 30 01:01:55 nto CI: INFO	pumanager3	pumanager: Wait for PU enable...
+Jun 30 01:01:55 nto CI: INFO	pumanager3	pumanager: daemon: forking a background process
+Jun 30 01:01:56 nto CI: INFO	pumanager4	pumanager: Startup
+Jun 30 01:01:56 nto CI: INFO	pumanager4	pumanager: READ from CSV: loading /tmp/defaultconfig.csv
+Jun 30 01:01:56 nto PU3: INFO	BootFsm	********** Hello from Solarmax RX! ********** 
+Jun 30 01:01:56 nto PU3: DEBUG	BootFsm	Reset cause is an expected SW reset (e.g. firmware update or remote reset) 
+Jun 30 01:01:56 nto PU3: INFO	BootFsm	Basic system successfully built, duration: 85.62ms 
+Jun 30 01:01:56 nto PU3: INFO	BootFsm	Communication system successfully built, duration: 0.23ms 
+Jun 30 01:01:56 nto PU3: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_POWER_OK, wait for PU_CONTROL_SLAVE_COMMAND_PREPARE_FOR_CONFIG... 
+Jun 30 01:01:57 nto CI: INFO	pumanager4	pumanager: READ from CSV: end of file /tmp/defaultconfig.csv
+Jun 30 01:01:57 nto CI: INFO	pumanager4	pumanager: Subscribed for 270 data keys to synchronize with PU
+Jun 30 01:01:57 nto CI: INFO	pumanager4	pumanager: PU control master FSM disabled, reboot PU and block until (re)enabled...
+Jun 30 01:01:57 nto CI: INFO	pumanager4	pumanager: Send PU_CONTROL_SLAVE_COMMAND_RESET...
+Jun 30 01:01:57 nto CI: INFO	pumanager4	pumanager: FSM State: WAIT_FOR_POWER
+Jun 30 01:01:57 nto CI: INFO	pumanager4	pumanager: Wait for PU enable...
+Jun 30 01:01:57 nto CI: INFO	pumanager4	pumanager: daemon: forking a background process
+Jun 30 01:01:58 nto CI: INFO	sysinit	Starting /etc/rc2.d/S53boardinformation 
+Jun 30 01:01:58 nto CI: INFO	boardinformation	binfo: Board Information startup ...
+Jun 30 01:01:58 nto CI: INFO	boardinformation	binfo: Board Information is stored from EEPROM to Data keys
+Jun 30 01:01:58 nto PU4: INFO	BootFsm	********** Hello from Solarmax RX! ********** 
+Jun 30 01:01:58 nto PU4: DEBUG	BootFsm	Reset cause is an expected SW reset (e.g. firmware update or remote reset) 
+Jun 30 01:01:58 nto PU4: INFO	BootFsm	Basic system successfully built, duration: 85.62ms 
+Jun 30 01:01:58 nto PU4: INFO	BootFsm	Communication system successfully built, duration: 0.23ms 
+Jun 30 01:01:58 nto PU4: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_POWER_OK, wait for PU_CONTROL_SLAVE_COMMAND_PREPARE_FOR_CONFIG... 
+Jun 30 01:01:58 nto CI: INFO	sysinit	Starting /etc/rc2.d/S54iumanager 
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: Startup
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: parse command line options...
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: connecting server...
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: server connected
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: data keys successfully subscribed
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 101   INVERTER SUBCODE 0   RunLevel 3   StatusCodePriority 308
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: StatusGenerator started
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: WarningsGenerator started
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: device /dev/statusled - open
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: StatusLed started
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: MeasurementCalculator started
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: AdcReader started
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: GpioReader started
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: GpioWriter started
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: WakeupGenerator: enabling power supplies during startup for 15 minutes
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: GpioWriter::setCiPowerSupplies(): ON
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: device /dev/gpio/output/r6 - open
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: device /dev/gpio/output/m6 - open
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: device /dev/gpio/output/f6 - open
+Jun 30 01:01:59 nto CI: INFO	pumanager1	pumanager: PU control master FSM enabled, start slave state polling...
+Jun 30 01:01:59 nto CI: INFO	pumanager2	pumanager: PU control master FSM enabled, start slave state polling...
+Jun 30 01:01:59 nto CI: INFO	pumanager3	pumanager: PU control master FSM enabled, start slave state polling...
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: WakeupGenerator started
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: running iumanager...
+Jun 30 01:01:59 nto CI: INFO	pumanager1	pumanager: Startup slave (configured boot timeout = 120s)...
+Jun 30 01:01:59 nto CI: INFO	pumanager4	pumanager: PU control master FSM enabled, start slave state polling...
+Jun 30 01:01:59 nto CI: INFO	pumanager1	pumanager: FSM State: READ_AND_VALIDATE_SYSTEM_INFORMATION
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: daemon: forking a background process
+Jun 30 01:01:59 nto CI: INFO	pumanager3	pumanager: Startup slave (configured boot timeout = 120s)...
+Jun 30 01:01:59 nto CI: INFO	pumanager2	pumanager: Startup slave (configured boot timeout = 120s)...
+Jun 30 01:01:59 nto CI: INFO	pumanager3	pumanager: FSM State: READ_AND_VALIDATE_SYSTEM_INFORMATION
+Jun 30 01:01:59 nto CI: INFO	pumanager2	pumanager: FSM State: READ_AND_VALIDATE_SYSTEM_INFORMATION
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: device /dev/gpio/input/u6 - open
+Jun 30 01:01:59 nto CI: INFO	pumanager4	pumanager: Startup slave (configured boot timeout = 120s)...
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x000c0080 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x000c0080
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: Alarm input is FALSE
+Jun 30 01:01:59 nto CI: INFO	pumanager1	pumanager: System Information successful received, validate...
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: device /dev/gpio/input/p6 - open
+Jun 30 01:01:59 nto CI: INFO	pumanager4	pumanager: FSM State: READ_AND_VALIDATE_SYSTEM_INFORMATION
+Jun 30 01:01:59 nto CI: INFO	pumanager3	pumanager: System Information successful received, validate...
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: device /dev/gpio/input/p4 - open
+Jun 30 01:01:59 nto CI: INFO	pumanager3	pumanager: System Information is valid
+Jun 30 01:01:59 nto CI: INFO	pumanager2	pumanager: System Information successful received, validate...
+Jun 30 01:01:59 nto CI: INFO	pumanager1	pumanager: System Information is valid
+Jun 30 01:01:59 nto CI: INFO	pumanager3	pumanager: FSM State: PREPARE_FOR_CONFIGURATION
+Jun 30 01:01:59 nto CI: INFO	pumanager2	pumanager: System Information is valid
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: WAKEUP_XT_TQM input is FALSE and FALSE, initializing DATA_KEY_ID_INVERTER_LOW_DC_VOLTAGE with FALSE
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x000c0080 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x000c0080
+Jun 30 01:01:59 nto CI: INFO	pumanager4	pumanager: System Information successful received, validate...
+Jun 30 01:01:59 nto CI: INFO	pumanager1	pumanager: FSM State: PREPARE_FOR_CONFIGURATION
+Jun 30 01:01:59 nto CI: INFO	pumanager2	pumanager: FSM State: PREPARE_FOR_CONFIGURATION
+Jun 30 01:01:59 nto CI: INFO	pumanager4	pumanager: System Information is valid
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: device /dev/adc/si/vxtbus - open
+Jun 30 01:01:59 nto CI: INFO	pumanager4	pumanager: FSM State: PREPARE_FOR_CONFIGURATION
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x000c0080 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x000c0080
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: VXTBUS is 15.400000
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x000c0000 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x000c0000
+Jun 30 01:01:59 nto PU3: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_READY_FOR_CONFIG 
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: device /dev/adc/si/vin12 - open
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: VIN is 12.100000
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x00040000 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x00040000
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 0   INVERTER SUBCODE 0   RunLevel 3   StatusCodePriority 308
+Jun 30 01:01:59 nto PU1: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_READY_FOR_CONFIG 
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: device /dev/adc/si/ambtemp - open
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x00040000 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x00040000
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: Ambient temperature is 25.0
+Jun 30 01:01:59 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x00040000 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x00040000
+Jun 30 01:01:59 nto PU2: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_READY_FOR_CONFIG 
+Jun 30 01:01:59 nto PU4: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_READY_FOR_CONFIG 
+Jun 30 01:01:59 nto PU3: INFO	BootFsm	Synchronizing data pool... 
+Jun 30 01:01:59 nto PU1: INFO	BootFsm	Synchronizing data pool... 
+Jun 30 01:01:59 nto PU2: INFO	BootFsm	Synchronizing data pool... 
+Jun 30 01:01:59 nto PU4: INFO	BootFsm	Synchronizing data pool... 
+Jun 30 01:02:00 nto CI: INFO	pumanager1	pumanager: FSM State: SYNCHRONIZE_CONFIGURATION
+Jun 30 01:02:00 nto CI: INFO	pumanager2	pumanager: FSM State: SYNCHRONIZE_CONFIGURATION
+Jun 30 01:02:00 nto CI: INFO	pumanager3	pumanager: FSM State: SYNCHRONIZE_CONFIGURATION
+Jun 30 01:02:00 nto CI: INFO	pumanager4	pumanager: FSM State: SYNCHRONIZE_CONFIGURATION
+Jun 30 01:02:00 nto CI: INFO	sysinit	Starting /etc/rc2.d/S55statistics 
+Jun 30 01:02:01 nto CI: INFO	statistics	statistics: Startup
+Jun 30 01:02:01 nto CI: INFO	statistics	statistics: Adjusting scheduling priority by -1
+Jun 30 01:02:01 nto CI: INFO	statistics	statistics: connecting server...
+Jun 30 01:02:01 nto CI: INFO	statistics	statistics: server connected
+Jun 30 01:02:02 nto CI: INFO	statistics	statistics: data keys successfully subscribed
+Jun 30 01:02:03 nto CI: INFO	statistics	statistics: PU1 (sn=10025931): statistic successfully loaded
+Jun 30 01:02:03 nto CI: INFO	statistics	statistics: PU1, day-history: => date=06/30/15, yield=0.00kWh, opS=0s, conC=0, fanS=0s
+Jun 30 01:02:03 nto CI: INFO	statistics	statistics: PU1, month-history: => date=06/01/15, yield=23111.49kWh, opS=1527169s, conC=57, fanS=1012872s
+Jun 30 01:02:03 nto CI: INFO	statistics	statistics: PU1, year-history: => date=01/01/15, yield=46093.48kWh, opS=3511988s, conC=196, fanS=1931843s
+Jun 30 01:02:03 nto CI: INFO	statistics	statistics: PU1, user-total: => date=10/02/14, yield=57815.43kWh, opS=5670543s, conC=394, fanS=2109640s
+Jun 30 01:02:03 nto CI: INFO	statistics	statistics: PU1, device-total: => date=10/02/14, yield=57815.43kWh, opS=5670543s, conC=394, fanS=2109640s
+Jun 30 01:02:04 nto CI: INFO	statistics	statistics: PU2 (sn=10025932): statistic successfully loaded
+Jun 30 01:02:04 nto CI: INFO	statistics	statistics: PU2, day-history: => date=06/30/15, yield=0.00kWh, opS=0s, conC=0, fanS=0s
+Jun 30 01:02:04 nto CI: INFO	statistics	statistics: PU2, month-history: => date=06/01/15, yield=23143.02kWh, opS=1547065s, conC=60, fanS=1012867s
+Jun 30 01:02:04 nto CI: INFO	statistics	statistics: PU2, year-history: => date=01/01/15, yield=83298.47kWh, opS=6923116s, conC=350, fanS=1931833s
+Jun 30 01:02:04 nto CI: INFO	statistics	statistics: PU2, user-total: => date=10/02/14, yield=96058.13kWh, opS=9182831s, conC=557, fanS=2109626s
+Jun 30 01:02:04 nto CI: INFO	statistics	statistics: PU2, device-total: => date=10/02/14, yield=96058.13kWh, opS=9182831s, conC=557, fanS=2109626s
+Jun 30 01:02:05 nto CI: INFO	statistics	statistics: PU3 (sn=10025933): statistic successfully loaded
+Jun 30 01:02:05 nto CI: INFO	statistics	statistics: PU3, day-history: => date=06/30/15, yield=0.00kWh, opS=0s, conC=0, fanS=0s
+Jun 30 01:02:05 nto CI: INFO	statistics	statistics: PU3, month-history: => date=06/01/15, yield=23661.49kWh, opS=1543573s, conC=62, fanS=1012864s
+Jun 30 01:02:05 nto CI: INFO	statistics	statistics: PU3, year-history: => date=01/01/15, yield=86311.18kWh, opS=6890892s, conC=346, fanS=1931834s
+Jun 30 01:02:05 nto CI: INFO	statistics	statistics: PU3, user-total: => date=10/02/14, yield=101337.04kWh, opS=9286769s, conC=540, fanS=2109626s
+Jun 30 01:02:05 nto CI: INFO	statistics	statistics: PU3, device-total: => date=10/02/14, yield=101337.04kWh, opS=9286769s, conC=540, fanS=2109626s
+Jun 30 01:02:06 nto CI: INFO	statistics	statistics: PU4 (sn=10025934): statistic successfully loaded
+Jun 30 01:02:06 nto CI: INFO	statistics	statistics: PU4, day-history: => date=06/30/15, yield=0.00kWh, opS=0s, conC=0, fanS=0s
+Jun 30 01:02:06 nto CI: INFO	statistics	statistics: PU4, month-history: => date=06/01/15, yield=25827.70kWh, opS=1540955s, conC=61, fanS=1012867s
+Jun 30 01:02:06 nto CI: INFO	statistics	statistics: PU4, year-history: => date=01/01/15, yield=92115.35kWh, opS=6896238s, conC=358, fanS=1931845s
+Jun 30 01:02:06 nto CI: INFO	statistics	statistics: PU4, user-total: => date=10/02/14, yield=108058.75kWh, opS=9293633s, conC=551, fanS=2109634s
+Jun 30 01:02:06 nto CI: INFO	statistics	statistics: PU4, device-total: => date=10/02/14, yield=108058.75kWh, opS=9293633s, conC=551, fanS=2109634s
+Jun 30 01:02:07 nto CI: INFO	statistics	statistics: IU (sn=10025878): statistic successfully loaded
+Jun 30 01:02:07 nto CI: INFO	statistics	statistics: IU, day-history: => date=06/30/15, yield=0.00kWh, opS=0s, conC=0, fanS=0s
+Jun 30 01:02:07 nto CI: INFO	statistics	statistics: IU, month-history: => date=06/01/15, yield=95745.14kWh, opS=1556600s, conC=71, fanS=0s
+Jun 30 01:02:07 nto CI: INFO	statistics	statistics: IU, year-history: => date=05/22/15, yield=127578.32kWh, opS=2078553s, conC=91, fanS=0s
+Jun 30 01:02:07 nto CI: INFO	statistics	statistics: IU, user-total: => date=10/02/14, yield=371108.53kWh, opS=9698986s, conC=578, fanS=0s
+Jun 30 01:02:07 nto CI: INFO	statistics	statistics: IU, device-total: => date=10/02/14, yield=371108.53kWh, opS=9698986s, conC=578, fanS=0s
+Jun 30 01:02:09 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1105
+Jun 30 01:02:09 nto CI: INFO	pumanager1	pumanager: FSM State: WAIT_SLAVE_READY_FOR_OPERATION
+Jun 30 01:02:09 nto CI: INFO	pumanager2	pumanager: FSM State: WAIT_SLAVE_READY_FOR_OPERATION
+Jun 30 01:02:09 nto CI: INFO	pumanager4	pumanager: FSM State: WAIT_SLAVE_READY_FOR_OPERATION
+Jun 30 01:02:09 nto CI: INFO	pumanager3	pumanager: FSM State: WAIT_SLAVE_READY_FOR_OPERATION
+Jun 30 01:02:09 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1106
+Jun 30 01:02:10 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1107
+Jun 30 01:02:10 nto CI: INFO	pumanager1	pumanager: FSM State: WAIT_FOR_SLAVE_OPERATION
+Jun 30 01:02:10 nto PU1: INFO	BootFsm	Synchronization finished, duration: 10064ms 
+Jun 30 01:02:10 nto CI: INFO	pumanager2	pumanager: FSM State: WAIT_FOR_SLAVE_OPERATION
+Jun 30 01:02:10 nto PU2: INFO	BootFsm	Synchronization finished, duration: 10063ms 
+Jun 30 01:02:10 nto CI: INFO	pumanager4	pumanager: FSM State: WAIT_FOR_SLAVE_OPERATION
+Jun 30 01:02:10 nto CI: INFO	pumanager3	pumanager: FSM State: WAIT_FOR_SLAVE_OPERATION
+Jun 30 01:02:10 nto PU1: INFO	BootFsm	Creating dependent modules... 
+Jun 30 01:02:10 nto PU3: INFO	BootFsm	Synchronization finished, duration: 10135ms 
+Jun 30 01:02:10 nto PU4: INFO	BootFsm	Synchronization finished, duration: 10066ms 
+Jun 30 01:02:10 nto PU2: INFO	BootFsm	Creating dependent modules... 
+Jun 30 01:02:10 nto PU1: DEBUG	BootFsm	Generate components configuration objects... 
+Jun 30 01:02:10 nto PU3: INFO	BootFsm	Creating dependent modules... 
+Jun 30 01:02:10 nto PU4: INFO	BootFsm	Creating dependent modules... 
+Jun 30 01:02:10 nto PU2: DEBUG	BootFsm	Generate components configuration objects... 
+Jun 30 01:02:10 nto PU1: DEBUG	BootFsm	Reconfigure StatusGenerator with synchronized parameters... 
+Jun 30 01:02:10 nto PU3: DEBUG	BootFsm	Generate components configuration objects... 
+Jun 30 01:02:10 nto PU4: DEBUG	BootFsm	Generate components configuration objects... 
+Jun 30 01:02:10 nto PU2: DEBUG	BootFsm	Reconfigure StatusGenerator with synchronized parameters... 
+Jun 30 01:02:10 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20181   INVERTER SUBCODE 0   RunLevel 4   StatusCodePriority 402
+Jun 30 01:02:10 nto PU1: DEBUG	BootFsm	Reconfigure debug log levels with synchronized parameters... 
+Jun 30 01:02:10 nto PU3: DEBUG	BootFsm	Reconfigure StatusGenerator with synchronized parameters... 
+Jun 30 01:02:10 nto PU4: DEBUG	BootFsm	Reconfigure StatusGenerator with synchronized parameters... 
+Jun 30 01:02:10 nto PU2: DEBUG	BootFsm	Reconfigure debug log levels with synchronized parameters... 
+Jun 30 01:02:10 nto PU1: DEBUG	Mppt	tracking mode = normal 
+Jun 30 01:02:10 nto PU3: DEBUG	BootFsm	Reconfigure debug log levels with synchronized parameters... 
+Jun 30 01:02:10 nto PU4: DEBUG	BootFsm	Reconfigure debug log levels with synchronized parameters... 
+Jun 30 01:02:10 nto PU2: DEBUG	Mppt	tracking mode = normal 
+Jun 30 01:02:10 nto PU1: INFO	BootFsm	Control system successfully built, duration: 330.47ms 
+Jun 30 01:02:10 nto PU3: DEBUG	Mppt	tracking mode = normal 
+Jun 30 01:02:10 nto PU4: DEBUG	Mppt	tracking mode = normal 
+Jun 30 01:02:10 nto PU2: INFO	BootFsm	Control system successfully built, duration: 330.47ms 
+Jun 30 01:02:10 nto PU1: INFO	BootFsm	Safety system successfully built, duration: 5.84ms 
+Jun 30 01:02:10 nto PU3: INFO	BootFsm	Control system successfully built, duration: 330.48ms 
+Jun 30 01:02:10 nto PU4: INFO	BootFsm	Control system successfully built, duration: 330.52ms 
+Jun 30 01:02:10 nto PU2: INFO	BootFsm	Safety system successfully built, duration: 5.85ms 
+Jun 30 01:02:10 nto PU1: INFO	PuMaster	Main FSM State: pu disabled 
+Jun 30 01:02:10 nto PU3: INFO	BootFsm	Safety system successfully built, duration: 5.97ms 
+Jun 30 01:02:10 nto PU4: INFO	BootFsm	Safety system successfully built, duration: 5.89ms 
+Jun 30 01:02:10 nto PU2: INFO	PuMaster	Main FSM State: pu disabled 
+Jun 30 01:02:10 nto PU1: INFO	System	Heap bytes used (decimal): 105976 / 131072 (80.853271 %) 
+Jun 30 01:02:10 nto PU3: INFO	PuMaster	Main FSM State: pu disabled 
+Jun 30 01:02:10 nto PU4: INFO	PuMaster	Main FSM State: pu disabled 
+Jun 30 01:02:10 nto PU2: INFO	System	Heap bytes used (decimal): 105560 / 131072 (80.535889 %) 
+Jun 30 01:02:10 nto PU1: INFO	System	********** Device configuration: ********** 
+Jun 30 01:02:10 nto PU3: INFO	System	Heap bytes used (decimal): 105560 / 131072 (80.535889 %) 
+Jun 30 01:02:10 nto PU4: INFO	System	Heap bytes used (decimal): 105560 / 131072 (80.535889 %) 
+Jun 30 01:02:10 nto PU2: INFO	System	********** Device configuration: ********** 
+Jun 30 01:02:10 nto PU1: INFO	System	Device type: 600RX multi-tracker 
+Jun 30 01:02:10 nto PU3: INFO	System	********** Device configuration: ********** 
+Jun 30 01:02:10 nto PU4: INFO	System	********** Device configuration: ********** 
+Jun 30 01:02:10 nto PU2: INFO	System	Device type: 600RX multi-tracker 
+Jun 30 01:02:10 nto PU1: INFO	System	Running in normal mode 
+Jun 30 01:02:10 nto PU3: INFO	System	Device type: 600RX multi-tracker 
+Jun 30 01:02:10 nto PU4: INFO	System	Device type: 600RX multi-tracker 
+Jun 30 01:02:10 nto PU2: INFO	System	Running in normal mode 
+Jun 30 01:02:10 nto PU1: INFO	System	Firmware Release Information: 1.2.0.7224 
+Jun 30 01:02:10 nto PU3: INFO	System	Running in normal mode 
+Jun 30 01:02:10 nto PU4: INFO	System	Running in normal mode 
+Jun 30 01:02:10 nto PU2: INFO	System	Firmware Release Information: 1.2.0.7224 
+Jun 30 01:02:10 nto PU1: INFO	System	Firmware CRC: 0xFA5E94B4BBC77129 
+Jun 30 01:02:10 nto PU3: INFO	System	Firmware Release Information: 1.2.0.7224 
+Jun 30 01:02:10 nto PU4: INFO	System	Firmware Release Information: 1.2.0.7224 
+Jun 30 01:02:10 nto PU2: INFO	Syirmware CRC: 0xFA5E94B4BBC77129 
+Jun 30 01:02:10 nto PU1: INFO	System	PU address: 1, master: TRUE 
+Jun 30 01:02:10 nto PU3: INFO	Syirmware CRC: 0xFA5E94B4BBC77129 
+Jun 30 01:02:10 nto PU4: INFO	SyINFO	BootFsm	Booting finished, total duration: 10.490s 
+Jun 30 01:02:10 nto PU2: INFO	System	PU address: 2, master: FALSE 
+Jun 30 01:02:10 nto PU1: INFO	System	Nominal frequency: 50.0Hz 
+Jun 30 01:02:10 nto PU3: INFO	System	PU address: 3, master: FALSE 
+Jun 30 01:02:10 nto PU4: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 30 01:02:10 nto PU2: INFO	System	Nominal frequency: 50.0Hz 
+Jun 30 01:02:10 nto PU1: INFO	System	Nominal grid voltage: 400.0V 
+Jun 30 01:02:10 nto PU3: INFO	System	Nominal frequency: 50.0Hz 
+Jun 30 01:02:10 nto PU4: INFO	System	CLog1 500 ms: 20017 Vdc: 4 Idc: 0 Pdc: 27 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 30 01:02:10 nto PU2: INFO	System	Nominal grid voltage: 400.0V 
+Jun 30 01:02:10 nto PU1: INFO	System	******** End device configuration: ******** 
+Jun 30 01:02:10 nto PU3: INFO	System	Nominal grid voltage: 400.0V 
+Jun 30 01:02:10 nto PU2: INFO	System	******** End device configuration: ******** 
+Jun 30 01:02:10 nto PU1: INFO	BootFsm	General system successfulltoring 
+Jun 30 01:02:10 nto PU3: INFO	System	******** End device configuration: ******** 
+Jun 30 01:02:10 nto PU2: INFO	BootFsm	General system successfully buiINFO	BootFsm	Booting finished, total duration: 10.487s 
+Jun 30 01:02:10 nto PU1: INFO	System	StatusGenerator: statuscode: 402 subcodeBit: none objectId: 0 
+Jun 30 01:02:11 nto PU3: INFO	BootFsm	General system successfully buINFO	BootFsm	Booting finished, total duration: 10.559s 
+Jun 30 01:02:11 nto PU2: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 30 01:02:11 nto PU1: INFO	BootFsm	Booting finished, total duration: 10.488s 
+Jun 30 01:02:11 nto PU3: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 30 01:02:11 nto PU2: INFO	System	CLog1 500 ms: 20017 Vdc: 3 Idc: 0 Pdc: 25 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 30 01:02:11 nto PU1: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 30 01:02:11 nto PU3: INFO	System	CLog1 500 ms: 20017 Vdc: 2 Idc: 0 Pdc: 12 Pac: 32 IdLim: 0.00 Phi: 0.00 
+Jun 30 01:02:11 nto PU1: INFO	System	CLog1 500 ms: 20017 Vdc: 4 Idc: 1 Pdc: 51 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 30 01:02:11 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1101
+Jun 30 01:02:11 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitHWMonitoringOk 
+Jun 30 01:02:11 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitHWMonitoringOk 
+Jun 30 01:02:11 nto CI: INFO	pumanager1	pumanager: FSM State: SLAVE_OPERATION
+Jun 30 01:02:11 nto CI: INFO	pumanager2	pumanager: FSM State: SLAVE_OPERATION
+Jun 30 01:02:11 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitHWMonitoringOk 
+Jun 30 01:02:11 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20017   INVERTER SUBCODE 0   RunLevel 1   StatusCodePriority 107
+Jun 30 01:02:11 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitHWMonitoringOk 
+Jun 30 01:02:11 nto CI: INFO	pumanager4	pumanager: FSM State: SLAVE_OPERATION
+Jun 30 01:02:11 nto CI: INFO	pumanager3	pumanager: FSM State: SLAVE_OPERATION
+Jun 30 01:02:11 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1100
+Jun 30 01:02:11 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1205
+Jun 30 01:02:12 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1206
+Jun 30 01:02:12 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1207
+Jun 30 01:02:12 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1201
+Jun 30 01:02:13 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1200
+Jun 30 01:02:13 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1305
+Jun 30 01:02:14 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1306
+Jun 30 01:02:14 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1307
+Jun 30 01:02:14 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1301
+Jun 30 01:02:15 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1300
+Jun 30 01:02:15 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1405
+Jun 30 01:02:15 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1406
+Jun 30 01:02:16 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1407
+Jun 30 01:02:16 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitForStartBackgroundMonitoring 
+Jun 30 01:02:16 nto PU1: INFO	PuMaster	Main FSM State: GD_SUPPLY_ENABLE 
+Jun 30 01:02:16 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitForStartBackgroundMonitoring 
+Jun 30 01:02:16 nto PU2: INFO	PuMaster	Main FSM State: GD_SUPPLY_ENABLE 
+Jun 30 01:02:16 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitForStartBackgroundMonitoring 
+Jun 30 01:02:16 nto PU4: INFO	PuMaster	Main FSM State: GD_SUPPLY_ENABLE 
+Jun 30 01:02:16 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitForStartBackgroundMonitoring 
+Jun 30 01:02:16 nto PU3: INFO	PuMaster	Main FSM State: GD_SUPPLY_ENABLE 
+Jun 30 01:02:16 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1401
+Jun 30 01:02:16 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1400
+Jun 30 01:02:17 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1000
+Jun 30 01:02:17 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1001
+Jun 30 01:02:17 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1002
+Jun 30 01:02:18 nto CI: INFO	statistics	statistics: Found a historic day chart item for inputKeyId=1016
+Jun 30 01:02:18 nto CI: INFO	statistics	statistics: daemon: forking a background process
+Jun 30 01:02:18 nto CI: INFO	statistics	statistics: running statistics...
+Jun 30 01:02:19 nto CI: INFO	sysinit	Starting /etc/rc2.d/S58guicontrol 
+Jun 30 01:02:19 nto CI: INFO	statistics	statistics: PU1 - SN 10025931 - persist statistic objects...
+Jun 30 01:02:19 nto CI: INFO	statistics	statistics: PU2 - SN 10025932 - persist statistic objects...
+Jun 30 01:02:19 nto CI: INFO	statistics	statistics: PU3 - SN 10025933 - persist statistic objects...
+Jun 30 01:02:19 nto CI: INFO	statistics	statistics: PU4 - SN 10025934 - persist statistic objects...
+Jun 30 01:02:19 nto CI: INFO	statistics	statistics: IU - SN 10025878 - persist statistic objects...
+Jun 30 01:02:19 nto CI: INFO	guicontrol	guicontrol: Check SQLite DB (open) /var/data/stats/statistics.sqlite...
+Jun 30 01:02:20 nto CI: INFO	sysinit	Starting /etc/rc2.d/S58maxcommserver 
+Jun 30 01:02:21 nto PU1: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 30 01:02:21 nto PU2: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 30 01:02:21 nto PU4: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 30 01:02:21 nto PU3: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 30 01:02:21 nto PU1: INFO	PuMaster	Startup FSM State: WAIT_DC_CONTACTOR_RELEASED 
+Jun 30 01:02:21 nto CI: INFO	statistics	statistics: write: 25 statistics jobs in 1722 ms - 68 ms/job
+Jun 30 01:02:21 nto PU2: INFO	PuMaster	Startup FSM State: WAIT_DC_CONTACTOR_RELEASED 
+Jun 30 01:02:21 nto PU4: INFO	PuMaster	Startup FSM State: WAIT_DC_CONTACTOR_RELEASED 
+Jun 30 01:02:21 nto PU3: INFO	PuMaster	Startup FSM State: WAIT_DC_CONTACTOR_RELEASED 
+Jun 30 01:02:21 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 30 01:02:21 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 30 01:02:21 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 30 01:02:21 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 30 01:02:21 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: exitMainStateWaitForStartBackgroundMonitoring 
+Jun 30 01:02:21 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: exitMainStateWaitForStartBackgroundMonitoring 
+Jun 30 01:02:21 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: exitMainStateWaitForStartBackgroundMonitoring 
+Jun 30 01:02:21 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: exitMainStateWaitForStartBackgroundMonitoring 
+Jun 30 01:02:21 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20002   INVERTER SUBCODE 0   RunLevel 1   StatusCodePriority 110
+Jun 30 01:02:21 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitBackgroundMonitoringOk 
+Jun 30 01:02:21 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitBackgroundMonitoringOk 
+Jun 30 01:02:21 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitBackgroundMonitoringOk 
+Jun 30 01:02:21 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitBackgroundMonitoringOk 
+Jun 30 01:02:21 nto PU1: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 30 01:02:21 nto PU2: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 30 01:02:21 nto PU4: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 30 01:02:21 nto PU3: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 30 01:02:21 nto PU1: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 1  objectId: 76 
+Jun 30 01:02:21 nto PU2: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 1  objectId: 76 
+Jun 30 01:02:22 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 1  objectId: 76 
+Jun 30 01:02:22 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 1  objectId: 76 
+Jun 30 01:02:22 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20002   INVERTER SUBCODE 2   RunLevel 1   StatusCodePriority 110
+Jun 30 01:02:22 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20002   INVERTER SUBCODE 0   RunLevel 1   StatusCodePriority 110
+Jun 30 01:02:23 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 3642 ms - 151 ms/job
+Jun 30 01:02:26 nto CI: INFO	sysinit	Starting /etc/rc2.d/S60freemaster 
+Jun 30 01:02:27 nto CI: INFO	sysinit	Starting /etc/rc2.d/S61putermserver 
+Jun 30 01:02:27 nto CI: INFO	sysinit	Image creation date: Wed Nov 26 07:24:17 CET 2014 
+Jun 30 01:02:28 nto CI: INFO	sysinit	BOOT SVN Revision: 7224 
+Jun 30 01:02:28 nto CI: INFO	sysinit	ROOTFS SVN Revision: 7224 
+Jun 30 01:02:39 nto CI: INFO	sysinfo.sh	CPU:   Processes: 40, Threads: 152 
+Jun 30 01:02:39 nto CI: INFO	sysinfo.sh	DISK: /opt            Wed Nov 26 07:24:17 CET 2014 - revision 7224 
+Jun 30 01:02:39 nto CI: INFO	sysinfo.sh	DISK: /boot           16M (13%) of 127M used (Wed Nov 26 07:24:17 CET 2014 - revision 7224) 
+Jun 30 01:02:40 nto CI: INFO	sysinfo.sh	DISK: /               76M (15%) of 513M used (Wed Nov 26 07:24:17 CET 2014 - revision 7224) 
+Jun 30 01:02:40 nto CI: INFO	sysinfo.sh	DISK: /mnt/install    163M (16%) of 1.0G used 
+Jun 30 01:02:40 nto CI: INFO	sysinfo.sh	DISK: /mnt/install/pu (Wed Nov 26 07:24:17 CET 2014 - revision 7224) 
+Jun 30 01:02:41 nto CI: INFO	sysinfo.sh	DISK: /mnt/data       40M (4%) of 1.0G used 
+Jun 30 01:02:41 nto CI: INFO	sysinfo.sh	DISK: /mnt/log        52M (7%) of 837M used 
+Jun 30 01:02:41 nto CI: INFO	sysinfo.sh	DISK: /mnt/ramdisk    399K (6%) of 7.4M used 
+Jun 30 01:02:43 nto CI: INFO	rxsetup.sh	--uptime 
+Jun 30 01:02:43 nto CI: INFO	sysinfo.sh	Release name: SolarMax RX 1.2.0.7224.trunk  Release build date: Wed Nov 26 07:24:17 CET 2014 
+Jun 30 01:02:44 nto CI: INFO	sysinfo.sh	Firmware IU: 1.2.0.7224.trunk  CI: 1.2.0.7224.trunk 
+Jun 30 01:02:44 nto CI: INFO	sysinfo.sh	Firmware PU1: 1.2.0.7224.0xFA5E94B4BBC77129.release 
+Jun 30 01:02:44 nto CI: INFO	sysinfo.sh	Firmware PU2: 1.2.0.7224.0xFA5E94B4BBC77129.release 
+Jun 30 01:02:45 nto CI: INFO	sysinfo.sh	Firmware PU3: 1.2.0.7224.0xFA5E94B4BBC77129.release 
+Jun 30 01:02:45 nto CI: INFO	sysinfo.sh	Firmware PU4: 1.2.0.7224.0xFA5E94B4BBC77129.release 
+Jun 30 01:02:45 nto CI: INFO	sysinfo.sh	Uptime: uptime is 0 days 00:01:28 
+Jun 30 01:02:45 nto CI: INFO	sysinit	System initialized 
+Jun 30 01:05:02 nto CI: INFO	OSLog1	MEM: 74466512 2445312 7190212 PROC:  
+Jun 30 01:07:11 nto PU2: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 4 Idc: 0 Pdc: 3 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 30 01:07:11 nto PU2: INFO	System	PLog2 300000 ms: tL1: 28 tL2: 28 tL3: 28 tCb: 33 tAc: 30 tDc: 23 
+Jun 30 01:07:11 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 387 vL23: 387 vL31: 387 f: 50.01 
+Jun 30 01:07:11 nto PU1: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 4 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 30 01:07:11 nto PU1: INFO	System	PLog2 300000 ms: tL1: 28 tL2: 28 tL3: 28 tCb: 32 tAc: 29 tDc: 23 
+Jun 30 01:07:11 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 387 vL23: 387 vL31: 387 f: 50.01 
+Jun 30 01:07:11 nto PU3: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 0 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 30 01:07:11 nto PU3: INFO	System	PLog2 300000 ms: tL1: 28 tL2: 28 tL3: 28 tCb: 34 tAc: 30 tDc: 23 
+Jun 30 01:07:11 nto PU4: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 1 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 30 01:07:11 nto PU4: INFO	System	PLog2 300000 ms: tL1: 28 tL2: 28 tL3: 28 tCb: 33 tAc: 30 tDc: 23 
+Jun 30 01:07:11 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 387 vL23: 387 vL31: 387 f: 50.01 
+Jun 30 01:07:11 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 387 vL23: 387 vL31: 387 f: 50.01 
+Jun 30 01:10:02 nto CI: INFO	OSLog1	MEM: 74515664 2445312 7190212 PROC:  
+Jun 30 01:12:02 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 1846 ms - 76 ms/job
+Jun 30 01:12:12 nto PU2: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 4 Idc: 0 Pdc: 2 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 30 01:12:12 nto PU2: INFO	System	PLog2 300000 ms: tL1: 28 tL2: 28 tL3: 28 tCb: 35 tAc: 30 tDc: 23 
+Jun 30 01:12:12 nto PU1: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 4 Idc: 0 Pdc: 1 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 30 01:12:12 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 388 vL23: 387 vL31: 388 f: 49.97 
+Jun 30 01:12:12 nto PU1: INFO	System	PLog2 300000 ms: tL1: 28 tL2: 28 tL3: 28 tCb: 35 tAc: 29 tDc: 23 
+Jun 30 01:12:12 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 388 vL23: 388 vL31: 388 f: 49.97 
+Jun 30 01:12:12 nto PU3: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 0 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 30 01:12:12 nto PU3: INFO	System	PLog2 300000 ms: tL1: 28 tL2: 28 tL3: 28 tCb: 36 tAc: 30 tDc: 23 
+Jun 30 01:12:12 nto PU4: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 0 Idc: 0 Pdc: 1 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 30 01:12:12 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 388 vL23: 387 vL31: 387 f: 49.97 
+Jun 30 01:12:12 nto PU4: INFO	System	PLog2 300000 ms: tL1: 28 tL2: 28 tL3: 28 tCb: 35 tAc: 30 tDc: 23 
+Jun 30 01:12:12 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 388 vL23: 387 vL31: 387 f: 49.97 
+Jun 30 01:14:21 nto CI: INFO	statistics	statistics: write: 25 statistics jobs in 854 ms - 34 ms/job
+Jun 30 01:15:02 nto CI: INFO	OSLog1	MEM: 74597584 2445312 7190212 PROC:  
+Jun 30 01:17:13 nto PU3: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 0 Idc: 0 Pdc: 0 Pac: 6 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 30 01:17:13 nto PU4: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 0 Idc: 0 Pdc: 1 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 30 01:17:13 nto PU3: INFO	System	PLog2 300000 ms: tL1: 28 tL2: 28 tL3: 28 tCb: 37 tAc: 29 tDc: 23 
+Jun 30 01:17:13 nto PU2: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 3 Idc: 0 Pdc: 3 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 30 01:17:13 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 385 vL31: 385 f: 50.00 
+Jun 30 01:17:13 nto PU2: INFO	System	PLog2 300000 ms: tL1: 27 tL2: 27 tL3: 27 tCb: 37 tAc: 30 tDc: 23 
+Jun 30 01:17:13 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 385 vL31: 385 f: 50.00 
+Jun 30 01:17:13 nto PU4: INFO	System	PLog2 300000 ms: tL1: 28 tL2: 28 tL3: 28 tCb: 37 tAc: 30 tDc: 23 
+Jun 30 01:17:13 nto PU1: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 3 Idc: 0 Pdc: 0 Pac: 6 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 30 01:17:13 nto PU1: INFO	System	PLog2 300000 ms: tL1: 28 tL2: 28 tL3: 28 tCb: 36 tAc: 28 tDc: 23 
+Jun 30 01:17:13 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 385 vL31: 385 f: 50.01 
+Jun 30 01:17:13 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 385 vL31: 385 f: 50.00 
+Jun 30 01:17:14 nto CI: INFO	iumanager	iumanager: WAKEUP_XT_TQM1 and WAKEUP_XT_TQM2 inputs low for 15 minutes, setting DATA_KEY_ID_INVERTER_LOW_DC_VOLTAGE to TRUE
+Jun 30 01:17:14 nto CI: INFO	pumanager1	pumanager: PU control master FSM disabled, reboot PU and block until (re)enabled...
+Jun 30 01:17:14 nto CI: INFO	statistics	statistics: PU1 disabled => deactivate statistic generator...
+Jun 30 01:17:14 nto CI: INFO	pumanager2	pumanager: PU control master FSM disabled, reboot PU and block until (re)enabled...
+Jun 30 01:17:14 nto CI: INFO	pumanager1	pumanager: FSM State: RESET_SLAVE
+Jun 30 01:17:14 nto CI: INFO	statistics	statistics: PU3 disabled => deactivate statistic generator...
+Jun 30 01:17:14 nto CI: INFO	pumanager2	pumanager: FSM State: RESET_SLAVE
+Jun 30 01:17:14 nto CI: INFO	pumanager1	pumanager: Perform PU reset, slaveState = 6
+Jun 30 01:17:14 nto CI: INFO	statistics	statistics: PU2 disabled => deactivate statistic generator...
+Jun 30 01:17:14 nto CI: INFO	pumanager3	pumanager: PU control master FSM disabled, reboot PU and block until (re)enabled...
+Jun 30 01:17:14 nto CI: INFO	pumanager2	pumanager: Perform PU reset, slaveState = 6
+Jun 30 01:17:14 nto CI: INFO	statistics	statistics: PU4 disabled => deactivate statistic generator...
+Jun 30 01:17:14 nto CI: INFO	pumanager1	pumanager: FSM State: WAIT_FOR_POWER
+Jun 30 01:17:14 nto CI: INFO	pumanager4	pumanager: PU control master FSM disabled, reboot PU and block until (re)enabled...
+Jun 30 01:17:14 nto CI: INFO	pumanager2	pumanager: FSM State: WAIT_FOR_POWER
+Jun 30 01:17:14 nto CI: INFO	pumanager1	pumanager: PU1: regular reset detected, reset measurement data keys to default values...
+Jun 30 01:17:14 nto CI: INFO	pumanager4	pumanager: FSM State: RESET_SLAVE
+Jun 30 01:17:14 nto CI: INFO	pumanager3	pumanager: FSM State: RESET_SLAVE
+Jun 30 01:17:14 nto CI: INFO	pumanager2	pumanager: PU2: regular reset detected, reset measurement data keys to default values...
+Jun 30 01:17:14 nto CI: INFO	pumanager4	pumanager: Perform PU reset, slaveState = 6
+Jun 30 01:17:14 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20002   INVERTER SUBCODE 2   RunLevel 1   StatusCodePriority 110
+Jun 30 01:17:14 nto CI: INFO	pumanager3	pumanager: Perform PU reset, slaveState = 6
+Jun 30 01:17:14 nto CI: INFO	pumanager4	pumanager: FSM State: WAIT_FOR_POWER
+Jun 30 01:17:14 nto CI: INFO	pumanager4	pumanager: PU4: regular reset detected, reset measurement data keys to default values...
+Jun 30 01:17:14 nto CI: INFO	pumanager3	pumanager: FSM State: WAIT_FOR_POWER
+Jun 30 01:17:14 nto CI: INFO	pumanager3	pumanager: PU3: regular reset detected, reset measurement data keys to default values...
+Jun 30 01:17:14 nto CI: INFO	pumanager1	pumanager: Wait for PU enable...
+Jun 30 01:17:14 nto CI: INFO	pumanager2	pumanager: Wait for PU enable...
+Jun 30 01:17:14 nto CI: INFO	pumanager4	pumanager: Wait for PU enable...
+Jun 30 01:17:14 nto CI: INFO	pumanager3	pumanager: Wait for PU enable...
+Jun 30 01:17:14 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20099   INVERTER SUBCODE 0   RunLevel 1   StatusCodePriority 101
+Jun 30 01:17:15 nto PU1: INFO	BootFsm	********** Hello from Solarmax RX! ********** 
+Jun 30 01:17:15 nto PU1: DEBUG	BootFsm	Reset cause is an expected SW reset (e.g. firmware update or remote reset) 
+Jun 30 01:17:15 nto PU1: INFO	BootFsm	Basic system successfully built, duration: 85.62ms 
+Jun 30 01:17:15 nto PU1: INFO	BootFsm	Communication system successfully built, duration: 0.23ms 
+Jun 30 01:17:15 nto PU2: INFO	BootFsm	********** Hello from Solarmax RX! ********** 
+Jun 30 01:17:15 nto PU2: DEBUG	BootFsm	Reset cause is an expected SW reset (e.g. firmware update or remote reset) 
+Jun 30 01:17:15 nto PU1: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_POWER_OK, wait for PU_CONTROL_SLAVE_COMMAND_PREPARE_FOR_CONFIG... 
+Jun 30 01:17:15 nto PU2: INFO	BootFsm	Basic system successfully built, duration: 85.62ms 
+Jun 30 01:17:15 nto PU2: INFO	BootFsm	Communication system successfully built, duration: 0.23ms 
+Jun 30 01:17:15 nto PU2: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_POWER_OK, wait for PU_CONTROL_SLAVE_COMMAND_PREPARE_FOR_CONFIG... 
+Jun 30 01:17:15 nto PU4: INFO	BootFsm	********** Hello from Solarmax RX! ********** 
+Jun 30 01:17:15 nto PU4: DEBUG	BootFsm	Reset cause is an expected SW reset (e.g. firmware update or remote reset) 
+Jun 30 01:17:15 nto PU4: INFO	BootFsm	Basic system successfully built, duration: 85.62ms 
+Jun 30 01:17:15 nto PU4: INFO	BootFsm	Communication system successfully built, duration: 0.23ms 
+Jun 30 01:17:15 nto PU4: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_POWER_OK, wait for PU_CONTROL_SLAVE_COMMAND_PREPARE_FOR_CONFIG... 
+Jun 30 01:17:15 nto PU3: INFO	BootFsm	********** Hello from Solarmax RX! ********** 
+Jun 30 01:17:15 nto PU3: DEBUG	BootFsm	Reset cause is an expected SW reset (e.g. firmware update or remote reset) 
+Jun 30 01:17:15 nto PU3: INFO	BootFsm	Basic system successfully built, duration: 85.62ms 
+Jun 30 01:17:15 nto PU3: INFO	BootFsm	Communication system successfully built, duration: 0.23ms 
+Jun 30 01:17:15 nto PU3: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_POWER_OK, wait for PU_CONTROL_SLAVE_COMMAND_PREPARE_FOR_CONFIG... 
+Jun 30 01:17:16 nto CI: INFO	iumanager	iumanager: WAKEUP: DC voltage low, disabling power supplies
+Jun 30 01:17:16 nto CI: INFO	iumanager	iumanager: GpioWriter::setCiPowerSupplies(): OFF
+Jun 30 01:17:17 nto CI: INFO	iumanager	iumanager: VXTBUS change from 15.400000 to 15.900000
+Jun 30 01:17:34 nto CI: INFO	iumanager	iumanager: VXTBUS change from 15.900000 to 11.800000
+Jun 30 01:20:02 nto CI: INFO	OSLog1	MEM: 74630352 2445312 7190212 PROC:  
+Jun 30 01:23:30 nto CI: INFO	iumanager	iumanager: VIN change from 12.100000 to 12.000000
+Jun 30 01:24:01 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 619 ms - 25 ms/job
+Jun 30 01:25:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 01:26:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 295 ms - 59 ms/job
+Jun 30 01:30:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 01:35:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 01:36:01 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 633 ms - 26 ms/job
+Jun 30 01:38:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 289 ms - 57 ms/job
+Jun 30 01:40:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 01:45:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 01:48:01 nto CI: INFO	statistics	statistics: write: 21 day chart jobs in 593 ms - 28 ms/job
+Jun 30 01:48:01 nto CI: INFO	statistics	statistics: write: 3 day chart jobs in 373 ms - 124 ms/job
+Jun 30 01:50:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 01:50:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 294 ms - 58 ms/job
+Jun 30 01:55:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 02:00:02 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 1256 ms - 52 ms/job
+Jun 30 02:00:03 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 02:02:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 290 ms - 58 ms/job
+Jun 30 02:05:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 02:10:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 02:12:02 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 1396 ms - 58 ms/job
+Jun 30 02:14:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 313 ms - 62 ms/job
+Jun 30 02:15:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 02:20:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 02:24:01 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 614 ms - 25 ms/job
+Jun 30 02:25:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 02:26:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 291 ms - 58 ms/job
+Jun 30 02:30:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 02:35:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 02:36:01 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 636 ms - 26 ms/job
+Jun 30 02:38:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 297 ms - 59 ms/job
+Jun 30 02:39:03 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 25.0 to 23.0
+Jun 30 02:40:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 02:45:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 02:48:01 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 627 ms - 26 ms/job
+Jun 30 02:50:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 02:50:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 294 ms - 58 ms/job
+Jun 30 02:55:02 nto CI: INFO	OSLog1	MEM: 74634448 2445312 7190212 PROC:  
+Jun 30 03:00:03 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 2171 ms - 90 ms/job
+Jun 30 03:00:04 rx10025878 syslogd: restart
+Jun 30 03:00:06 nto CI: INFO	OSLog1	MEM: 76477648 3944448 5711556 PROC:  
+Jun 30 03:00:07 rx10025878 syslogd: restart
+Jun 30 03:00:10 rx10025878 syslogd: restart
+Jun 30 03:00:12 rx10025878 syslogd: restart
+Jun 30 03:00:15 rx10025878 syslogd: restart

@@ -1,0 +1,155 @@
+Jun  1 21:45:21 rx10025878 syslogd: restart
+Jun 01 21:45:29 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 31.4 to 29.4
+Jun 01 21:45:55 nto PU4: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 159 Idc: 0 Pdc: 0 Pac: 9 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 01 21:45:55 nto PU4: INFO	System	PLog2 300000 ms: tL1: 39 tL2: 41 tL3: 39 tCb: 47 tAc: 39 tDc: 23 
+Jun 01 21:45:55 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 385 vL31: 385 f: 49.99 
+Jun 01 21:45:57 nto PU3: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 140 Idc: 0 Pdc: 1 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 01 21:45:57 nto PU3: INFO	System	PLog2 300000 ms: tL1: 40 tL2: 40 tL3: 40 tCb: 49 tAc: 39 tDc: 23 
+Jun 01 21:45:57 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 385 vL31: 385 f: 49.99 
+Jun 01 21:46:00 nto PU2: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 136 Idc: 0 Pdc: 0 Pac: 8 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 01 21:46:00 nto PU2: INFO	System	PLog2 300000 ms: tL1: 40 tL2: 41 tL3: 40 tCb: 48 tAc: 39 tDc: 23 
+Jun 01 21:46:00 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 385 vL31: 386 f: 49.99 
+Jun 01 21:46:01 nto PU1: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 138 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 01 21:46:01 nto PU1: INFO	System	PLog2 300000 ms: tL1: 39 tL2: 40 tL3: 40 tCb: 47 tAc: 37 tDc: 23 
+Jun 01 21:46:01 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 385 vL31: 385 f: 50.00 
+Jun 01 21:47:50 nto CI: INFO	iumanager	iumanager: WAKEUP_XT_TQM1 and WAKEUP_XT_TQM2 inputs low for 15 minutes, setting DATA_KEY_ID_INVERTER_LOW_DC_VOLTAGE to TRUE
+Jun 01 21:47:50 nto CI: INFO	pumanager1	pumanager: PU control master FSM disabled, reboot PU and block until (re)enabled...
+Jun 01 21:47:50 nto CI: INFO	pumanager2	pumanager: PU control master FSM disabled, reboot PU and block until (re)enabled...
+Jun 01 21:47:50 nto CI: INFO	pumanager1	pumanager: FSM State: RESET_SLAVE
+Jun 01 21:47:50 nto CI: INFO	pumanager3	pumanager: PU control master FSM disabled, reboot PU and block until (re)enabled...
+Jun 01 21:47:50 nto CI: INFO	pumanager4	pumanager: PU control master FSM disabled, reboot PU and block until (re)enabled...
+Jun 01 21:47:50 nto CI: INFO	pumanager2	pumanager: FSM State: RESET_SLAVE
+Jun 01 21:47:50 nto CI: INFO	statistics	statistics: PU1 disabled => deactivate statistic generator...
+Jun 01 21:47:50 nto CI: INFO	pumanager1	pumanager: Perform PU reset, slaveState = 6
+Jun 01 21:47:50 nto CI: INFO	pumanager2	pumanager: Perform PU reset, slaveState = 6
+Jun 01 21:47:50 nto CI: INFO	pumanager3	pumanager: FSM State: RESET_SLAVE
+Jun 01 21:47:50 nto CI: INFO	pumanager4	pumanager: FSM State: RESET_SLAVE
+Jun 01 21:47:50 nto CI: INFO	statistics	statistics: PU2 disabled => deactivate statistic generator...
+Jun 01 21:47:50 nto CI: INFO	pumanager3	pumanager: Perform PU reset, slaveState = 6
+Jun 01 21:47:50 nto CI: INFO	pumanager4	pumanager: Perform PU reset, slaveState = 6
+Jun 01 21:47:50 nto CI: INFO	pumanager2	pumanager: FSM State: WAIT_FOR_POWER
+Jun 01 21:47:50 nto CI: INFO	statistics	statistics: PU3 disabled => deactivate statistic generator...
+Jun 01 21:47:50 nto CI: INFO	pumanager3	pumanager: FSM State: WAIT_FOR_POWER
+Jun 01 21:47:50 nto CI: INFO	pumanager1	pumanager: FSM State: WAIT_FOR_POWER
+Jun 01 21:47:50 nto CI: INFO	pumanager2	pumanager: PU2: regular reset detected, reset measurement data keys to default values...
+Jun 01 21:47:50 nto CI: INFO	statistics	statistics: PU4 disabled => deactivate statistic generator...
+Jun 01 21:47:50 nto CI: INFO	pumanager3	pumanager: PU3: regular reset detected, reset measurement data keys to default values...
+Jun 01 21:47:50 nto CI: INFO	pumanager1	pumanager: PU1: regular reset detected, reset measurement data keys to default values...
+Jun 01 21:47:50 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20002   INVERTER SUBCODE 2   RunLevel 1   StatusCodePriority 110
+Jun 01 21:47:50 nto CI: INFO	pumanager4	pumanager: FSM State: WAIT_FOR_POWER
+Jun 01 21:47:50 nto CI: INFO	pumanager4	pumanager: PU4: regular reset detected, reset measurement data keys to default values...
+Jun 01 21:47:50 nto CI: INFO	pumanager2	pumanager: Wait for PU enable...
+Jun 01 21:47:50 nto CI: INFO	pumanager1	pumanager: Wait for PU enable...
+Jun 01 21:47:50 nto CI: INFO	pumanager3	pumanager: Wait for PU enable...
+Jun 01 21:47:50 nto CI: INFO	pumanager4	pumanager: Wait for PU enable...
+Jun 01 21:47:50 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20099   INVERTER SUBCODE 0   RunLevel 1   StatusCodePriority 101
+Jun 01 21:47:51 nto PU1: INFO	BootFsm	********** Hello from Solarmax RX! ********** 
+Jun 01 21:47:51 nto PU1: DEBUG	BootFsm	Reset cause is an expected SW reset (e.g. firmware update or remote reset) 
+Jun 01 21:47:51 nto PU1: INFO	BootFsm	Basic system successfully built, duration: 85.62ms 
+Jun 01 21:47:51 nto PU1: INFO	BootFsm	Communication system successfully built, duration: 0.23ms 
+Jun 01 21:47:51 nto PU2: INFO	BootFsm	********** Hello from Solarmax RX! ********** 
+Jun 01 21:47:51 nto PU1: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_POWER_OK, wait for PU_CONTROL_SLAVE_COMMAND_PREPARE_FOR_CONFIG... 
+Jun 01 21:47:51 nto PU2: DEBUG	BootFsm	Reset cause is an expected SW reset (e.g. firmware update or remote reset) 
+Jun 01 21:47:51 nto PU2: INFO	BootFsm	Basic system successfully built, duration: 85.62ms 
+Jun 01 21:47:51 nto PU2: INFO	BootFsm	Communication system successfully built, duration: 0.23ms 
+Jun 01 21:47:51 nto PU3: INFO	BootFsm	********** Hello from Solarmax RX! ********** 
+Jun 01 21:47:51 nto PU2: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_POWER_OK, wait for PU_CONTROL_SLAVE_COMMAND_PREPARE_FOR_CONFIG... 
+Jun 01 21:47:51 nto PU3: DEBUG	BootFsm	Reset cause is an expected SW reset (e.g. firmware update or remote reset) 
+Jun 01 21:47:51 nto PU4: INFO	BootFsm	********** Hello from Solarmax RX! ********** 
+Jun 01 21:47:51 nto PU4: DEBUG	BootFsm	Reset cause is an expected SW reset (e.g. firmware update or remote reset) 
+Jun 01 21:47:51 nto PU3: INFO	BootFsm	Basic system successfully built, duration: 85.62ms 
+Jun 01 21:47:51 nto PU3: INFO	BootFsm	Communication system successfully built, duration: 0.23ms 
+Jun 01 21:47:51 nto PU4: INFO	BootFsm	Basic system successfully built, duration: 85.62ms 
+Jun 01 21:47:51 nto PU3: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_POWER_OK, wait for PU_CONTROL_SLAVE_COMMAND_PREPARE_FOR_CONFIG... 
+Jun 01 21:47:51 nto PU4: INFO	BootFsm	Communication system successfully built, duration: 0.23ms 
+Jun 01 21:47:51 nto PU4: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_POWER_OK, wait for PU_CONTROL_SLAVE_COMMAND_PREPARE_FOR_CONFIG... 
+Jun 01 21:47:52 nto CI: INFO	iumanager	iumanager: WAKEUP: DC voltage low, disabling power supplies
+Jun 01 21:47:52 nto CI: INFO	iumanager	iumanager: GpioWriter::setCiPowerSupplies(): OFF
+Jun 01 21:47:53 nto CI: INFO	iumanager	iumanager: VXTBUS change from 15.300000 to 15.900000
+Jun 01 21:48:02 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 639 ms - 26 ms/job
+Jun 01 21:48:10 nto CI: INFO	iumanager	iumanager: VXTBUS change from 15.900000 to 11.800000
+Jun 01 21:50:03 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 21:50:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 296 ms - 59 ms/job
+Jun 01 21:55:03 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 22:00:02 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 1223 ms - 50 ms/job
+Jun 01 22:00:03 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 22:02:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 325 ms - 65 ms/job
+Jun 01 22:05:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 22:10:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 22:12:02 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 1445 ms - 60 ms/job
+Jun 01 22:14:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 296 ms - 59 ms/job
+Jun 01 22:15:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 22:20:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 22:20:56 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 29.4 to 27.3
+Jun 01 22:24:01 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 693 ms - 28 ms/job
+Jun 01 22:25:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 22:26:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 300 ms - 60 ms/job
+Jun 01 22:30:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 22:35:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 22:36:02 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 677 ms - 28 ms/job
+Jun 01 22:38:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 309 ms - 61 ms/job
+Jun 01 22:40:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 22:45:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 22:48:01 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 635 ms - 26 ms/job
+Jun 01 22:50:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 22:50:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 309 ms - 61 ms/job
+Jun 01 22:55:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 23:00:02 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 1298 ms - 54 ms/job
+Jun 01 23:00:03 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 23:02:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 806 ms - 161 ms/job
+Jun 01 23:05:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 23:10:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 23:12:02 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 1455 ms - 60 ms/job
+Jun 01 23:14:19 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 294 ms - 58 ms/job
+Jun 01 23:15:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 23:20:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 23:20:38 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 27.3 to 25.3
+Jun 01 23:24:02 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 667 ms - 27 ms/job
+Jun 01 23:25:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 23:26:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 335 ms - 67 ms/job
+Jun 01 23:30:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 23:35:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 23:36:01 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 649 ms - 27 ms/job
+Jun 01 23:38:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 298 ms - 59 ms/job
+Jun 01 23:40:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 23:45:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 23:48:01 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 683 ms - 28 ms/job
+Jun 01 23:50:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 01 23:50:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 296 ms - 59 ms/job
+Jun 01 23:55:02 nto CI: INFO	OSLog1	MEM: 64087248 12992512 7190212 PROC:  
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: IU: date for day-history changed, get a new history item
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1105 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1106 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1107 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1101 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1100 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1205 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1206 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1207 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1201 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1200 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1305 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1306 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1307 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1301 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1300 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1405 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1406 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1407 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1401 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1400 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1000 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1001 -> date change detected, insert new item...
+Jun 02 00:00:00 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1002 -> date change detected, insert new item...
+Jun 02 00:00:01 nto CI: INFO	statistics	statistics: DayChart for inputKeyId=1016 -> date change detected, insert new item...
+Jun 02 00:00:01 nto CI: INFO	statistics	statistics: write: 3 statistics jobs in 836 ms - 278 ms/job
+Jun 02 00:00:03 nto CI: INFO	statistics	statistics: write: 17 day chart jobs in 2418 ms - 142 ms/job
+Jun  2 00:00:04 rx10025878 syslogd: restart
+Jun 02 00:00:05 nto CI: INFO	statistics	statistics: write: 32 day chart jobs in 2002 ms - 62 ms/job
+Jun 02 00:00:06 nto CI: INFO	statistics	statistics: write: 32 day chart jobs in 1718 ms - 53 ms/job
+Jun 02 00:00:08 nto CI: INFO	statistics	statistics: write: 15 day chart jobs in 1735 ms - 115 ms/job
+Jun 02 00:00:08 nto CI: INFO	OSLog1	MEM: 66143440 14491648 5711556 PROC:  
+Jun  2 00:00:09 rx10025878 syslogd: restart
+Jun  2 00:00:12 rx10025878 syslogd: restart
+Jun  2 00:00:14 rx10025878 syslogd: restart
+Jun  2 00:00:17 rx10025878 syslogd: restart

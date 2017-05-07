@@ -1,0 +1,66 @@
+version: '2'
+
+services:
+
+  elasticsearch:
+    build: docker-elk/elasticsearch/
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    environment:
+      ES_JAVA_OPTS: "-Xmx2g -Xms2g"
+      # disable X-Pack
+      # see https://www.elastic.co/guide/en/x-pack/current/xpack-settings.html
+      #     https://www.elastic.co/guide/en/x-pack/current/installing-xpack.html#xpack-enabling
+      xpack.security.enabled: "false"
+      xpack.monitoring.enabled: "false"
+      xpack.graph.enabled: "false"
+      xpack.watcher.enabled: "false"
+    volumes:
+      - ./docker-elk/elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+      - ./docker-elk/elasticsearch/data:/usr/share/elasticsearch/data
+    networks:
+      - elk
+
+  logstash:
+    build: docker-elk/logstash/
+    volumes:
+      - ./docker-elk/logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml
+      - ./docker-elk/logstash/pipeline:/usr/share/logstash/pipeline
+      - ./docker-elk/logstash/patterns:/usr/share/logstash/patterns
+    ports:
+      - "5000:5000"
+    environment:
+      LS_JAVA_OPTS: "-Xmx1g -Xms1g"
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch
+
+  kibana:
+    build: docker-elk/kibana/
+    volumes:
+      - ./docker-elk/kibana/config/:/usr/share/kibana/config
+    ports:
+      - "5601:5601"
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch
+
+  grafana:
+    image: grafana/grafana:4.2.0
+    volumes:
+      - ./docker-elk/grafana/data:/var/lib/grafana
+    ports:
+      - "3000:3000"
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch
+
+
+networks:
+
+  elk:
+    driver: bridge

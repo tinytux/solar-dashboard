@@ -1,0 +1,67 @@
+Jun 23 09:30:14 rx10025878 syslogd: restart
+Jun 23 09:30:14 nto CI: INFO	sysinit	Starting /etc/rc2.d/S24firmwareupdater 
+Jun 23 09:30:15 nto CI: INFO	rxsetup.sh	--update usb 
+Jun 23 09:30:23 nto CI: INFO	sysinit	Starting /etc/rc2.d/S26crond 
+Jun 23 09:30:23 nto cron: started
+Jun 23 09:30:24 nto CI: INFO	sysinit	Starting /etc/rc2.d/S28mq 
+Jun 23 09:30:25 nto CI: ERROR	sd	ipc: ipc_openRemote(): >/ipcserverValidate< mq_open error: No such file or directory (2) - systemdata server not running?
+Jun 23 09:30:25 nto CI: ERROR	sd	ipc: ipc_openRemote(): >/ipcserverValidate< mq_open error: No such file or directory (2) - systemdata server not running?
+Jun 23 09:30:25 nto CI: ERROR	sd	ipc: EC 0x00000012 IpcUtils.c:261 ipc_openRemote(): CONNECT ERROR
+Jun 23 09:30:25 nto CI: ERROR	sd	ipc: EC 0x00000012 IpcUtils.c:261 ipc_openRemote(): CONNECT ERROR
+Jun 23 09:30:25 nto CI: ERROR	sd	ipc: EC 0x00000012 IpcClient.c:214 IpcClient_openConnection(): CONNECT ERROR
+Jun 23 09:30:25 nto CI: ERROR	sd	ipc: EC 0x00000012 IpcClient.c:214 IpcClient_openConnection(): CONNECT ERROR
+Jun 23 09:30:25 nto CI: ERROR	sd	datapool: EC 0x00000012 DataPoolClient.c:1478 DataPoolClient_create(): CONNECT ERROR
+Jun 23 09:30:25 nto CI: ERROR	sd	datapool: EC 0x00000012 DataPoolClient.c:1478 DataPoolClient_create(): CONNECT ERROR
+Jun 23 09:30:25 nto CI: INFO	sysinit	Starting /etc/rc2.d/S40display 
+Jun 23 09:30:27 nto CI: INFO	sysinit	Starting /etc/rc2.d/S41guici 
+Jun 23 09:30:28 rx10025878 syslogd: restart
+Jun 23 09:30:29 nto CI: INFO	OSLog1	MEM: 43648208 12582912 7268036 PROC:  
+Jun 23 09:30:32 nto CI: INFO	sysinit	Starting /etc/rc2.d/S42systemdata 
+Jun 23 09:30:33 nto CI: INFO	systemdata	systemdata: Startup
+Jun 23 09:30:33 nto CI: INFO	systemdata	systemdata: startup
+Jun 23 09:30:33 nto CI: INFO	sysinit	Starting /etc/rc2.d/S43configuration 
+Jun 23 09:30:34 rx10025878 syslogd: restart
+Jun 23 09:30:34 nto CI: INFO	rxsetup.sh	--config load 
+Jun 23 09:30:35 nto CI: INFO	boardinformation	binfo: Board Information startup ...
+Jun 23 09:30:35 nto CI: WARNING	systemdata	datapool: /sdcli-2854945: READ - server datapool is empty. Key Id 5006 needs to be published first.
+Jun 23 09:30:37 nto CI: INFO	configuration	Loading file >/opt/solarmax/configuration/misc.csv< 
+Jun 23 09:30:38 rx10025878 syslogd: restart
+Jun 23 09:30:38 nto CI: INFO	configuration	Loading file >/opt/solarmax/configuration/control.csv< 
+Jun 23 09:30:39 nto CI: INFO	configuration	Loading file >/opt/solarmax/configuration/type20960.csv< 
+Jun 23 09:30:39 nto CI: INFO	configuration	Loading file >/opt/solarmax/configuration/ssf1.csv< 
+Jun 23 09:30:40 nto CI: INFO	configuration	Loading file >/opt/solarmax/configuration/fieldtestglz.csv< 
+Jun 23 09:30:42 nto CI: INFO	configuration	configuration: startup
+Jun 23 09:30:42 rx10025878 syslogd: restart
+Jun 23 09:30:42 nto CI: INFO	configuration	configuration: config: step 1 - create all keys
+Jun 23 09:30:43 nto CI: INFO	configuration	configuration: config: step 2 - load default values
+Jun 23 09:30:43 nto CI: INFO	configuration	configuration: config: default - loading /tmp/defaultconfig.csv
+Jun 23 09:30:45 rx10025878 syslogd: restart
+Jun 23 09:30:45 nto CI: INFO	configuration	configuration: config: default - end of file /tmp/defaultconfig.csv - 302 keys loaded
+Jun 23 09:30:45 nto CI: INFO	configuration	configuration: config: step 3 - load user modified values
+Jun 23 09:30:45 nto CI: INFO	configuration	configuration: config: user - loading /etc/userconfig.csv
+Jun 23 09:30:45 nto CI: INFO	configuration	configuration: config: user - end of file /etc/userconfig.csv - 0 keys loaded
+Jun 23 09:30:45 nto CI: INFO	configuration	configuration: cisettings: step 1 - create all keys
+Jun 23 09:30:45 nto CI: INFO	configuration	configuration: cisettings: step 2 - load default values
+Jun 23 09:30:45 nto CI: INFO	configuration	configuration: cisettings: default - loading /opt/solarmax/configuration/cisettings.csv
+Jun 23 09:30:46 nto CI: INFO	configuration	configuration: cisettings: default - end of file /opt/solarmax/configuration/cisettings.csv - 25 keys loaded
+Jun 23 09:30:46 nto CI: INFO	configuration	configuration: cisettings: step 3 - load user modified values
+Jun 23 09:30:46 nto CI: INFO	configuration	configuration: cisettings: user - loading /etc/usercisettings.csv
+Jun 23 09:30:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5101 changed, saving cisettings to disk
+Jun 23 09:30:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5101 added to cisettings (1 keys in list)
+Jun 23 09:30:46 nto CI: WARNING	configuration	configuration: cisettings: user - already in list, skipping Key Id 5101 (USER_MODIFIED_DATAKEY_ID_5101)
+Jun 23 09:30:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5103 changed, saving cisettings to disk
+Jun 23 09:30:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5103 added to cisettings (2 keys in list)
+Jun 23 09:30:46 nto CI: WARNING	configuration	configuration: cisettings: user - already in list, skipping Key Id 5103 (USER_MODIFIED_DATAKEY_ID_5103)
+Jun 23 09:30:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5104 changed, saving cisettings to disk
+Jun 23 09:30:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5104 added to cisettings (3 keys in list)
+Jun 23 09:30:46 nto CI: WARNING	configuration	configuration: cisettings: user - already in list, skipping Key Id 5104 (USER_MODIFIED_DATAKEY_ID_5104)
+Jun 23 09:30:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5105 changed, saving cisettings to disk
+Jun 23 09:30:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5105 added to cisettings (4 keys in list)
+Jun 23 09:30:46 nto CI: WARNING	configuration	configuration: cisettings: user - already in list, skipping Key Id 5105 (USER_MODIFIED_DATAKEY_ID_5105)
+Jun 23 09:30:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5007 changed, saving cisettings to disk
+Jun 23 09:30:46 nto CI: INFO	configuration	configuration: persistKeyChangedCallback: Key Id 5007 added to cisettings (5 keys in list)
+Jun 23 09:30:46 nto CI: WARNING	configuration	configuration: cisettings: user - already in list, skipping Key Id 5007 (USER_MODIFIED_DATAKEY_ID_5007)
+Jun 23 09:30:46 nto CI: INFO	configuration	configuration: cisettings: user - end of file /etc/usercisettings.csv - 5 keys loaded
+Jun 23 09:30:46 nto CI: INFO	configuration	configuration: configuration successfully loaded, waiting for remote validation requests...
+Jun 23 09:30:46 nto CI: INFO	configuration	configuration: daemon: forking a background process
+Jun 23 09:30:49 nto CI: INFO	sysinit	Starting /etc/rc2.d/S46xtbus 

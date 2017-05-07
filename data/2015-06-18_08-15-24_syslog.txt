@@ -1,0 +1,56 @@
+Jun 18 08:00:24 rx10025878 syslogd: restart
+Jun 18 08:02:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 936 ms - 187 ms/job
+Jun 18 08:03:34 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 726 Idc: 58 Pdc: 42751 Pac: 41627 Wh: 3468 IdLim: 1.00 Phi: 0.00 
+Jun 18 08:03:34 nto PU2: INFO	System	PLog2 300000 ms: tL1: 57 tL2: 59 tL3: 57 tCb: 42 tAc: 28 tDc: 23 
+Jun 18 08:03:34 nto PU2: INFO	System	PLog3 300000 ms: iL1: 60 iL2: 61 iL3: 60 vL12: 392 vL23: 392 vL31: 392 f: 50.02 
+Jun 18 08:03:34 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 737 Idc: 59 Pdc: 44147 Pac: 42869 Wh: 3572 IdLim: 1.00 Phi: 0.00 
+Jun 18 08:03:34 nto PU3: INFO	System	PLog2 300000 ms: tL1: 57 tL2: 59 tL3: 57 tCb: 42 tAc: 27 tDc: 23 
+Jun 18 08:03:34 nto PU3: INFO	System	PLog3 300000 ms: iL1: 62 iL2: 63 iL3: 62 vL12: 392 vL23: 391 vL31: 392 f: 50.02 
+Jun 18 08:03:34 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 729 Idc: 59 Pdc: 43383 Pac: 42525 Wh: 3543 IdLim: 1.00 Phi: 0.00 
+Jun 18 08:03:34 nto PU4: INFO	System	PLog2 300000 ms: tL1: 48 tL2: 53 tL3: 49 tCb: 42 tAc: 28 tDc: 23 
+Jun 18 08:03:34 nto PU4: INFO	System	PLog3 300000 ms: iL1: 62 iL2: 62 iL3: 62 vL12: 392 vL23: 391 vL31: 392 f: 50.02 
+Jun 18 08:03:34 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 732 Idc: 61 Pdc: 45154 Pac: 43789 Wh: 3649 IdLim: 1.00 Phi: 0.00 
+Jun 18 08:03:34 nto PU1: INFO	System	PLog2 300000 ms: tL1: 59 tL2: 59 tL3: 58 tCb: 41 tAc: 28 tDc: 23 
+Jun 18 08:03:34 nto PU1: INFO	System	PLog3 300000 ms: iL1: 64 iL2: 64 iL3: 63 vL12: 392 vL23: 391 vL31: 392 f: 50.01 
+Jun 18 08:03:51 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 21.1 to 23.1
+Jun 18 08:04:22 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 23.1 to 27.0
+Jun 18 08:04:42 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 27.0 to 30.2
+Jun 18 08:05:03 nto CI: INFO	OSLog1	MEM: 64320720 12996608 7190212 PROC:  
+Jun 18 08:05:13 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 30.2 to 32.3
+Jun 18 08:06:14 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 32.3 to 30.1
+Jun 18 08:07:35 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 30.1 to 28.1
+Jun 18 08:07:47 nto CI: INFO	statistics	statistics: write: 20 statistics jobs in 880 ms - 44 ms/job
+Jun 18 08:08:35 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 718 Idc: 40 Pdc: 28961 Pac: 28178 Wh: 2348 IdLim: 1.00 Phi: 0.00 
+Jun 18 08:08:35 nto PU2: INFO	System	PLog2 300000 ms: tL1: 47 tL2: 48 tL3: 47 tCb: 43 tAc: 26 tDc: 23 
+Jun 18 08:08:35 nto PU2: INFO	System	PLog3 300000 ms: iL1: 41 iL2: 41 iL3: 41 vL12: 391 vL23: 391 vL31: 392 f: 50.00 
+Jun 18 08:08:35 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 720 Idc: 43 Pdc: 31057 Pac: 30259 Wh: 2521 IdLim: 1.00 Phi: 0.00 
+Jun 18 08:08:35 nto PU3: INFO	System	PLog2 300000 ms: tL1: 47 tL2: 49 tL3: 47 tCb: 43 tAc: 26 tDc: 23 
+Jun 18 08:08:35 nto PU3: INFO	System	PLog3 300000 ms: iL1: 44 iL2: 44 iL3: 44 vL12: 391 vL23: 391 vL31: 392 f: 50.00 
+Jun 18 08:08:35 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 721 Idc: 42 Pdc: 30705 Pac: 30083 Wh: 2506 IdLim: 1.00 Phi: 0.00 
+Jun 18 08:08:35 nto PU4: INFO	System	PLog2 300000 ms: tL1: 47 tL2: 49 tL3: 46 tCb: 43 tAc: 25 tDc: 23 
+Jun 18 08:08:35 nto PU4: INFO	System	PLog3 300000 ms: iL1: 43 iL2: 44 iL3: 43 vL12: 391 vL23: 391 vL31: 392 f: 50.01 
+Jun 18 08:08:36 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 715 Idc: 42 Pdc: 30159 Pac: 28960 Wh: 2413 IdLim: 1.00 Phi: 0.00 
+Jun 18 08:08:36 nto PU1: INFO	System	PLog2 300000 ms: tL1: 48 tL2: 49 tL3: 48 tCb: 42 tAc: 25 tDc: 23 
+Jun 18 08:08:36 nto PU1: INFO	System	PLog3 300000 ms: iL1: 42 iL2: 43 iL3: 42 vL12: 391 vL23: 391 vL31: 391 f: 50.00 
+Jun 18 08:10:03 nto CI: INFO	OSLog1	MEM: 64320720 12996608 7190212 PROC:  
+Jun 18 08:11:40 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 28.1 to 26.0
+Jun 18 08:12:03 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 1925 ms - 80 ms/job
+Jun 18 08:13:36 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 715 Idc: 38 Pdc: 27788 Pac: 26936 Wh: 2244 IdLim: 1.00 Phi: 0.00 
+Jun 18 08:13:36 nto PU2: INFO	System	PLog2 300000 ms: tL1: 49 tL2: 51 tL3: 49 tCb: 43 tAc: 25 tDc: 23 
+Jun 18 08:13:36 nto PU2: INFO	System	PLog3 300000 ms: iL1: 39 iL2: 39 iL3: 39 vL12: 391 vL23: 391 vL31: 392 f: 49.97 
+Jun 18 08:13:37 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 716 Idc: 41 Pdc: 30056 Pac: 29324 Wh: 2443 IdLim: 1.00 Phi: 0.00 
+Jun 18 08:13:37 nto PU3: INFO	System	PLog2 300000 ms: tL1: 50 tL2: 52 tL3: 50 tCb: 43 tAc: 26 tDc: 23 
+Jun 18 08:13:37 nto PU3: INFO	System	PLog3 300000 ms: iL1: 42 iL2: 43 iL3: 42 vL12: 391 vL23: 391 vL31: 392 f: 49.98 
+Jun 18 08:13:37 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 721 Idc: 42 Pdc: 30411 Pac: 29744 Wh: 2478 IdLim: 1.00 Phi: 0.00 
+Jun 18 08:13:37 nto PU4: INFO	System	PLog2 300000 ms: tL1: 50 tL2: 52 tL3: 49 tCb: 42 tAc: 25 tDc: 23 
+Jun 18 08:13:37 nto PU4: INFO	System	PLog3 300000 ms: iL1: 43 iL2: 44 iL3: 43 vL12: 391 vL23: 391 vL31: 392 f: 49.97 
+Jun 18 08:13:37 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 715 Idc: 39 Pdc: 28388 Pac: 27530 Wh: 2294 IdLim: 1.00 Phi: 0.00 
+Jun 18 08:13:37 nto PU1: INFO	System	PLog2 300000 ms: tL1: 51 tL2: 51 tL3: 51 tCb: 42 tAc: 24 tDc: 23 
+Jun 18 08:13:37 nto PU1: INFO	System	PLog3 300000 ms: iL1: 40 iL2: 40 iL3: 40 vL12: 391 vL23: 391 vL31: 392 f: 49.98 
+Jun 18 08:14:19 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 328 ms - 65 ms/job
+Jun 18 08:15:04 rx10025878 syslogd: restart
+Jun 18 08:15:07 nto CI: INFO	OSLog1	MEM: 66294992 14495744 5711556 PROC:  
+Jun 18 08:15:09 rx10025878 syslogd: restart
+Jun 18 08:15:12 rx10025878 syslogd: restart
+Jun 18 08:15:16 rx10025878 syslogd: restart
+Jun 18 08:15:19 rx10025878 syslogd: restart

@@ -1,0 +1,62 @@
+Jun 21 08:00:24 rx10025878 syslogd: restart
+Jun 21 08:01:37 nto CI: INFO	statistics	statistics: write: 20 statistics jobs in 942 ms - 47 ms/job
+Jun 21 08:02:19 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 485 ms - 97 ms/job
+Jun 21 08:04:22 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 671 Idc: 10 Pdc: 7325 Pac: 6950 Wh: 579 IdLim: 1.00 Phi: 0.00 
+Jun 21 08:04:22 nto PU4: INFO	System	PLog2 300000 ms: tL1: 34 tL2: 35 tL3: 33 tCb: 39 tAc: 22 tDc: 23 
+Jun 21 08:04:22 nto PU4: INFO	System	PLog3 300000 ms: iL1: 10 iL2: 10 iL3: 10 vL12: 385 vL23: 385 vL31: 385 f: 50.02 
+Jun 21 08:04:22 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 666 Idc: 9 Pdc: 6607 Pac: 6250 Wh: 520 IdLim: 1.00 Phi: 0.00 
+Jun 21 08:04:22 nto PU2: INFO	System	PLog2 300000 ms: tL1: 34 tL2: 34 tL3: 33 tCb: 39 tAc: 22 tDc: 23 
+Jun 21 08:04:22 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 665 Idc: 10 Pdc: 7205 Pac: 7027 Wh: 585 IdLim: 1.00 Phi: 0.00 
+Jun 21 08:04:22 nto PU2: INFO	System	PLog3 300000 ms: iL1: 9 iL2: 9 iL3: 9 vL12: 385 vL23: 385 vL31: 385 f: 50.02 
+Jun 21 08:04:22 nto PU3: INFO	System	PLog2 300000 ms: tL1: 34 tL2: 35 tL3: 33 tCb: 40 tAc: 22 tDc: 23 
+Jun 21 08:04:22 nto PU3: INFO	System	PLog3 300000 ms: iL1: 10 iL2: 10 iL3: 10 vL12: 385 vL23: 385 vL31: 385 f: 50.01 
+Jun 21 08:04:23 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 664 Idc: 10 Pdc: 6857 Pac: 6261 Wh: 521 IdLim: 1.00 Phi: 0.00 
+Jun 21 08:04:23 nto PU1: INFO	System	PLog2 300000 ms: tL1: 34 tL2: 33 tL3: 33 tCb: 39 tAc: 21 tDc: 23 
+Jun 21 08:04:23 nto PU1: INFO	System	PLog3 300000 ms: iL1: 9 iL2: 9 iL3: 9 vL12: 385 vL23: 385 vL31: 386 f: 50.02 
+Jun 21 08:05:03 nto CI: INFO	OSLog1	MEM: 63685840 12992512 7190212 PROC:  
+Jun 21 08:08:47 nto PU2: DEBUG	Mppt	FraunhoferIseTracker: COMPLETED 
+Jun 21 08:08:47 nto PU2: DEBUG	Mppt	SlowHsiaoChenTracker: RUNNING Current Power: 2999 Current Voltage: 657 
+Jun 21 08:09:23 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 632 Idc: 5 Pdc: 3218 Pac: 3045 Wh: 253 IdLim: 1.00 Phi: 0.00 
+Jun 21 08:09:23 nto PU4: INFO	System	PLog2 300000 ms: tL1: 34 tL2: 35 tL3: 33 tCb: 39 tAc: 22 tDc: 23 
+Jun 21 08:09:23 nto PU4: INFO	System	PLog3 300000 ms: iL1: 4 iL2: 4 iL3: 4 vL12: 385 vL23: 385 vL31: 385 f: 49.99 
+Jun 21 08:09:24 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 657 Idc: 4 Pdc: 2831 Pac: 2648 Wh: 220 IdLim: 1.00 Phi: 0.00 
+Jun 21 08:09:24 nto PU2: INFO	System	PLog2 300000 ms: tL1: 34 tL2: 34 tL3: 33 tCb: 39 tAc: 22 tDc: 23 
+Jun 21 08:09:24 nto PU2: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 3 iL3: 3 vL12: 385 vL23: 385 vL31: 385 f: 50.00 
+Jun 21 08:09:24 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 635 Idc: 4 Pdc: 3129 Pac: 2766 Wh: 230 IdLim: 1.00 Phi: 0.00 
+Jun 21 08:09:24 nto PU3: INFO	System	PLog2 300000 ms: tL1: 34 tL2: 35 tL3: 33 tCb: 40 tAc: 22 tDc: 23 
+Jun 21 08:09:24 nto PU3: INFO	System	PLog3 300000 ms: iL1: 4 iL2: 4 iL3: 4 vL12: 385 vL23: 385 vL31: 385 f: 49.99 
+Jun 21 08:09:24 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 639 Idc: 4 Pdc: 3076 Pac: 2332 Wh: 194 IdLim: 1.00 Phi: 0.00 
+Jun 21 08:09:24 nto PU1: INFO	System	PLog2 300000 ms: tL1: 34 tL2: 34 tL3: 33 tCb: 39 tAc: 21 tDc: 23 
+Jun 21 08:09:24 nto PU1: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 3 iL3: 3 vL12: 386 vL23: 385 vL31: 386 f: 49.99 
+Jun 21 08:09:39 nto PU1: DEBUG	Mppt	FraunhoferIseTracker: COMPLETED 
+Jun 21 08:09:39 nto PU1: DEBUG	Mppt	SlowHsiaoChenTracker: RUNNING Current Power: 3007 Current Voltage: 642 
+Jun 21 08:09:53 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: COMPLETED 
+Jun 21 08:09:53 nto PU3: DEBUG	Mppt	SlowHsiaoChenTracker: RUNNING Current Power: 2994 Current Voltage: 634 
+Jun 21 08:10:03 nto CI: INFO	OSLog1	MEM: 63685840 12992512 7190212 PROC:  
+Jun 21 08:10:22 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: COMPLETED 
+Jun 21 08:10:22 nto PU4: DEBUG	Mppt	SlowHsiaoChenTracker: RUNNING Current Power: 2986 Current Voltage: 624 
+Jun 21 08:12:02 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 1800 ms - 75 ms/job
+Jun 21 08:13:36 nto CI: INFO	statistics	statistics: write: 20 statistics jobs in 984 ms - 49 ms/job
+Jun 21 08:14:19 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 498 ms - 99 ms/job
+Jun 21 08:14:25 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 619 Idc: 6 Pdc: 4062 Pac: 4368 Wh: 364 IdLim: 1.00 Phi: 0.00 
+Jun 21 08:14:25 nto PU4: INFO	System	PLog2 300000 ms: tL1: 34 tL2: 35 tL3: 33 tCb: 39 tAc: 22 tDc: 23 
+Jun 21 08:14:25 nto PU4: INFO	System	PLog3 300000 ms: iL1: 6 iL2: 6 iL3: 6 vL12: 385 vL23: 385 vL31: 385 f: 49.99 
+Jun 21 08:14:25 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 641 Idc: 5 Pdc: 3754 Pac: 3339 Wh: 278 IdLim: 1.00 Phi: 0.00 
+Jun 21 08:14:25 nto PU2: INFO	System	PLog2 300000 ms: tL1: 34 tL2: 34 tL3: 33 tCb: 39 tAc: 22 tDc: 23 
+Jun 21 08:14:25 nto PU2: INFO	System	PLog3 300000 ms: iL1: 5 iL2: 5 iL3: 4 vL12: 385 vL23: 385 vL31: 385 f: 49.99 
+Jun 21 08:14:25 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 629 Idc: 6 Pdc: 3958 Pac: 3805 Wh: 317 IdLim: 1.00 Phi: 0.00 
+Jun 21 08:14:25 nto PU3: INFO	System	PLog2 300000 ms: tL1: 34 tL2: 35 tL3: 34 tCb: 40 tAc: 22 tDc: 23 
+Jun 21 08:14:25 nto PU3: INFO	System	PLog3 300000 ms: iL1: 5 iL2: 5 iL3: 5 vL12: 385 vL23: 385 vL31: 385 f: 49.99 
+Jun 21 08:14:26 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 620 Idc: 6 Pdc: 3818 Pac: 3876 Wh: 323 IdLim: 1.00 Phi: 0.00 
+Jun 21 08:14:26 nto PU1: INFO	System	PLog2 300000 ms: tL1: 33 tL2: 34 tL3: 33 tCb: 39 tAc: 21 tDc: 23 
+Jun 21 08:14:26 nto PU1: INFO	System	PLog3 300000 ms: iL1: 5 iL2: 5 iL3: 5 vL12: 385 vL23: 385 vL31: 385 f: 49.99 
+Jun 21 08:15:04 rx10025878 syslogd: restart
+Jun 21 08:15:05 nto PU4: DEBUG	Mppt	SlowHsiaoChenTracker: COMPLETED 
+Jun 21 08:15:05 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 5013 Current Voltage: 628 
+Jun 21 08:15:07 nto CI: INFO	OSLog1	MEM: 65713360 14491648 5711556 PROC:  
+Jun 21 08:15:09 rx10025878 syslogd: restart
+Jun 21 08:15:12 rx10025878 syslogd: restart
+Jun 21 08:15:16 rx10025878 syslogd: restart
+Jun 21 08:15:18 nto PU3: DEBUG	Mppt	SlowHsiaoChenTracker: COMPLETED 
+Jun 21 08:15:18 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 5025 Current Voltage: 634 
+Jun 21 08:15:20 rx10025878 syslogd: restart

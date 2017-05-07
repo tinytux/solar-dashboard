@@ -1,0 +1,7 @@
+http.host: "0.0.0.0"
+
+# https://github.com/docker-library/logstash/issues/85#issuecomment-282512625
+xpack.monitoring.enabled: false
+#xpack.monitoring.elasticsearch.url: http://elasticsearch:9200
+#xpack.monitoring.elasticsearch.username: logstash_system
+#xpack.monitoring.elasticsearch.password: changeme

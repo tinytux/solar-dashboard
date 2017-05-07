@@ -1,0 +1,79 @@
+Jun  7 14:00:25 rx10025878 syslogd: restart
+Jun 07 14:00:25 nto CI: WARNING	pumanager2	maxcomm: MDP: not ready - message trashed: 2/0 => 0/0 @100 >PUCS=6;SYS=4E28,0< len=17
+Jun 07 14:00:56 nto last message repeated 1102 times
+Jun 07 14:01:50 nto last message repeated 2156 times
+Jun 07 14:01:50 nto CI: ERROR	pumanager2	maxcomm: Log message burst limit (2000) reached, logger temporarily suspended.
+Jun 07 14:02:00 nto CI: WARNING	pumanager2	maxcomm: MDP: not ready - message trashed: 2/0 => 0/0 @100 >PUCS=6;SYS=4E28,0< len=17
+Jun 07 14:02:20 nto last message repeated 719 times
+Jun 07 14:02:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 513 ms - 102 ms/job
+Jun 07 14:02:20 nto CI: WARNING	pumanager2	maxcomm: MDP: not ready - message trashed: 2/0 => 0/0 @100 >PUCS=6;SYS=4E28,0< len=17
+Jun 07 14:02:51 nto last message repeated 1187 times
+Jun 07 14:02:53 nto last message repeated 92 times
+Jun 07 14:02:53 nto CI: ERROR	pumanager2	maxcomm: Log message burst limit (2000) reached, logger temporarily suspended.
+Jun 07 14:03:00 nto CI: WARNING	pumanager2	maxcomm: MDP: not ready - message trashed: 2/0 => 0/0 @100 >PUCS=6;SYS=4E28,0< len=17
+Jun 07 14:03:31 nto last message repeated 1222 times
+Jun 07 14:03:50 nto last message repeated 777 times
+Jun 07 14:03:50 nto CI: ERROR	pumanager2	maxcomm: Log message burst limit (2000) reached, logger temporarily suspended.
+Jun 07 14:04:00 nto CI: WARNING	pumanager2	maxcomm: MDP: not ready - message trashed: 2/0 => 0/0 @100 >PUCS=6;SYS=4E28,0< len=17
+Jun 07 14:04:31 nto last message repeated 1221 times
+Jun 07 14:04:43 nto last message repeated 477 times
+Jun 07 14:04:43 nto CI: FATAL	pumanager2	maxcomm: Log message limit (10000) reached, logger permanently suspended.
+Jun 07 14:04:48 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 598 Idc: 223 Pdc: 133361 Pac: 130197 Wh: 10849 IdLim: 0.97 Phi: 0.00 
+Jun 07 14:04:48 nto PU3: INFO	System	PLog2 300000 ms: tL1: 52 tL2: 53 tL3: 53 tCb: 53 tAc: 37 tDc: 23 
+Jun 07 14:04:48 nto PU3: INFO	System	PLog3 300000 ms: iL1: 195 iL2: 195 iL3: 194 vL12: 385 vL23: 384 vL31: 385 f: 50.03 
+Jun 07 14:04:49 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 604 Idc: 232 Pdc: 140235 Pac: 136273 Wh: 11356 IdLim: 0.97 Phi: 0.00 
+Jun 07 14:04:49 nto PU4: INFO	System	PLog2 300000 ms: tL1: 53 tL2: 56 tL3: 54 tCb: 53 tAc: 37 tDc: 23 
+Jun 07 14:04:49 nto PU4: INFO	System	PLog3 300000 ms: iL1: 204 iL2: 204 iL3: 204 vL12: 385 vL23: 384 vL31: 385 f: 50.03 
+Jun 07 14:04:50 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 595 Idc: 207 Pdc: 123270 Pac: 120161 Wh: 10013 IdLim: 0.96 Phi: 0.00 
+Jun 07 14:04:50 nto PU2: INFO	System	PLog2 300000 ms: tL1: 57 tL2: 58 tL3: 57 tCb: 53 tAc: 35 tDc: 23 
+Jun 07 14:04:50 nto PU2: INFO	System	PLog3 300000 ms: iL1: 180 iL2: 180 iL3: 180 vL12: 385 vL23: 385 vL31: 385 f: 50.03 
+Jun 07 14:04:54 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 592 Idc: 207 Pdc: 123074 Pac: 119845 Wh: 9987 IdLim: 0.95 Phi: 0.00 
+Jun 07 14:04:54 nto PU1: INFO	System	PLog2 300000 ms: tL1: 59 tL2: 57 tL3: 57 tCb: 51 tAc: 33 tDc: 23 
+Jun 07 14:04:54 nto PU1: INFO	System	PLog3 300000 ms: iL1: 179 iL2: 180 iL3: 179 vL12: 385 vL23: 384 vL31: 385 f: 50.04 
+Jun 07 14:05:04 nto CI: INFO	OSLog1	MEM: 63866064 12996608 7190212 PROC:  
+Jun 07 14:07:49 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148259 Current Voltage: 609 
+Jun 07 14:07:49 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 07 14:07:49 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148264 Current Voltage: 609 
+Jun 07 14:07:50 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148963 Current Voltage: 612 
+Jun 07 14:07:50 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 07 14:07:50 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148682 Current Voltage: 615 
+Jun 07 14:07:50 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 07 14:07:50 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148362 Current Voltage: 616 
+Jun 07 14:07:50 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 07 14:07:50 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148224 Current Voltage: 617 
+Jun 07 14:09:25 nto CI: INFO	iumanager	iumanager: VXTBUS change from 15.200000 to 15.300000
+Jun 07 14:09:49 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 594 Idc: 60 Pdc: 35652 Pac: 34721 Wh: 2893 IdLim: 0.97 Phi: 0.00 
+Jun 07 14:09:49 nto PU3: INFO	System	PLog2 300000 ms: tL1: 55 tL2: 56 tL3: 55 tCb: 53 tAc: 35 tDc: 23 
+Jun 07 14:09:49 nto PU3: INFO	System	PLog3 300000 ms: iL1: 52 iL2: 52 iL3: 52 vL12: 382 vL23: 382 vL31: 382 f: 50.02 
+Jun 07 14:09:50 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 601 Idc: 65 Pdc: 39303 Pac: 38472 Wh: 3206 IdLim: 0.98 Phi: 0.00 
+Jun 07 14:09:50 nto PU4: INFO	System	PLog2 300000 ms: tL1: 53 tL2: 54 tL3: 53 tCb: 51 tAc: 35 tDc: 23 
+Jun 07 14:09:50 nto PU4: INFO	System	PLog3 300000 ms: iL1: 58 iL2: 58 iL3: 57 vL12: 383 vL23: 382 vL31: 382 f: 50.01 
+Jun 07 14:09:52 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 587 Idc: 55 Pdc: 32796 Pac: 32034 Wh: 2669 IdLim: 0.95 Phi: 0.00 
+Jun 07 14:09:52 nto PU2: INFO	System	PLog2 300000 ms: tL1: 52 tL2: 52 tL3: 52 tCb: 53 tAc: 33 tDc: 23 
+Jun 07 14:09:52 nto PU2: INFO	System	PLog3 300000 ms: iL1: 48 iL2: 48 iL3: 48 vL12: 382 vL23: 383 vL31: 382 f: 50.01 
+Jun 07 14:09:55 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 595 Idc: 54 Pdc: 32256 Pac: 31163 Wh: 2596 IdLim: 0.97 Phi: 0.00 
+Jun 07 14:09:55 nto PU1: INFO	System	PLog2 300000 ms: tL1: 51 tL2: 51 tL3: 51 tCb: 51 tAc: 33 tDc: 23 
+Jun 07 14:09:55 nto PU1: INFO	System	PLog3 300000 ms: iL1: 47 iL2: 47 iL3: 47 vL12: 382 vL23: 382 vL31: 382 f: 50.01 
+Jun 07 14:10:03 nto CI: INFO	OSLog1	MEM: 63866064 12996608 7190212 PROC:  
+Jun 07 14:12:03 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 2408 ms - 100 ms/job
+Jun 07 14:12:24 nto CI: INFO	statistics	statistics: write: 20 statistics jobs in 767 ms - 38 ms/job
+Jun 07 14:14:19 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 341 ms - 68 ms/job
+Jun 07 14:14:51 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 633 Idc: 207 Pdc: 131564 Pac: 128212 Wh: 10684 IdLim: 1.00 Phi: 0.00 
+Jun 07 14:14:51 nto PU3: INFO	System	PLog2 300000 ms: tL1: 57 tL2: 58 tL3: 57 tCb: 52 tAc: 35 tDc: 23 
+Jun 07 14:14:51 nto PU3: INFO	System	PLog3 300000 ms: iL1: 192 iL2: 192 iL3: 191 vL12: 386 vL23: 385 vL31: 386 f: 50.02 
+Jun 07 14:14:52 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 639 Idc: 217 Pdc: 139028 Pac: 135062 Wh: 11255 IdLim: 1.00 Phi: 0.00 
+Jun 07 14:14:52 nto PU4: INFO	System	PLog2 300000 ms: tL1: 56 tL2: 58 tL3: 56 tCb: 53 tAc: 36 tDc: 23 
+Jun 07 14:14:52 nto PU4: INFO	System	PLog3 300000 ms: iL1: 202 iL2: 202 iL3: 202 vL12: 386 vL23: 385 vL31: 386 f: 50.03 
+Jun 07 14:14:53 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 619 Idc: 198 Pdc: 122493 Pac: 119615 Wh: 9967 IdLim: 1.00 Phi: 0.00 
+Jun 07 14:14:53 nto PU2: INFO	System	PLog2 300000 ms: tL1: 58 tL2: 58 tL3: 58 tCb: 53 tAc: 33 tDc: 23 
+Jun 07 14:14:53 nto PU2: INFO	System	PLog3 300000 ms: iL1: 179 iL2: 179 iL3: 178 vL12: 386 vL23: 385 vL31: 386 f: 50.03 
+Jun 07 14:14:57 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 621 Idc: 196 Pdc: 122222 Pac: 118781 Wh: 9898 IdLim: 1.00 Phi: 0.00 
+Jun 07 14:14:57 nto PU1: INFO	System	PLog2 300000 ms: tL1: 59 tL2: 58 tL3: 57 tCb: 50 tAc: 32 tDc: 23 
+Jun 07 14:14:57 nto PU1: INFO	System	PLog3 300000 ms: iL1: 178 iL2: 178 iL3: 177 vL12: 385 vL23: 385 vL31: 386 f: 50.03 
+Jun  7 14:15:04 rx10025878 syslogd: restart
+Jun 07 14:15:07 nto CI: INFO	OSLog1	MEM: 65635536 14495744 5711556 PROC:  
+Jun  7 14:15:08 rx10025878 syslogd: restart
+Jun  7 14:15:11 rx10025878 syslogd: restart
+Jun 07 14:15:15 nto CI: INFO	iumanager	iumanager: VXTBUS change from 15.300000 to 15.200000
+Jun  7 14:15:15 rx10025878 syslogd: restart
+Jun  7 14:15:18 rx10025878 syslogd: restart

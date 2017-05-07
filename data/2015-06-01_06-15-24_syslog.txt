@@ -1,0 +1,83 @@
+Jun  1 06:00:24 rx10025878 syslogd: restart
+Jun  1 06:00:28 rx10025878 syslogd: restart
+Jun  1 06:00:31 rx10025878 syslogd: restart
+Jun  1 06:00:35 rx10025878 syslogd: restart
+Jun  1 06:00:38 rx10025878 syslogd: restart
+Jun  1 06:00:42 rx10025878 syslogd: restart
+Jun  1 06:00:45 rx10025878 syslogd: restart
+Jun 01 06:01:13 nto PU1: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 01 06:01:13 nto PU1: INFO	SafetyFeatures	Powertest Failed: VdcInit: 771.972656 VdcLimit: 752.673340 VdcEnd: 752.644043 
+Jun 01 06:01:13 nto PU1: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 01 06:02:09 nto PU1: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 773 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 01 06:02:09 nto PU1: INFO	System	PLog2 300000 ms: tL1: 20 tL2: 20 tL3: 20 tCb: 36 tAc: 20 tDc: 23 
+Jun 01 06:02:09 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 386 vL23: 386 vL31: 387 f: 49.99 
+Jun 01 06:02:09 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 630 Idc: 3 Pdc: 2051 Pac: 1466 Wh: 122 IdLim: 1.00 Phi: 0.00 
+Jun 01 06:02:09 nto PU2: INFO	System	PLog2 300000 ms: tL1: 20 tL2: 20 tL3: 20 tCb: 37 tAc: 21 tDc: 23 
+Jun 01 06:02:09 nto PU2: INFO	System	PLog3 300000 ms: iL1: 2 iL2: 2 iL3: 2 vL12: 388 vL23: 388 vL31: 388 f: 49.99 
+Jun 01 06:02:09 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 653 Idc: 3 Pdc: 2234 Pac: 1930 Wh: 160 IdLim: 1.00 Phi: 0.00 
+Jun 01 06:02:09 nto PU4: INFO	System	PLog2 300000 ms: tL1: 20 tL2: 20 tL3: 20 tCb: 37 tAc: 21 tDc: 23 
+Jun 01 06:02:09 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 627 Idc: 3 Pdc: 2218 Pac: 1726 Wh: 143 IdLim: 1.00 Phi: 0.00 
+Jun 01 06:02:09 nto PU4: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 3 iL3: 2 vL12: 388 vL23: 388 vL31: 388 f: 49.99 
+Jun 01 06:02:09 nto PU3: INFO	System	PLog2 300000 ms: tL1: 20 tL2: 20 tL3: 20 tCb: 38 tAc: 21 tDc: 23 
+Jun 01 06:02:09 nto PU3: INFO	System	PLog3 300000 ms: iL1: 2 iL2: 2 iL3: 2 vL12: 388 vL23: 388 vL31: 388 f: 49.99 
+Jun 01 06:02:14 nto PU1: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 01 06:02:14 nto PU1: INFO	SafetyFeatures	Powertest Failed: VdcInit: 773.712219 VdcLimit: 754.369385 VdcEnd: 754.171509 
+Jun 01 06:02:14 nto PU1: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 01 06:02:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 437 ms - 87 ms/job
+Jun 01 06:03:14 nto PU1: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 01 06:03:25 nto PU1: INFO	PuMaster	Startup Sub FSM State: READY_TO_CLOSE_AC_CONTACTOR 
+Jun 01 06:03:25 nto PU1: INFO	IuMaster	Send Cmd: CONNECT_TO_GRID to PU: 1 
+Jun 01 06:03:25 nto PU1: INFO	PuMaster	Startup Sub FSM State: GRID_CONNECTION 
+Jun 01 06:03:28 nto PU1: INFO	System	CLog1 500 ms: 20002 Vdc: 744 Idc: 1 Pdc: 1165 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 01 06:03:28 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateBothContactorClosed 
+Jun 01 06:03:29 nto PU1: INFO	PuMaster	Startup Sub FSM State: MAINS_OPERATION 
+Jun 01 06:03:29 nto PU1: INFO	PuMaster	MainsOperation FSM State: READY_FOR_FEED_IN 
+Jun 01 06:03:29 nto PU1: INFO	System	StatusGenerator: statuscode: 104 subcodeBit: none objectId: 0 
+Jun 01 06:03:29 nto PU1: INFO	System	CLog1 500 ms: 20023 Vdc: 776 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 01 06:03:30 nto PU1: INFO	IuMaster	Send Cmd: START_FEED_IN to PU: 1 
+Jun 01 06:03:30 nto PU1: INFO	PuMaster	MainsOperation FSM State: START_FEED_IN 
+Jun 01 06:03:30 nto PU1: INFO	System	StatusGenerator: statuscode: 112 subcodeBit: none objectId: 0 
+Jun 01 06:03:30 nto PU1: INFO	System	CLog1 500 ms: 20003 Vdc: 799 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 01 06:03:31 nto PU1: DEBUG	Mppt	TrackingMaster: activated 
+Jun 01 06:03:31 nto PU1: DEBUG	Mppt	System Event:0 
+Jun 01 06:03:31 nto PU1: DEBUG	Mppt	StartupTracker: RUNNING Current Power: 0 Current Voltage: 799 
+Jun 01 06:03:31 nto PU1: INFO	PuMaster	MainsOperation FSM State: FEED_IN 
+Jun 01 06:03:31 nto PU1: INFO	System	StatusGenerator: statuscode: 6 subcodeBit: none objectId: 0 
+Jun 01 06:03:31 nto PU1: INFO	System	CLog1 500 ms: 20008 Vdc: 801 Idc: 0 Pdc: 0 Pac: 0 IdLim: 1.00 Phi: 0.00 
+Jun 01 06:03:38 nto PU1: DEBUG	Mppt	StartupTracker: COMPLETED 
+Jun 01 06:03:38 nto PU1: DEBUG	Mppt	SlowHsiaoChenTracker: RUNNING Current Power: 2249 Current Voltage: 679 
+Jun 01 06:05:03 nto CI: INFO	OSLog1	MEM: 63636688 12992512 7190212 PROC:  
+Jun 01 06:07:10 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 670 Idc: 4 Pdc: 2716 Pac: 2186 Wh: 182 IdLim: 1.00 Phi: 0.00 
+Jun 01 06:07:10 nto PU1: INFO	System	PLog2 300000 ms: tL1: 21 tL2: 21 tL3: 21 tCb: 37 tAc: 20 tDc: 23 
+Jun 01 06:07:10 nto PU1: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 3 iL3: 3 vL12: 388 vL23: 388 vL31: 388 f: 49.99 
+Jun 01 06:07:10 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 636 Idc: 4 Pdc: 2604 Pac: 2416 Wh: 201 IdLim: 1.00 Phi: 0.00 
+Jun 01 06:07:10 nto PU2: INFO	System	PLog2 300000 ms: tL1: 21 tL2: 21 tL3: 21 tCb: 37 tAc: 21 tDc: 23 
+Jun 01 06:07:10 nto PU2: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 3 iL3: 3 vL12: 388 vL23: 388 vL31: 388 f: 49.99 
+Jun 01 06:07:10 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 631 Idc: 4 Pdc: 2812 Pac: 2374 Wh: 197 IdLim: 1.00 Phi: 0.00 
+Jun 01 06:07:10 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 632 Idc: 4 Pdc: 2898 Pac: 2909 Wh: 242 IdLim: 1.00 Phi: 0.00 
+Jun 01 06:07:10 nto PU3: INFO	System	PLog2 300000 ms: tL1: 21 tL2: 21 tL3: 21 tCb: 38 tAc: 20 tDc: 23 
+Jun 01 06:07:10 nto PU4: INFO	System	PLog2 300000 ms: tL1: 21 tL2: 21 tL3: 21 tCb: 37 tAc: 21 tDc: 23 
+Jun 01 06:07:10 nto PU3: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 3 iL3: 3 vL12: 388 vL23: 388 vL31: 388 f: 50.00 
+Jun 01 06:07:10 nto PU4: INFO	System	PLog3 300000 ms: iL1: 4 iL2: 4 iL3: 4 vL12: 388 vL23: 388 vL31: 388 f: 49.99 
+Jun 01 06:10:03 nto CI: INFO	OSLog1	MEM: 63636688 12992512 7190212 PROC:  
+Jun 01 06:11:53 nto CI: INFO	statistics	statistics: write: 20 statistics jobs in 671 ms - 33 ms/job
+Jun 01 06:12:03 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 2124 ms - 88 ms/job
+Jun 01 06:12:11 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 679 Idc: 4 Pdc: 3157 Pac: 2776 Wh: 231 IdLim: 1.00 Phi: 0.00 
+Jun 01 06:12:11 nto PU1: INFO	System	PLog2 300000 ms: tL1: 22 tL2: 22 tL3: 22 tCb: 37 tAc: 20 tDc: 23 
+Jun 01 06:12:11 nto PU1: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 4 iL3: 3 vL12: 388 vL23: 388 vL31: 388 f: 50.00 
+Jun 01 06:12:12 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 651 Idc: 4 Pdc: 2992 Pac: 2757 Wh: 229 IdLim: 1.00 Phi: 0.00 
+Jun 01 06:12:12 nto PU2: INFO	System	PLog2 300000 ms: tL1: 22 tL2: 22 tL3: 22 tCb: 37 tAc: 21 tDc: 23 
+Jun 01 06:12:12 nto PU2: INFO	System	PLog3 300000 ms: iL1: 4 iL2: 4 iL3: 3 vL12: 388 vL23: 388 vL31: 388 f: 50.00 
+Jun 01 06:12:12 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 687 Idc: 4 Pdc: 3097 Pac: 2918 Wh: 243 IdLim: 1.00 Phi: 0.00 
+Jun 01 06:12:12 nto PU3: INFO	System	PLog2 300000 ms: tL1: 22 tL2: 22 tL3: 22 tCb: 38 tAc: 20 tDc: 23 
+Jun 01 06:12:12 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 658 Idc: 5 Pdc: 3371 Pac: 3163 Wh: 263 IdLim: 1.00 Phi: 0.00 
+Jun 01 06:12:12 nto PU3: INFO	System	PLog3 300000 ms: iL1: 4 iL2: 4 iL3: 3 vL12: 388 vL23: 388 vL31: 388 f: 50.01 
+Jun 01 06:12:12 nto PU4: INFO	System	PLog2 300000 ms: tL1: 22 tL2: 22 tL3: 22 tCb: 38 tAc: 20 tDc: 23 
+Jun 01 06:12:12 nto PU4: INFO	System	PLog3 300000 ms: iL1: 4 iL2: 4 iL3: 4 vL12: 388 vL23: 388 vL31: 388 f: 50.01 
+Jun 01 06:14:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 375 ms - 75 ms/job
+Jun  1 06:15:04 rx10025878 syslogd: restart
+Jun 01 06:15:08 nto CI: INFO	OSLog1	MEM: 65631440 14491648 5711556 PROC:  
+Jun  1 06:15:09 rx10025878 syslogd: restart
+Jun  1 06:15:13 rx10025878 syslogd: restart
+Jun  1 06:15:16 rx10025878 syslogd: restart
+Jun  1 06:15:20 rx10025878 syslogd: restart

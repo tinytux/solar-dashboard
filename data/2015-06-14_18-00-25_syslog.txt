@@ -1,0 +1,60 @@
+Jun 14 17:45:25 rx10025878 syslogd: restart
+Jun 14 17:47:27 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 605 Idc: 5 Pdc: 3156 Pac: 2936 Wh: 244 IdLim: 0.97 Phi: 0.00 
+Jun 14 17:47:27 nto PU3: INFO	System	PLog2 300000 ms: tL1: 54 tL2: 55 tL3: 55 tCb: 54 tAc: 39 tDc: 23 
+Jun 14 17:47:27 nto PU3: INFO	System	PLog3 300000 ms: iL1: 4 iL2: 4 iL3: 4 vL12: 387 vL23: 387 vL31: 387 f: 50.02 
+Jun 14 17:47:27 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 607 Idc: 4 Pdc: 2923 Pac: 2934 Wh: 244 IdLim: 0.98 Phi: 0.00 
+Jun 14 17:47:27 nto PU2: INFO	System	PLog2 300000 ms: tL1: 51 tL2: 51 tL3: 51 tCb: 49 tAc: 38 tDc: 23 
+Jun 14 17:47:27 nto PU2: INFO	System	PLog3 300000 ms: iL1: 4 iL2: 4 iL3: 3 vL12: 387 vL23: 387 vL31: 387 f: 50.00 
+Jun 14 17:47:27 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 608 Idc: 5 Pdc: 3521 Pac: 3411 Wh: 284 IdLim: 0.98 Phi: 0.00 
+Jun 14 17:47:27 nto PU4: INFO	System	PLog2 300000 ms: tL1: 57 tL2: 58 tL3: 56 tCb: 51 tAc: 37 tDc: 23 
+Jun 14 17:47:27 nto PU4: INFO	System	PLog3 300000 ms: iL1: 4 iL2: 4 iL3: 4 vL12: 387 vL23: 387 vL31: 387 f: 50.01 
+Jun 14 17:47:31 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 610 Idc: 5 Pdc: 3118 Pac: 2593 Wh: 216 IdLim: 0.98 Phi: 0.00 
+Jun 14 17:47:31 nto PU1: INFO	System	PLog2 300000 ms: tL1: 55 tL2: 55 tL3: 54 tCb: 53 tAc: 36 tDc: 23 
+Jun 14 17:47:31 nto PU1: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 3 iL3: 3 vL12: 387 vL23: 386 vL31: 387 f: 50.01 
+Jun 14 17:48:00 nto CI: INFO	statistics	statistics: write: 11 day chart jobs in 704 ms - 64 ms/job
+Jun 14 17:48:02 nto CI: INFO	statistics	statistics: write: 13 day chart jobs in 621 ms - 47 ms/job
+Jun 14 17:50:03 nto CI: INFO	OSLog1	MEM: 64529616 12996608 7190212 PROC:  
+Jun 14 17:50:29 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 349 ms - 69 ms/job
+Jun 14 17:51:28 nto PU1: DEBUG	Mppt	FraunhoferIseTracker: COMPLETED 
+Jun 14 17:51:28 nto PU1: DEBUG	Mppt	SlowHsiaoChenTracker: RUNNING Current Power: 3000 Current Voltage: 593 
+Jun 14 17:52:26 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: COMPLETED 
+Jun 14 17:52:26 nto PU3: DEBUG	Mppt	SlowHsiaoChenTracker: RUNNING Current Power: 2999 Current Voltage: 611 
+Jun 14 17:52:28 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 606 Idc: 4 Pdc: 3003 Pac: 2824 Wh: 235 IdLim: 0.97 Phi: 0.00 
+Jun 14 17:52:28 nto PU3: INFO	System	PLog2 300000 ms: tL1: 54 tL2: 55 tL3: 54 tCb: 49 tAc: 38 tDc: 23 
+Jun 14 17:52:28 nto PU3: INFO	System	PLog3 300000 ms: iL1: 4 iL2: 4 iL3: 3 vL12: 388 vL23: 388 vL31: 388 f: 50.00 
+Jun 14 17:52:28 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 607 Idc: 4 Pdc: 2789 Pac: 2334 Wh: 194 IdLim: 0.97 Phi: 0.00 
+Jun 14 17:52:28 nto PU2: INFO	System	PLog2 300000 ms: tL1: 51 tL2: 52 tL3: 51 tCb: 53 tAc: 37 tDc: 23 
+Jun 14 17:52:28 nto PU2: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 4 iL3: 3 vL12: 388 vL23: 388 vL31: 388 f: 50.00 
+Jun 14 17:52:28 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 610 Idc: 5 Pdc: 3360 Pac: 2858 Wh: 238 IdLim: 0.97 Phi: 0.00 
+Jun 14 17:52:28 nto PU4: INFO	System	PLog2 300000 ms: tL1: 56 tL2: 58 tL3: 55 tCb: 53 tAc: 37 tDc: 23 
+Jun 14 17:52:28 nto PU4: INFO	System	PLog3 300000 ms: iL1: 4 iL2: 4 iL3: 4 vL12: 388 vL23: 388 vL31: 388 f: 49.99 
+Jun 14 17:52:33 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 585 Idc: 4 Pdc: 2848 Pac: 2571 Wh: 214 IdLim: 0.94 Phi: 0.00 
+Jun 14 17:52:33 nto PU1: INFO	System	PLog2 300000 ms: tL1: 55 tL2: 55 tL3: 54 tCb: 47 tAc: 36 tDc: 23 
+Jun 14 17:52:33 nto PU1: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 3 iL3: 3 vL12: 388 vL23: 388 vL31: 388 f: 50.00 
+Jun 14 17:55:03 nto CI: INFO	OSLog1	MEM: 64529616 12996608 7190212 PROC:  
+Jun 14 17:55:10 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 39.6 to 37.6
+Jun 14 17:55:12 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: COMPLETED 
+Jun 14 17:55:12 nto PU4: DEBUG	Mppt	SlowHsiaoChenTracker: RUNNING Current Power: 2998 Current Voltage: 604 
+Jun 14 17:57:10 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 350 ms - 70 ms/job
+Jun 14 17:57:15 nto CI: INFO	statistics	statistics: write: 10 statistics jobs in 547 ms - 54 ms/job
+Jun 14 17:57:18 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 540 ms - 108 ms/job
+Jun 14 17:57:29 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 601 Idc: 3 Pdc: 2274 Pac: 2054 Wh: 171 IdLim: 0.96 Phi: 0.00 
+Jun 14 17:57:29 nto PU3: INFO	System	PLog2 300000 ms: tL1: 54 tL2: 55 tL3: 54 tCb: 53 tAc: 38 tDc: 23 
+Jun 14 17:57:29 nto PU3: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 3 iL3: 2 vL12: 388 vL23: 388 vL31: 388 f: 50.02 
+Jun 14 17:57:29 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 607 Idc: 3 Pdc: 2094 Pac: 2023 Wh: 168 IdLim: 0.97 Phi: 0.00 
+Jun 14 17:57:29 nto PU2: INFO	System	PLog2 300000 ms: tL1: 51 tL2: 52 tL3: 51 tCb: 53 tAc: 37 tDc: 23 
+Jun 14 17:57:29 nto PU2: INFO	System	PLog3 300000 ms: iL1: 2 iL2: 2 iL3: 2 vL12: 388 vL23: 388 vL31: 388 f: 50.02 
+Jun 14 17:57:30 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 613 Idc: 4 Pdc: 2591 Pac: 2157 Wh: 179 IdLim: 0.98 Phi: 0.00 
+Jun 14 17:57:30 nto PU4: INFO	System	PLog2 300000 ms: tL1: 56 tL2: 58 tL3: 55 tCb: 53 tAc: 39 tDc: 23 
+Jun 14 17:57:30 nto PU4: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 3 iL3: 3 vL12: 388 vL23: 388 vL31: 388 f: 50.02 
+Jun 14 17:57:34 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 612 Idc: 3 Pdc: 2296 Pac: 1755 Wh: 146 IdLim: 0.98 Phi: 0.00 
+Jun 14 17:57:34 nto PU1: INFO	System	PLog2 300000 ms: tL1: 54 tL2: 55 tL3: 54 tCb: 51 tAc: 36 tDc: 23 
+Jun 14 17:57:34 nto PU1: INFO	System	PLog3 300000 ms: iL1: 2 iL2: 3 iL3: 2 vL12: 388 vL23: 388 vL31: 389 f: 50.01 
+Jun 14 18:00:01 nto CI: INFO	statistics	statistics: write: 9 day chart jobs in 927 ms - 103 ms/job
+Jun 14 18:00:04 nto CI: INFO	statistics	statistics: write: 15 day chart jobs in 2888 ms - 192 ms/job
+Jun 14 18:00:05 rx10025878 syslogd: restart
+Jun 14 18:00:09 nto CI: INFO	OSLog1	MEM: 66503888 14495744 5711556 PROC:  
+Jun 14 18:00:10 rx10025878 syslogd: restart
+Jun 14 18:00:13 rx10025878 syslogd: restart
+Jun 14 18:00:17 rx10025878 syslogd: restart
+Jun 14 18:00:21 rx10025878 syslogd: restart

@@ -1,0 +1,68 @@
+Jun 29 07:30:23 rx10025878 syslogd: restart
+Jun 29 07:30:54 nto login: ROOT LOGIN (root) ON ttyp0 FROM 192.168.125.100
+Jun 29 07:30:58 nto CI: INFO	rxsetup.sh	--uptime 
+Jun 29 07:30:59 nto CI: INFO	sysinfo.sh	Release name: SolarMax RX 1.2.0.7224.trunk  Release build date: Wed Nov 26 07:24:17 CET 2014 
+Jun 29 07:30:59 nto CI: INFO	sysinfo.sh	Firmware IU: 1.2.0.7224.trunk  CI: 1.2.0.7224.trunk 
+Jun 29 07:30:59 nto CI: INFO	sysinfo.sh	Firmware PU1: 1.2.0.7224.0xFA5E94B4BBC77129.release 
+Jun 29 07:30:59 nto CI: INFO	sysinfo.sh	Firmware PU2: 1.2.0.7224.0xFA5E94B4BBC77129.release 
+Jun 29 07:31:00 nto CI: INFO	sysinfo.sh	Firmware PU3: 1.2.0.7224.0xFA5E94B4BBC77129.release 
+Jun 29 07:31:00 nto CI: INFO	sysinfo.sh	Firmware PU4: 1.2.0.7224.0xFA5E94B4BBC77129.release 
+Jun 29 07:31:00 nto CI: INFO	sysinfo.sh	Uptime: uptime is 0 days 06:29:44 
+Jun 29 07:31:09 nto CI: INFO	sd	sd: READ - </configuration> Key Id 1121 (DATA_KEY_ID_PU1_STATUS) <Uint32> == 20008
+Jun 29 07:31:09 nto CI: INFO	sd	sd: READ - </configuration> Key Id 1221 (DATA_KEY_ID_PU2_STATUS) <Uint32> == 20008
+Jun 29 07:31:10 nto CI: INFO	sd	sd: READ - </configuration> Key Id 1321 (DATA_KEY_ID_PU3_STATUS) <Uint32> == 20008
+Jun 29 07:31:10 nto CI: INFO	sd	sd: READ - </configuration> Key Id 1421 (DATA_KEY_ID_PU4_STATUS) <Uint32> == 20008
+Jun 29 07:31:10 nto CI: INFO	sd	sd: READ - </configuration> Key Id 1003 (DATA_KEY_ID_INVERTER_STATUS) <Uint32> == 20008
+Jun 29 07:31:16 nto CI: INFO	sd	sd: READ - </configuration> Key Id 1105 (DATA_KEY_ID_PU1_PAC) <Float32> == 12597.000000
+Jun 29 07:31:16 nto CI: INFO	sd	sd: READ - </configuration> Key Id 1205 (DATA_KEY_ID_PU2_PAC) <Float32> == 12937.000000
+Jun 29 07:31:17 nto CI: INFO	sd	sd: READ - </configuration> Key Id 1305 (DATA_KEY_ID_PU3_PAC) <Float32> == 13957.500000
+Jun 29 07:31:17 nto CI: INFO	sd	sd: READ - </configuration> Key Id 1405 (DATA_KEY_ID_PU4_PAC) <Float32> == 14510.500000
+Jun 29 07:31:17 nto CI: INFO	sd	sd: READ - </configuration> Key Id 1000 (DATA_KEY_ID_INVERTER_PAC_TOTAL) <Float32> == 54293.500000
+Jun 29 07:31:40 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 708 Idc: 21 Pdc: 15176 Pac: 14734 Wh: 1227 IdLim: 1.00 Phi: 0.00 
+Jun 29 07:31:40 nto PU4: INFO	System	PLog2 300000 ms: tL1: 40 tL2: 41 tL3: 39 tCb: 42 tAc: 25 tDc: 23 
+Jun 29 07:31:40 nto PU4: INFO	System	PLog3 300000 ms: iL1: 21 iL2: 21 iL3: 21 vL12: 388 vL23: 388 vL31: 388 f: 49.98 
+Jun 29 07:31:40 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 695 Idc: 21 Pdc: 14645 Pac: 13887 Wh: 1157 IdLim: 1.00 Phi: 0.00 
+Jun 29 07:31:40 nto PU3: INFO	System	PLog2 300000 ms: tL1: 39 tL2: 40 tL3: 39 tCb: 42 tAc: 25 tDc: 23 
+Jun 29 07:31:40 nto PU3: INFO	System	PLog3 300000 ms: iL1: 20 iL2: 20 iL3: 20 vL12: 388 vL23: 388 vL31: 388 f: 49.99 
+Jun 29 07:31:41 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 719 Idc: 18 Pdc: 13520 Pac: 12891 Wh: 1074 IdLim: 1.00 Phi: 0.00 
+Jun 29 07:31:41 nto PU2: INFO	System	PLog2 300000 ms: tL1: 40 tL2: 40 tL3: 39 tCb: 42 tAc: 25 tDc: 23 
+Jun 29 07:31:41 nto PU2: INFO	System	PLog3 300000 ms: iL1: 18 iL2: 19 iL3: 18 vL12: 388 vL23: 388 vL31: 388 f: 49.98 
+Jun 29 07:31:42 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 701 Idc: 19 Pdc: 13768 Pac: 13099 Wh: 1091 IdLim: 1.00 Phi: 0.00 
+Jun 29 07:31:42 nto PU1: INFO	System	PLog2 300000 ms: tL1: 39 tL2: 39 tL3: 38 tCb: 41 tAc: 24 tDc: 23 
+Jun 29 07:31:42 nto PU1: INFO	System	PLog3 300000 ms: iL1: 19 iL2: 19 iL3: 19 vL12: 388 vL23: 388 vL31: 388 f: 49.99 
+Jun 29 07:35:03 nto CI: INFO	OSLog1	MEM: 64435408 12996608 7190212 PROC:  
+Jun 29 07:35:03 nto CI: INFO	statistics	statistics: write: 15 statistics jobs in 1066 ms - 71 ms/job
+Jun 29 07:35:04 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 477 ms - 95 ms/job
+Jun 29 07:36:01 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 799 ms - 33 ms/job
+Jun 29 07:36:41 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 704 Idc: 25 Pdc: 17707 Pac: 17221 Wh: 1435 IdLim: 1.00 Phi: 0.00 
+Jun 29 07:36:41 nto PU4: INFO	System	PLog2 300000 ms: tL1: 42 tL2: 43 tL3: 40 tCb: 42 tAc: 26 tDc: 23 
+Jun 29 07:36:41 nto PU4: INFO	System	PLog3 300000 ms: iL1: 25 iL2: 25 iL3: 25 vL12: 393 vL23: 392 vL31: 393 f: 49.99 
+Jun 29 07:36:42 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 705 Idc: 24 Pdc: 16977 Pac: 16457 Wh: 1371 IdLim: 1.00 Phi: 0.00 
+Jun 29 07:36:42 nto PU3: INFO	System	PLog2 300000 ms: tL1: 41 tL2: 42 tL3: 40 tCb: 43 tAc: 25 tDc: 23 
+Jun 29 07:36:42 nto PU3: INFO	System	PLog3 300000 ms: iL1: 23 iL2: 24 iL3: 23 vL12: 393 vL23: 392 vL31: 393 f: 49.99 
+Jun 29 07:36:42 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 700 Idc: 22 Pdc: 15887 Pac: 15220 Wh: 1268 IdLim: 1.00 Phi: 0.00 
+Jun 29 07:36:42 nto PU2: INFO	System	PLog2 300000 ms: tL1: 41 tL2: 41 tL3: 40 tCb: 42 tAc: 25 tDc: 23 
+Jun 29 07:36:42 nto PU2: INFO	System	PLog3 300000 ms: iL1: 22 iL2: 22 iL3: 21 vL12: 393 vL23: 393 vL31: 393 f: 49.99 
+Jun 29 07:36:43 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 705 Idc: 22 Pdc: 15969 Pac: 15356 Wh: 1279 IdLim: 1.00 Phi: 0.00 
+Jun 29 07:36:43 nto PU1: INFO	System	PLog2 300000 ms: tL1: 40 tL2: 40 tL3: 40 tCb: 41 tAc: 25 tDc: 23 
+Jun 29 07:36:43 nto PU1: INFO	System	PLog3 300000 ms: iL1: 21 iL2: 22 iL3: 21 vL12: 392 vL23: 392 vL31: 393 f: 49.99 
+Jun 29 07:38:19 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 362 ms - 72 ms/job
+Jun 29 07:40:03 nto CI: INFO	OSLog1	MEM: 64435408 12996608 7190212 PROC:  
+Jun 29 07:41:42 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 703 Idc: 27 Pdc: 19235 Pac: 18665 Wh: 1555 IdLim: 1.00 Phi: 0.00 
+Jun 29 07:41:42 nto PU4: INFO	System	PLog2 300000 ms: tL1: 43 tL2: 44 tL3: 42 tCb: 42 tAc: 26 tDc: 23 
+Jun 29 07:41:42 nto PU4: INFO	System	PLog3 300000 ms: iL1: 27 iL2: 27 iL3: 27 vL12: 391 vL23: 391 vL31: 391 f: 49.96 
+Jun 29 07:41:43 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 703 Idc: 26 Pdc: 18401 Pac: 17566 Wh: 1463 IdLim: 1.00 Phi: 0.00 
+Jun 29 07:41:43 nto PU3: INFO	System	PLog2 300000 ms: tL1: 42 tL2: 43 tL3: 42 tCb: 43 tAc: 26 tDc: 23 
+Jun 29 07:41:43 nto PU3: INFO	System	PLog3 300000 ms: iL1: 25 iL2: 26 iL3: 25 vL12: 391 vL23: 390 vL31: 391 f: 49.96 
+Jun 29 07:41:43 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 714 Idc: 23 Pdc: 17086 Pac: 16493 Wh: 1374 IdLim: 1.00 Phi: 0.00 
+Jun 29 07:41:43 nto PU2: INFO	System	PLog2 300000 ms: tL1: 42 tL2: 43 tL3: 42 tCb: 42 tAc: 26 tDc: 23 
+Jun 29 07:41:43 nto PU2: INFO	System	PLog3 300000 ms: iL1: 24 iL2: 24 iL3: 23 vL12: 391 vL23: 391 vL31: 391 f: 49.96 
+Jun 29 07:41:44 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 706 Idc: 24 Pdc: 17294 Pac: 16407 Wh: 1367 IdLim: 1.00 Phi: 0.00 
+Jun 29 07:41:44 nto PU1: INFO	System	PLog2 300000 ms: tL1: 42 tL2: 42 tL3: 41 tCb: 42 tAc: 25 tDc: 23 
+Jun 29 07:41:44 nto PU1: INFO	System	PLog3 300000 ms: iL1: 24 iL2: 24 iL3: 24 vL12: 391 vL23: 391 vL31: 391 f: 49.96 
+Jun 29 07:45:04 rx10025878 syslogd: restart
+Jun 29 07:45:07 nto CI: INFO	OSLog1	MEM: 66204880 14495744 5711556 PROC:  
+Jun 29 07:45:09 rx10025878 syslogd: restart
+Jun 29 07:45:12 rx10025878 syslogd: restart
+Jun 29 07:45:16 rx10025878 syslogd: restart
+Jun 29 07:45:19 rx10025878 syslogd: restart

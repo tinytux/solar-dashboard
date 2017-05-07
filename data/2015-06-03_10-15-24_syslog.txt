@@ -1,0 +1,61 @@
+Jun  3 10:00:24 rx10025878 syslogd: restart
+Jun 03 10:00:28 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 650 Idc: 148 Pdc: 96694 Pac: 94362 Wh: 7863 IdLim: 1.00 Phi: 0.00 
+Jun 03 10:00:28 nto PU3: INFO	System	PLog2 300000 ms: tL1: 59 tL2: 60 tL3: 59 tCb: 53 tAc: 40 tDc: 23 
+Jun 03 10:00:28 nto PU3: INFO	System	PLog3 300000 ms: iL1: 138 iL2: 138 iL3: 138 vL12: 393 vL23: 392 vL31: 393 f: 49.99 
+Jun 03 10:00:29 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 662 Idc: 128 Pdc: 84857 Pac: 83060 Wh: 6921 IdLim: 1.00 Phi: 0.00 
+Jun 03 10:00:29 nto PU2: INFO	System	PLog2 300000 ms: tL1: 55 tL2: 54 tL3: 54 tCb: 53 tAc: 39 tDc: 23 
+Jun 03 10:00:29 nto PU2: INFO	System	PLog3 300000 ms: iL1: 121 iL2: 121 iL3: 121 vL12: 393 vL23: 392 vL31: 393 f: 49.99 
+Jun 03 10:00:29 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 672 Idc: 138 Pdc: 93255 Pac: 90739 Wh: 7561 IdLim: 1.00 Phi: 0.00 
+Jun 03 10:00:29 nto PU4: INFO	System	PLog2 300000 ms: tL1: 57 tL2: 58 tL3: 57 tCb: 53 tAc: 39 tDc: 23 
+Jun 03 10:00:29 nto PU4: INFO	System	PLog3 300000 ms: iL1: 133 iL2: 133 iL3: 133 vL12: 393 vL23: 392 vL31: 392 f: 49.99 
+Jun 03 10:00:30 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 656 Idc: 133 Pdc: 87538 Pac: 85200 Wh: 7100 IdLim: 1.00 Phi: 0.00 
+Jun 03 10:00:30 nto PU1: INFO	System	PLog2 300000 ms: tL1: 50 tL2: 50 tL3: 51 tCb: 53 tAc: 38 tDc: 23 
+Jun 03 10:00:30 nto PU1: INFO	System	PLog3 300000 ms: iL1: 124 iL2: 125 iL3: 124 vL12: 393 vL23: 392 vL31: 393 f: 49.99 
+Jun 03 10:02:03 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 40.1 to 36.5
+Jun 03 10:02:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 509 ms - 101 ms/job
+Jun 03 10:02:23 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 36.5 to 33.7
+Jun 03 10:02:54 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 33.7 to 31.0
+Jun 03 10:03:34 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 31.0 to 28.9
+Jun 03 10:05:03 nto CI: INFO	OSLog1	MEM: 63886544 13037568 7190212 PROC:  
+Jun 03 10:05:16 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 28.9 to 26.9
+Jun 03 10:05:29 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 658 Idc: 148 Pdc: 97933 Pac: 95450 Wh: 7954 IdLim: 1.00 Phi: 0.00 
+Jun 03 10:05:29 nto PU3: INFO	System	PLog2 300000 ms: tL1: 54 tL2: 54 tL3: 54 tCb: 50 tAc: 31 tDc: 23 
+Jun 03 10:05:29 nto PU3: INFO	System	PLog3 300000 ms: iL1: 140 iL2: 140 iL3: 140 vL12: 392 vL23: 391 vL31: 392 f: 49.95 
+Jun 03 10:05:30 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 646 Idc: 133 Pdc: 86312 Pac: 84286 Wh: 7023 IdLim: 1.00 Phi: 0.00 
+Jun 03 10:05:30 nto PU2: INFO	System	PLog2 300000 ms: tL1: 49 tL2: 49 tL3: 49 tCb: 53 tAc: 29 tDc: 23 
+Jun 03 10:05:30 nto PU2: INFO	System	PLog3 300000 ms: iL1: 123 iL2: 123 iL3: 123 vL12: 392 vL23: 391 vL31: 392 f: 49.95 
+Jun 03 10:05:30 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 654 Idc: 145 Pdc: 94929 Pac: 92446 Wh: 7703 IdLim: 1.00 Phi: 0.00 
+Jun 03 10:05:30 nto PU4: INFO	System	PLog2 300000 ms: tL1: 51 tL2: 52 tL3: 51 tCb: 50 tAc: 30 tDc: 23 
+Jun 03 10:05:30 nto PU4: INFO	System	PLog3 300000 ms: iL1: 135 iL2: 135 iL3: 135 vL12: 392 vL23: 392 vL31: 392 f: 49.95 
+Jun 03 10:05:31 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 652 Idc: 136 Pdc: 88688 Pac: 86460 Wh: 7205 IdLim: 1.00 Phi: 0.00 
+Jun 03 10:05:31 nto PU1: INFO	System	PLog2 300000 ms: tL1: 60 tL2: 57 tL3: 58 tCb: 53 tAc: 28 tDc: 23 
+Jun 03 10:05:31 nto PU1: INFO	System	PLog3 300000 ms: iL1: 127 iL2: 127 iL3: 126 vL12: 391 vL23: 391 vL31: 392 f: 49.95 
+Jun 03 10:06:58 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 26.9 to 29.2
+Jun 03 10:09:00 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 29.2 to 31.2
+Jun 03 10:09:18 nto CI: INFO	statistics	statistics: write: 20 statistics jobs in 1539 ms - 76 ms/job
+Jun 03 10:09:41 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 31.2 to 33.7
+Jun 03 10:10:03 nto CI: INFO	OSLog1	MEM: 63886544 13037568 7190212 PROC:  
+Jun 03 10:10:30 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 653 Idc: 153 Pdc: 100534 Pac: 98125 Wh: 8177 IdLim: 1.00 Phi: 0.00 
+Jun 03 10:10:30 nto PU3: INFO	System	PLog2 300000 ms: tL1: 50 tL2: 50 tL3: 50 tCb: 51 tAc: 38 tDc: 23 
+Jun 03 10:10:30 nto PU3: INFO	System	PLog3 300000 ms: iL1: 143 iL2: 144 iL3: 143 vL12: 392 vL23: 391 vL31: 392 f: 49.97 
+Jun 03 10:10:31 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 663 Idc: 132 Pdc: 88140 Pac: 86055 Wh: 7171 IdLim: 1.00 Phi: 0.00 
+Jun 03 10:10:31 nto PU2: INFO	System	PLog2 300000 ms: tL1: 59 tL2: 59 tL3: 59 tCb: 53 tAc: 36 tDc: 23 
+Jun 03 10:10:31 nto PU2: INFO	System	PLog3 300000 ms: iL1: 126 iL2: 126 iL3: 126 vL12: 393 vL23: 392 vL31: 393 f: 49.98 
+Jun 03 10:10:31 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 658 Idc: 148 Pdc: 97428 Pac: 95013 Wh: 7917 IdLim: 1.00 Phi: 0.00 
+Jun 03 10:10:31 nto PU4: INFO	System	PLog2 300000 ms: tL1: 48 tL2: 52 tL3: 51 tCb: 51 tAc: 39 tDc: 23 
+Jun 03 10:10:31 nto PU4: INFO	System	PLog3 300000 ms: iL1: 139 iL2: 139 iL3: 139 vL12: 393 vL23: 392 vL31: 393 f: 49.97 
+Jun 03 10:10:32 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 656 Idc: 138 Pdc: 90831 Pac: 88275 Wh: 7356 IdLim: 1.00 Phi: 0.00 
+Jun 03 10:10:32 nto PU1: INFO	System	PLog2 300000 ms: tL1: 58 tL2: 56 tL3: 56 tCb: 50 tAc: 35 tDc: 23 
+Jun 03 10:10:32 nto PU1: INFO	System	PLog3 300000 ms: iL1: 129 iL2: 130 iL3: 129 vL12: 392 vL23: 392 vL31: 392 f: 49.97 
+Jun 03 10:11:13 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 33.7 to 36.0
+Jun 03 10:11:44 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 36.0 to 39.1
+Jun 03 10:12:03 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 2241 ms - 93 ms/job
+Jun 03 10:12:14 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 39.1 to 41.4
+Jun 03 10:14:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 322 ms - 64 ms/job
+Jun 03 10:14:47 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 41.4 to 39.3
+Jun  3 10:15:04 rx10025878 syslogd: restart
+Jun 03 10:15:08 nto CI: INFO	OSLog1	MEM: 65864912 14536704 5711556 PROC:  
+Jun  3 10:15:09 rx10025878 syslogd: restart
+Jun  3 10:15:12 rx10025878 syslogd: restart
+Jun  3 10:15:16 rx10025878 syslogd: restart
+Jun  3 10:15:20 rx10025878 syslogd: restart

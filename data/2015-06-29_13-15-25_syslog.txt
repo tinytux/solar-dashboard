@@ -1,0 +1,1192 @@
+Jun 29 13:00:24 rx10025878 syslogd: restart
+Jun 29 13:02:18 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 324 ms - 64 ms/job
+Jun 29 13:02:32 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 31.2 to 29.1
+Jun 29 13:02:58 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 594 Idc: 225 Pdc: 134289 Pac: 131066 Wh: 10922 IdLim: 0.94 Phi: 0.00 
+Jun 29 13:02:58 nto PU3: INFO	System	PLog2 300000 ms: tL1: 53 tL2: 54 tL3: 53 tCb: 53 tAc: 35 tDc: 23 
+Jun 29 13:02:58 nto PU3: INFO	System	PLog3 300000 ms: iL1: 192 iL2: 193 iL3: 192 vL12: 393 vL23: 392 vL31: 393 f: 50.00 
+Jun 29 13:02:59 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 602 Idc: 229 Pdc: 137832 Pac: 134025 Wh: 11168 IdLim: 0.95 Phi: 0.00 
+Jun 29 13:02:59 nto PU4: INFO	System	PLog2 300000 ms: tL1: 50 tL2: 52 tL3: 51 tCb: 53 tAc: 34 tDc: 23 
+Jun 29 13:02:59 nto PU4: INFO	System	PLog3 300000 ms: iL1: 196 iL2: 198 iL3: 196 vL12: 393 vL23: 392 vL31: 393 f: 50.00 
+Jun 29 13:03:01 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 600 Idc: 204 Pdc: 122311 Pac: 119583 Wh: 9965 IdLim: 0.95 Phi: 0.00 
+Jun 29 13:03:01 nto PU2: INFO	System	PLog2 300000 ms: tL1: 55 tL2: 55 tL3: 55 tCb: 51 tAc: 32 tDc: 23 
+Jun 29 13:03:01 nto PU2: INFO	System	PLog3 300000 ms: iL1: 175 iL2: 175 iL3: 175 vL12: 393 vL23: 392 vL31: 393 f: 50.00 
+Jun 29 13:03:03 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 602 Idc: 205 Pdc: 123471 Pac: 120458 Wh: 10038 IdLim: 0.96 Phi: 0.00 
+Jun 29 13:03:03 nto PU1: INFO	System	PLog2 300000 ms: tL1: 60 tL2: 58 tL3: 58 tCb: 50 tAc: 31 tDc: 23 
+Jun 29 13:03:03 nto PU1: INFO	System	PLog3 300000 ms: iL1: 176 iL2: 177 iL3: 176 vL12: 393 vL23: 392 vL31: 393 f: 50.01 
+Jun 29 13:05:03 nto CI: INFO	OSLog1	MEM: 64627920 12996608 7190212 PROC:  
+Jun 29 13:05:37 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147899 Current Voltage: 606 
+Jun 29 13:05:37 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:05:37 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147981 Current Voltage: 607 
+Jun 29 13:05:38 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147813 Current Voltage: 609 
+Jun 29 13:05:38 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:05:38 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147592 Current Voltage: 610 
+Jun 29 13:05:45 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146645 Current Voltage: 601 
+Jun 29 13:05:45 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:05:45 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146683 Current Voltage: 603 
+Jun 29 13:05:48 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146657 Current Voltage: 605 
+Jun 29 13:05:48 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:05:48 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146498 Current Voltage: 605 
+Jun 29 13:05:53 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146645 Current Voltage: 602 
+Jun 29 13:05:53 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:05:53 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146576 Current Voltage: 603 
+Jun 29 13:05:56 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146626 Current Voltage: 602 
+Jun 29 13:05:56 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:05:56 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146627 Current Voltage: 604 
+Jun 29 13:05:56 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146549 Current Voltage: 605 
+Jun 29 13:05:56 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:05:56 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146388 Current Voltage: 606 
+Jun 29 13:06:00 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146699 Current Voltage: 602 
+Jun 29 13:06:00 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:01 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146773 Current Voltage: 604 
+Jun 29 13:06:01 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146600 Current Voltage: 606 
+Jun 29 13:06:01 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:01 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146443 Current Voltage: 606 
+Jun 29 13:06:06 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146656 Current Voltage: 604 
+Jun 29 13:06:06 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:06 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146539 Current Voltage: 603 
+Jun 29 13:06:08 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146743 Current Voltage: 603 
+Jun 29 13:06:08 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:08 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146618 Current Voltage: 604 
+Jun 29 13:06:11 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146643 Current Voltage: 601 
+Jun 29 13:06:11 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:11 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146690 Current Voltage: 602 
+Jun 29 13:06:11 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146696 Current Voltage: 603 
+Jun 29 13:06:11 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:11 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146639 Current Voltage: 603 
+Jun 29 13:06:12 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20010   INVERTER SUBCODE 0   RunLevel 0   StatusCodePriority 9
+Jun 29 13:06:13 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146616 Current Voltage: 604 
+Jun 29 13:06:13 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:13 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146481 Current Voltage: 604 
+Jun 29 13:06:13 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20008   INVERTER SUBCODE 0   RunLevel 0   StatusCodePriority 6
+Jun 29 13:06:15 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146692 Current Voltage: 604 
+Jun 29 13:06:15 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:15 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146551 Current Voltage: 603 
+Jun 29 13:06:18 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146567 Current Voltage: 601 
+Jun 29 13:06:18 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:18 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146482 Current Voltage: 602 
+Jun 29 13:06:21 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146240 Current Voltage: 600 
+Jun 29 13:06:21 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:21 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146419 Current Voltage: 601 
+Jun 29 13:06:23 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146392 Current Voltage: 600 
+Jun 29 13:06:23 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:23 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146483 Current Voltage: 600 
+Jun 29 13:06:23 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146446 Current Voltage: 602 
+Jun 29 13:06:23 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:23 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146296 Current Voltage: 603 
+Jun 29 13:06:25 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146551 Current Voltage: 602 
+Jun 29 13:06:25 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:25 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146485 Current Voltage: 602 
+Jun 29 13:06:28 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146583 Current Voltage: 601 
+Jun 29 13:06:28 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:28 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146517 Current Voltage: 606 
+Jun 29 13:06:28 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:28 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146287 Current Voltage: 607 
+Jun 29 13:06:34 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146504 Current Voltage: 600 
+Jun 29 13:06:34 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:34 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146634 Current Voltage: 601 
+Jun 29 13:06:36 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146394 Current Voltage: 600 
+Jun 29 13:06:36 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:36 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146442 Current Voltage: 601 
+Jun 29 13:06:36 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146235 Current Voltage: 602 
+Jun 29 13:06:36 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:36 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146088 Current Voltage: 603 
+Jun 29 13:06:40 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146100 Current Voltage: 600 
+Jun 29 13:06:40 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:40 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146049 Current Voltage: 602 
+Jun 29 13:06:43 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146416 Current Voltage: 602 
+Jun 29 13:06:43 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:43 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146310 Current Voltage: 602 
+Jun 29 13:06:47 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146234 Current Voltage: 600 
+Jun 29 13:06:47 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:47 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146339 Current Voltage: 601 
+Jun 29 13:06:48 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146401 Current Voltage: 600 
+Jun 29 13:06:48 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:48 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146499 Current Voltage: 601 
+Jun 29 13:06:50 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146468 Current Voltage: 600 
+Jun 29 13:06:50 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:50 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146594 Current Voltage: 601 
+Jun 29 13:06:50 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146598 Current Voltage: 603 
+Jun 29 13:06:50 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:50 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146371 Current Voltage: 604 
+Jun 29 13:06:53 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146849 Current Voltage: 603 
+Jun 29 13:06:53 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:53 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146807 Current Voltage: 605 
+Jun 29 13:06:56 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146896 Current Voltage: 602 
+Jun 29 13:06:56 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:56 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147094 Current Voltage: 604 
+Jun 29 13:06:56 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147026 Current Voltage: 605 
+Jun 29 13:06:56 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:06:56 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146828 Current Voltage: 606 
+Jun 29 13:07:00 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147207 Current Voltage: 603 
+Jun 29 13:07:00 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:00 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147273 Current Voltage: 605 
+Jun 29 13:07:02 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147399 Current Voltage: 605 
+Jun 29 13:07:02 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:02 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147474 Current Voltage: 606 
+Jun 29 13:07:03 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147606 Current Voltage: 606 
+Jun 29 13:07:03 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:03 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147589 Current Voltage: 606 
+Jun 29 13:07:05 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147553 Current Voltage: 605 
+Jun 29 13:07:05 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:05 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147568 Current Voltage: 605 
+Jun 29 13:07:07 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147402 Current Voltage: 605 
+Jun 29 13:07:07 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:07 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147467 Current Voltage: 606 
+Jun 29 13:07:10 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147362 Current Voltage: 604 
+Jun 29 13:07:10 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:10 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147511 Current Voltage: 605 
+Jun 29 13:07:13 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147018 Current Voltage: 603 
+Jun 29 13:07:13 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:13 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146949 Current Voltage: 604 
+Jun 29 13:07:17 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146952 Current Voltage: 603 
+Jun 29 13:07:17 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:17 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147050 Current Voltage: 604 
+Jun 29 13:07:17 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146933 Current Voltage: 606 
+Jun 29 13:07:17 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:17 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146778 Current Voltage: 607 
+Jun 29 13:07:20 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147411 Current Voltage: 605 
+Jun 29 13:07:20 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:20 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147419 Current Voltage: 606 
+Jun 29 13:07:28 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146265 Current Voltage: 599 
+Jun 29 13:07:28 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:28 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146376 Current Voltage: 600 
+Jun 29 13:07:30 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146841 Current Voltage: 603 
+Jun 29 13:07:30 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:30 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146763 Current Voltage: 604 
+Jun 29 13:07:33 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146586 Current Voltage: 601 
+Jun 29 13:07:33 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:33 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146500 Current Voltage: 601 
+Jun 29 13:07:33 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146378 Current Voltage: 603 
+Jun 29 13:07:33 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:33 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146171 Current Voltage: 603 
+Jun 29 13:07:36 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146511 Current Voltage: 601 
+Jun 29 13:07:36 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:36 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146412 Current Voltage: 603 
+Jun 29 13:07:38 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147122 Current Voltage: 602 
+Jun 29 13:07:38 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:38 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147113 Current Voltage: 603 
+Jun 29 13:07:39 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146965 Current Voltage: 603 
+Jun 29 13:07:39 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:39 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147125 Current Voltage: 603 
+Jun 29 13:07:40 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147144 Current Voltage: 605 
+Jun 29 13:07:40 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:40 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146987 Current Voltage: 605 
+Jun 29 13:07:43 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147146 Current Voltage: 605 
+Jun 29 13:07:43 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:43 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147079 Current Voltage: 606 
+Jun 29 13:07:46 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147179 Current Voltage: 604 
+Jun 29 13:07:46 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:46 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147097 Current Voltage: 605 
+Jun 29 13:07:48 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147597 Current Voltage: 605 
+Jun 29 13:07:48 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:48 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147702 Current Voltage: 606 
+Jun 29 13:07:48 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147664 Current Voltage: 607 
+Jun 29 13:07:48 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:48 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147502 Current Voltage: 608 
+Jun 29 13:07:51 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148057 Current Voltage: 607 
+Jun 29 13:07:51 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:51 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148006 Current Voltage: 607 
+Jun 29 13:07:51 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148038 Current Voltage: 609 
+Jun 29 13:07:51 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:51 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147856 Current Voltage: 609 
+Jun 29 13:07:53 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148066 Current Voltage: 608 
+Jun 29 13:07:53 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:53 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147976 Current Voltage: 608 
+Jun 29 13:07:56 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147922 Current Voltage: 606 
+Jun 29 13:07:56 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:56 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147966 Current Voltage: 609 
+Jun 29 13:07:57 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 143447 Current Voltage: 591 
+Jun 29 13:07:57 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:57 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 143424 Current Voltage: 594 
+Jun 29 13:07:59 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147899 Current Voltage: 606 
+Jun 29 13:07:59 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:07:59 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147901 Current Voltage: 607 
+Jun 29 13:08:00 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 592 Idc: 242 Pdc: 143261 Pac: 139603 Wh: 11633 IdLim: 0.94 Phi: 0.00 
+Jun 29 13:08:00 nto PU3: INFO	System	PLog2 300000 ms: tL1: 57 tL2: 58 tL3: 57 tCb: 53 tAc: 34 tDc: 23 
+Jun 29 13:08:00 nto PU3: INFO	System	PLog3 300000 ms: iL1: 204 iL2: 206 iL3: 204 vL12: 393 vL23: 392 vL31: 393 f: 50.01 
+Jun 29 13:08:00 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 610 Idc: 241 Pdc: 147368 Pac: 143362 Wh: 11946 IdLim: 0.96 Phi: 0.00 
+Jun 29 13:08:00 nto PU4: INFO	System	PLog2 300000 ms: tL1: 49 tL2: 53 tL3: 51 tCb: 52 tAc: 35 tDc: 23 
+Jun 29 13:08:00 nto PU4: INFO	System	PLog3 300000 ms: iL1: 210 iL2: 210 iL3: 209 vL12: 393 vL23: 393 vL31: 393 f: 50.01 
+Jun 29 13:08:01 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147852 Current Voltage: 606 
+Jun 29 13:08:01 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:01 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147898 Current Voltage: 607 
+Jun 29 13:08:02 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 143208 Current Voltage: 590 
+Jun 29 13:08:02 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:02 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 143246 Current Voltage: 592 
+Jun 29 13:08:03 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 591 Idc: 222 Pdc: 131710 Pac: 128588 Wh: 10715 IdLim: 0.94 Phi: 0.00 
+Jun 29 13:08:03 nto PU2: INFO	System	PLog2 300000 ms: tL1: 59 tL2: 60 tL3: 59 tCb: 51 tAc: 31 tDc: 23 
+Jun 29 13:08:03 nto PU2: INFO	System	PLog3 300000 ms: iL1: 188 iL2: 188 iL3: 188 vL12: 393 vL23: 392 vL31: 393 f: 50.01 
+Jun 29 13:08:04 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147496 Current Voltage: 606 
+Jun 29 13:08:04 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:04 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147423 Current Voltage: 606 
+Jun 29 13:08:04 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 598 Idc: 221 Pdc: 132611 Pac: 128937 Wh: 10744 IdLim: 0.95 Phi: 0.00 
+Jun 29 13:08:04 nto PU1: INFO	System	PLog2 300000 ms: tL1: 60 tL2: 58 tL3: 57 tCb: 50 tAc: 31 tDc: 23 
+Jun 29 13:08:04 nto PU1: INFO	System	PLog3 300000 ms: iL1: 189 iL2: 189 iL3: 188 vL12: 393 vL23: 392 vL31: 393 f: 50.01 
+Jun 29 13:08:06 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 142713 Current Voltage: 589 
+Jun 29 13:08:06 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:06 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 142534 Current Voltage: 592 
+Jun 29 13:08:06 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 142464 Current Voltage: 594 
+Jun 29 13:08:06 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:06 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 142361 Current Voltage: 596 
+Jun 29 13:08:07 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147184 Current Voltage: 604 
+Jun 29 13:08:07 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:07 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147199 Current Voltage: 604 
+Jun 29 13:08:12 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146497 Current Voltage: 600 
+Jun 29 13:08:12 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:12 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146574 Current Voltage: 602 
+Jun 29 13:08:14 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146826 Current Voltage: 603 
+Jun 29 13:08:14 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:14 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146832 Current Voltage: 604 
+Jun 29 13:08:17 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146795 Current Voltage: 602 
+Jun 29 13:08:17 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:17 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146853 Current Voltage: 602 
+Jun 29 13:08:18 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147337 Current Voltage: 606 
+Jun 29 13:08:18 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:18 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147212 Current Voltage: 607 
+Jun 29 13:08:21 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147377 Current Voltage: 605 
+Jun 29 13:08:21 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:21 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147475 Current Voltage: 606 
+Jun 29 13:08:24 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147565 Current Voltage: 605 
+Jun 29 13:08:24 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:24 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147574 Current Voltage: 606 
+Jun 29 13:08:28 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147678 Current Voltage: 606 
+Jun 29 13:08:28 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:28 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147753 Current Voltage: 606 
+Jun 29 13:08:38 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145961 Current Voltage: 599 
+Jun 29 13:08:38 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:38 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146109 Current Voltage: 600 
+Jun 29 13:08:41 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145976 Current Voltage: 599 
+Jun 29 13:08:41 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:41 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146001 Current Voltage: 600 
+Jun 29 13:08:43 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145909 Current Voltage: 601 
+Jun 29 13:08:43 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:43 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145715 Current Voltage: 601 
+Jun 29 13:08:45 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146482 Current Voltage: 601 
+Jun 29 13:08:45 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:45 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146484 Current Voltage: 602 
+Jun 29 13:08:46 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146981 Current Voltage: 603 
+Jun 29 13:08:46 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:46 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147220 Current Voltage: 604 
+Jun 29 13:08:48 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147410 Current Voltage: 605 
+Jun 29 13:08:48 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:48 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147495 Current Voltage: 606 
+Jun 29 13:08:51 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147352 Current Voltage: 605 
+Jun 29 13:08:51 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:52 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147386 Current Voltage: 606 
+Jun 29 13:08:53 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147605 Current Voltage: 605 
+Jun 29 13:08:53 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:53 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147685 Current Voltage: 606 
+Jun 29 13:08:53 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 142737 Current Voltage: 590 
+Jun 29 13:08:53 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:53 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 142708 Current Voltage: 593 
+Jun 29 13:08:58 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 143127 Current Voltage: 591 
+Jun 29 13:08:58 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:58 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 142981 Current Voltage: 593 
+Jun 29 13:08:59 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147637 Current Voltage: 605 
+Jun 29 13:08:59 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:08:59 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147574 Current Voltage: 606 
+Jun 29 13:09:02 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147271 Current Voltage: 604 
+Jun 29 13:09:02 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:02 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147394 Current Voltage: 605 
+Jun 29 13:09:03 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 142787 Current Voltage: 590 
+Jun 29 13:09:03 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:03 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 142606 Current Voltage: 593 
+Jun 29 13:09:03 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:03 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 142420 Current Voltage: 596 
+Jun 29 13:09:06 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147120 Current Voltage: 604 
+Jun 29 13:09:06 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:06 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147155 Current Voltage: 605 
+Jun 29 13:09:09 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147253 Current Voltage: 603 
+Jun 29 13:09:09 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:09 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147358 Current Voltage: 604 
+Jun 29 13:09:11 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147344 Current Voltage: 605 
+Jun 29 13:09:11 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:11 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147456 Current Voltage: 606 
+Jun 29 13:09:14 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147220 Current Voltage: 603 
+Jun 29 13:09:14 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:14 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147349 Current Voltage: 605 
+Jun 29 13:09:14 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147215 Current Voltage: 606 
+Jun 29 13:09:14 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:14 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147006 Current Voltage: 606 
+Jun 29 13:09:16 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147300 Current Voltage: 605 
+Jun 29 13:09:16 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:16 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147295 Current Voltage: 606 
+Jun 29 13:09:19 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147367 Current Voltage: 603 
+Jun 29 13:09:19 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:19 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147383 Current Voltage: 604 
+Jun 29 13:09:19 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147447 Current Voltage: 605 
+Jun 29 13:09:19 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:19 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147508 Current Voltage: 605 
+Jun 29 13:09:21 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147602 Current Voltage: 605 
+Jun 29 13:09:21 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:21 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147733 Current Voltage: 606 
+Jun 29 13:09:22 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147962 Current Voltage: 607 
+Jun 29 13:09:22 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:22 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147937 Current Voltage: 607 
+Jun 29 13:09:24 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147988 Current Voltage: 606 
+Jun 29 13:09:24 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:24 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148069 Current Voltage: 607 
+Jun 29 13:09:25 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148097 Current Voltage: 609 
+Jun 29 13:09:25 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:25 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148002 Current Voltage: 609 
+Jun 29 13:09:28 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 143744 Current Voltage: 593 
+Jun 29 13:09:28 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:28 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 143663 Current Voltage: 595 
+Jun 29 13:09:28 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:28 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 143464 Current Voltage: 596 
+Jun 29 13:09:28 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148017 Current Voltage: 607 
+Jun 29 13:09:28 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:28 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148067 Current Voltage: 607 
+Jun 29 13:09:30 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148067 Current Voltage: 608 
+Jun 29 13:09:30 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:30 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147963 Current Voltage: 608 
+Jun 29 13:09:32 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148172 Current Voltage: 607 
+Jun 29 13:09:32 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:32 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148202 Current Voltage: 608 
+Jun 29 13:09:32 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148152 Current Voltage: 609 
+Jun 29 13:09:32 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:32 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148034 Current Voltage: 609 
+Jun 29 13:09:33 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 143886 Current Voltage: 593 
+Jun 29 13:09:33 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:33 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 143922 Current Voltage: 594 
+Jun 29 13:09:41 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146216 Current Voltage: 599 
+Jun 29 13:09:41 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:41 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146303 Current Voltage: 600 
+Jun 29 13:09:43 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146278 Current Voltage: 600 
+Jun 29 13:09:43 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:43 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146389 Current Voltage: 601 
+Jun 29 13:09:43 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:43 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146326 Current Voltage: 602 
+Jun 29 13:09:43 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 141600 Current Voltage: 585 
+Jun 29 13:09:43 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:43 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 141499 Current Voltage: 586 
+Jun 29 13:09:45 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146469 Current Voltage: 601 
+Jun 29 13:09:45 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:45 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146364 Current Voltage: 602 
+Jun 29 13:09:45 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146204 Current Voltage: 603 
+Jun 29 13:09:45 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:45 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145996 Current Voltage: 603 
+Jun 29 13:09:47 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 141873 Current Voltage: 585 
+Jun 29 13:09:47 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:47 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 141867 Current Voltage: 588 
+Jun 29 13:09:48 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146645 Current Voltage: 601 
+Jun 29 13:09:48 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:48 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146742 Current Voltage: 603 
+Jun 29 13:09:48 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146405 Current Voltage: 605 
+Jun 29 13:09:48 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:48 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146264 Current Voltage: 606 
+Jun 29 13:09:50 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 141933 Current Voltage: 589 
+Jun 29 13:09:50 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:50 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 141819 Current Voltage: 591 
+Jun 29 13:09:53 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146411 Current Voltage: 603 
+Jun 29 13:09:53 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:53 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146162 Current Voltage: 604 
+Jun 29 13:09:55 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147084 Current Voltage: 604 
+Jun 29 13:09:55 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:55 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147151 Current Voltage: 604 
+Jun 29 13:09:56 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147577 Current Voltage: 605 
+Jun 29 13:09:56 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:56 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147727 Current Voltage: 606 
+Jun 29 13:09:56 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:56 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147700 Current Voltage: 607 
+Jun 29 13:09:58 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147960 Current Voltage: 606 
+Jun 29 13:09:58 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:58 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148057 Current Voltage: 607 
+Jun 29 13:09:58 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147928 Current Voltage: 609 
+Jun 29 13:09:58 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:09:58 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147773 Current Voltage: 609 
+Jun 29 13:10:01 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148442 Current Voltage: 608 
+Jun 29 13:10:01 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:01 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148380 Current Voltage: 610 
+Jun 29 13:10:03 nto CI: INFO	OSLog1	MEM: 64627920 12996608 7190212 PROC:  
+Jun 29 13:10:04 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 144481 Current Voltage: 597 
+Jun 29 13:10:04 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:04 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 144335 Current Voltage: 598 
+Jun 29 13:10:04 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148569 Current Voltage: 610 
+Jun 29 13:10:04 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:04 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148437 Current Voltage: 611 
+Jun 29 13:10:07 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 144648 Current Voltage: 596 
+Jun 29 13:10:07 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:07 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 144587 Current Voltage: 598 
+Jun 29 13:10:07 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 144354 Current Voltage: 600 
+Jun 29 13:10:07 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:07 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 144101 Current Voltage: 600 
+Jun 29 13:10:07 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148639 Current Voltage: 610 
+Jun 29 13:10:07 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:07 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148527 Current Voltage: 612 
+Jun 29 13:10:10 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148761 Current Voltage: 611 
+Jun 29 13:10:10 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:10 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148526 Current Voltage: 612 
+Jun 29 13:10:12 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148814 Current Voltage: 611 
+Jun 29 13:10:12 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:12 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148717 Current Voltage: 612 
+Jun 29 13:10:12 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 144840 Current Voltage: 598 
+Jun 29 13:10:12 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:12 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 144774 Current Voltage: 599 
+Jun 29 13:10:14 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148989 Current Voltage: 611 
+Jun 29 13:10:14 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:14 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148968 Current Voltage: 612 
+Jun 29 13:10:15 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149066 Current Voltage: 612 
+Jun 29 13:10:15 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:15 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148834 Current Voltage: 613 
+Jun 29 13:10:16 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145002 Current Voltage: 598 
+Jun 29 13:10:16 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:16 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 144886 Current Voltage: 599 
+Jun 29 13:10:17 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149214 Current Voltage: 612 
+Jun 29 13:10:17 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:17 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148976 Current Voltage: 613 
+Jun 29 13:10:18 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145263 Current Voltage: 599 
+Jun 29 13:10:18 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:18 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145245 Current Voltage: 600 
+Jun 29 13:10:19 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149361 Current Voltage: 614 
+Jun 29 13:10:19 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:19 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148951 Current Voltage: 615 
+Jun 29 13:10:22 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148748 Current Voltage: 615 
+Jun 29 13:10:22 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:22 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148569 Current Voltage: 616 
+Jun 29 13:10:23 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145317 Current Voltage: 599 
+Jun 29 13:10:23 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:23 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145320 Current Voltage: 600 
+Jun 29 13:10:26 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145120 Current Voltage: 598 
+Jun 29 13:10:26 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:26 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145117 Current Voltage: 600 
+Jun 29 13:10:26 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20010   INVERTER SUBCODE 0   RunLevel 0   StatusCodePriority 9
+Jun 29 13:10:26 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149240 Current Voltage: 612 
+Jun 29 13:10:26 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:26 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149183 Current Voltage: 613 
+Jun 29 13:10:26 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 144809 Current Voltage: 603 
+Jun 29 13:10:26 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:26 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 144589 Current Voltage: 603 
+Jun 29 13:10:27 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20008   INVERTER SUBCODE 0   RunLevel 0   StatusCodePriority 6
+Jun 29 13:10:28 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149311 Current Voltage: 612 
+Jun 29 13:10:28 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:28 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149251 Current Voltage: 613 
+Jun 29 13:10:30 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149211 Current Voltage: 614 
+Jun 29 13:10:30 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:30 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148792 Current Voltage: 615 
+Jun 29 13:10:31 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145373 Current Voltage: 599 
+Jun 29 13:10:31 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:31 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145382 Current Voltage: 600 
+Jun 29 13:10:33 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149373 Current Voltage: 612 
+Jun 29 13:10:33 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:33 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149267 Current Voltage: 613 
+Jun 29 13:10:34 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145374 Current Voltage: 599 
+Jun 29 13:10:34 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:34 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145237 Current Voltage: 601 
+Jun 29 13:10:35 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149347 Current Voltage: 613 
+Jun 29 13:10:35 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:35 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149181 Current Voltage: 613 
+Jun 29 13:10:37 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149439 Current Voltage: 613 
+Jun 29 13:10:37 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:37 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149170 Current Voltage: 615 
+Jun 29 13:10:37 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145450 Current Voltage: 598 
+Jun 29 13:10:37 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:37 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145518 Current Voltage: 599 
+Jun 29 13:10:39 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149454 Current Voltage: 614 
+Jun 29 13:10:39 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:39 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149330 Current Voltage: 614 
+Jun 29 13:10:39 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145568 Current Voltage: 602 
+Jun 29 13:10:39 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:39 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145343 Current Voltage: 602 
+Jun 29 13:10:40 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149465 Current Voltage: 614 
+Jun 29 13:10:40 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:40 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149255 Current Voltage: 616 
+Jun 29 13:10:42 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149685 Current Voltage: 616 
+Jun 29 13:10:42 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:42 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145779 Current Voltage: 601 
+Jun 29 13:10:42 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:42 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149307 Current Voltage: 617 
+Jun 29 13:10:42 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145760 Current Voltage: 602 
+Jun 29 13:10:44 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145974 Current Voltage: 601 
+Jun 29 13:10:44 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:44 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146046 Current Voltage: 602 
+Jun 29 13:10:45 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149806 Current Voltage: 616 
+Jun 29 13:10:45 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:45 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149559 Current Voltage: 617 
+Jun 29 13:10:47 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146140 Current Voltage: 602 
+Jun 29 13:10:47 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:47 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146180 Current Voltage: 603 
+Jun 29 13:10:48 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149959 Current Voltage: 617 
+Jun 29 13:10:48 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:48 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149569 Current Voltage: 617 
+Jun 29 13:10:48 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146220 Current Voltage: 602 
+Jun 29 13:10:48 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:48 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146263 Current Voltage: 603 
+Jun 29 13:10:50 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149735 Current Voltage: 617 
+Jun 29 13:10:50 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:50 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149356 Current Voltage: 618 
+Jun 29 13:10:51 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149274 Current Voltage: 618 
+Jun 29 13:10:52 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:52 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146082 Current Voltage: 601 
+Jun 29 13:10:52 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:52 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149061 Current Voltage: 618 
+Jun 29 13:10:52 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146098 Current Voltage: 601 
+Jun 29 13:10:53 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146010 Current Voltage: 601 
+Jun 29 13:10:53 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:53 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145923 Current Voltage: 603 
+Jun 29 13:10:53 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:53 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145782 Current Voltage: 604 
+Jun 29 13:10:56 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149295 Current Voltage: 616 
+Jun 29 13:10:56 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:56 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149117 Current Voltage: 616 
+Jun 29 13:10:57 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145862 Current Voltage: 601 
+Jun 29 13:10:57 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:10:57 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145826 Current Voltage: 602 
+Jun 29 13:11:01 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149374 Current Voltage: 613 
+Jun 29 13:11:01 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:01 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149228 Current Voltage: 614 
+Jun 29 13:11:01 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145464 Current Voltage: 599 
+Jun 29 13:11:01 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:01 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145464 Current Voltage: 601 
+Jun 29 13:11:02 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149446 Current Voltage: 614 
+Jun 29 13:11:02 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:02 nto CI: INFO	statistics	statistics: write: 15 statistics jobs in 557 ms - 37 ms/job
+Jun 29 13:11:02 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149092 Current Voltage: 615 
+Jun 29 13:11:04 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20010   INVERTER SUBCODE 0   RunLevel 0   StatusCodePriority 9
+Jun 29 13:11:04 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145439 Current Voltage: 599 
+Jun 29 13:11:04 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:04 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145383 Current Voltage: 601 
+Jun 29 13:11:05 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 1200 ms - 240 ms/job
+Jun 29 13:11:05 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20008   INVERTER SUBCODE 0   RunLevel 0   StatusCodePriority 6
+Jun 29 13:11:05 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149592 Current Voltage: 613 
+Jun 29 13:11:05 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:06 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149434 Current Voltage: 615 
+Jun 29 13:11:07 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149305 Current Voltage: 617 
+Jun 29 13:11:07 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:07 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149036 Current Voltage: 617 
+Jun 29 13:11:07 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145724 Current Voltage: 599 
+Jun 29 13:11:07 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:07 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145778 Current Voltage: 601 
+Jun 29 13:11:07 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145643 Current Voltage: 603 
+Jun 29 13:11:07 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:07 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145387 Current Voltage: 603 
+Jun 29 13:11:10 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149795 Current Voltage: 616 
+Jun 29 13:11:10 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:10 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149584 Current Voltage: 617 
+Jun 29 13:11:10 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146037 Current Voltage: 600 
+Jun 29 13:11:10 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:10 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146081 Current Voltage: 601 
+Jun 29 13:11:11 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150048 Current Voltage: 617 
+Jun 29 13:11:11 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:11 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149760 Current Voltage: 618 
+Jun 29 13:11:12 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146212 Current Voltage: 601 
+Jun 29 13:11:12 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:12 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146219 Current Voltage: 602 
+Jun 29 13:11:13 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146393 Current Voltage: 602 
+Jun 29 13:11:13 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:13 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146441 Current Voltage: 603 
+Jun 29 13:11:14 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149973 Current Voltage: 618 
+Jun 29 13:11:14 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:14 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149527 Current Voltage: 618 
+Jun 29 13:11:15 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146343 Current Voltage: 603 
+Jun 29 13:11:15 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:15 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146344 Current Voltage: 603 
+Jun 29 13:11:18 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145961 Current Voltage: 601 
+Jun 29 13:11:18 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:18 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145993 Current Voltage: 602 
+Jun 29 13:11:19 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149542 Current Voltage: 615 
+Jun 29 13:11:19 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:19 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149376 Current Voltage: 616 
+Jun 29 13:11:20 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145876 Current Voltage: 602 
+Jun 29 13:11:20 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:20 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145800 Current Voltage: 603 
+Jun 29 13:11:21 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149732 Current Voltage: 616 
+Jun 29 13:11:21 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:21 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149504 Current Voltage: 616 
+Jun 29 13:11:22 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149899 Current Voltage: 616 
+Jun 29 13:11:22 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:22 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149615 Current Voltage: 617 
+Jun 29 13:11:23 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146129 Current Voltage: 602 
+Jun 29 13:11:23 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:23 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146165 Current Voltage: 603 
+Jun 29 13:11:24 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150049 Current Voltage: 616 
+Jun 29 13:11:24 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:24 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149882 Current Voltage: 617 
+Jun 29 13:11:26 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146268 Current Voltage: 602 
+Jun 29 13:11:26 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:26 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146286 Current Voltage: 603 
+Jun 29 13:11:26 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150023 Current Voltage: 617 
+Jun 29 13:11:26 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:26 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149627 Current Voltage: 618 
+Jun 29 13:11:27 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146298 Current Voltage: 602 
+Jun 29 13:11:27 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:27 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146344 Current Voltage: 603 
+Jun 29 13:11:29 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149954 Current Voltage: 616 
+Jun 29 13:11:29 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:29 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149944 Current Voltage: 616 
+Jun 29 13:11:30 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149950 Current Voltage: 616 
+Jun 29 13:11:30 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:30 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149808 Current Voltage: 617 
+Jun 29 13:11:31 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146223 Current Voltage: 602 
+Jun 29 13:11:31 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:31 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146273 Current Voltage: 603 
+Jun 29 13:11:32 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150009 Current Voltage: 616 
+Jun 29 13:11:32 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:32 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149838 Current Voltage: 616 
+Jun 29 13:11:33 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146209 Current Voltage: 602 
+Jun 29 13:11:33 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:33 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146241 Current Voltage: 603 
+Jun 29 13:11:34 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149941 Current Voltage: 617 
+Jun 29 13:11:34 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:34 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149527 Current Voltage: 618 
+Jun 29 13:11:36 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146259 Current Voltage: 602 
+Jun 29 13:11:36 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:36 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146306 Current Voltage: 603 
+Jun 29 13:11:37 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150248 Current Voltage: 616 
+Jun 29 13:11:37 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:37 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150208 Current Voltage: 617 
+Jun 29 13:11:38 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146389 Current Voltage: 602 
+Jun 29 13:11:38 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:38 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146458 Current Voltage: 603 
+Jun 29 13:11:38 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20010   INVERTER SUBCODE 0   RunLevel 0   StatusCodePriority 9
+Jun 29 13:11:39 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150415 Current Voltage: 617 
+Jun 29 13:11:39 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:39 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150333 Current Voltage: 617 
+Jun 29 13:11:40 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20008   INVERTER SUBCODE 0   RunLevel 0   StatusCodePriority 6
+Jun 29 13:11:40 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146663 Current Voltage: 604 
+Jun 29 13:11:40 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:40 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146588 Current Voltage: 605 
+Jun 29 13:11:40 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146193 Current Voltage: 606 
+Jun 29 13:11:40 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:40 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146055 Current Voltage: 607 
+Jun 29 13:11:40 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150573 Current Voltage: 618 
+Jun 29 13:11:40 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:40 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150303 Current Voltage: 619 
+Jun 29 13:11:42 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150711 Current Voltage: 619 
+Jun 29 13:11:42 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:42 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150377 Current Voltage: 620 
+Jun 29 13:11:43 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146949 Current Voltage: 605 
+Jun 29 13:11:43 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:43 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146942 Current Voltage: 606 
+Jun 29 13:11:43 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20010   INVERTER SUBCODE 0   RunLevel 0   StatusCodePriority 9
+Jun 29 13:11:44 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20008   INVERTER SUBCODE 0   RunLevel 0   StatusCodePriority 6
+Jun 29 13:11:45 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150915 Current Voltage: 618 
+Jun 29 13:11:45 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:45 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150944 Current Voltage: 619 
+Jun 29 13:11:46 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150817 Current Voltage: 620 
+Jun 29 13:11:46 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:46 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150561 Current Voltage: 621 
+Jun 29 13:11:47 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147219 Current Voltage: 606 
+Jun 29 13:11:47 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:47 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147129 Current Voltage: 608 
+Jun 29 13:11:49 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150792 Current Voltage: 619 
+Jun 29 13:11:49 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:49 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150723 Current Voltage: 620 
+Jun 29 13:11:50 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147182 Current Voltage: 606 
+Jun 29 13:11:50 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:50 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147246 Current Voltage: 607 
+Jun 29 13:11:51 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150943 Current Voltage: 620 
+Jun 29 13:11:51 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:51 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150652 Current Voltage: 621 
+Jun 29 13:11:52 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147210 Current Voltage: 606 
+Jun 29 13:11:52 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:52 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147150 Current Voltage: 608 
+Jun 29 13:11:52 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146813 Current Voltage: 608 
+Jun 29 13:11:52 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:52 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146672 Current Voltage: 609 
+Jun 29 13:11:54 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150895 Current Voltage: 620 
+Jun 29 13:11:54 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:54 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150672 Current Voltage: 621 
+Jun 29 13:11:55 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147378 Current Voltage: 607 
+Jun 29 13:11:55 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:55 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147289 Current Voltage: 608 
+Jun 29 13:11:55 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:55 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147084 Current Voltage: 609 
+Jun 29 13:11:57 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 151000 Current Voltage: 620 
+Jun 29 13:11:57 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:57 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150688 Current Voltage: 621 
+Jun 29 13:11:59 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147383 Current Voltage: 607 
+Jun 29 13:11:59 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:11:59 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147337 Current Voltage: 608 
+Jun 29 13:11:59 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20010   INVERTER SUBCODE 0   RunLevel 0   StatusCodePriority 9
+Jun 29 13:12:00 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20008   INVERTER SUBCODE 0   RunLevel 0   StatusCodePriority 6
+Jun 29 13:12:00 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150771 Current Voltage: 621 
+Jun 29 13:12:00 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:00 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150594 Current Voltage: 621 
+Jun 29 13:12:02 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147367 Current Voltage: 606 
+Jun 29 13:12:02 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:02 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147401 Current Voltage: 608 
+Jun 29 13:12:03 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 2143 ms - 89 ms/job
+Jun 29 13:12:03 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150915 Current Voltage: 619 
+Jun 29 13:12:03 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:03 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150618 Current Voltage: 621 
+Jun 29 13:12:05 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147173 Current Voltage: 605 
+Jun 29 13:12:05 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:05 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147182 Current Voltage: 606 
+Jun 29 13:12:06 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150729 Current Voltage: 618 
+Jun 29 13:12:06 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:06 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150677 Current Voltage: 618 
+Jun 29 13:12:07 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147104 Current Voltage: 606 
+Jun 29 13:12:07 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:07 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147086 Current Voltage: 607 
+Jun 29 13:12:07 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146732 Current Voltage: 608 
+Jun 29 13:12:07 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:07 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146546 Current Voltage: 608 
+Jun 29 13:12:08 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150612 Current Voltage: 618 
+Jun 29 13:12:08 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:08 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150382 Current Voltage: 619 
+Jun 29 13:12:12 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150435 Current Voltage: 617 
+Jun 29 13:12:12 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:12 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150145 Current Voltage: 618 
+Jun 29 13:12:12 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146654 Current Voltage: 604 
+Jun 29 13:12:12 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:12 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146709 Current Voltage: 605 
+Jun 29 13:12:12 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:12 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146671 Current Voltage: 605 
+Jun 29 13:12:14 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150389 Current Voltage: 617 
+Jun 29 13:12:14 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:14 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150134 Current Voltage: 619 
+Jun 29 13:12:15 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146664 Current Voltage: 603 
+Jun 29 13:12:15 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:15 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146633 Current Voltage: 603 
+Jun 29 13:12:17 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146504 Current Voltage: 603 
+Jun 29 13:12:17 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:17 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146489 Current Voltage: 604 
+Jun 29 13:12:18 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150207 Current Voltage: 616 
+Jun 29 13:12:18 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:18 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149888 Current Voltage: 617 
+Jun 29 13:12:20 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146085 Current Voltage: 602 
+Jun 29 13:12:20 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:20 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146003 Current Voltage: 603 
+Jun 29 13:12:21 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149645 Current Voltage: 615 
+Jun 29 13:12:21 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:21 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149306 Current Voltage: 616 
+Jun 29 13:12:23 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149784 Current Voltage: 616 
+Jun 29 13:12:23 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:23 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149452 Current Voltage: 617 
+Jun 29 13:12:24 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145878 Current Voltage: 600 
+Jun 29 13:12:24 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:24 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145916 Current Voltage: 600 
+Jun 29 13:12:25 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149894 Current Voltage: 616 
+Jun 29 13:12:25 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:25 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149770 Current Voltage: 617 
+Jun 29 13:12:25 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146080 Current Voltage: 602 
+Jun 29 13:12:25 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:25 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145959 Current Voltage: 603 
+Jun 29 13:12:25 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145734 Current Voltage: 604 
+Jun 29 13:12:25 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:25 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145530 Current Voltage: 604 
+Jun 29 13:12:26 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149610 Current Voltage: 617 
+Jun 29 13:12:26 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:26 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149516 Current Voltage: 618 
+Jun 29 13:12:28 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146184 Current Voltage: 602 
+Jun 29 13:12:28 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:28 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146172 Current Voltage: 603 
+Jun 29 13:12:28 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145856 Current Voltage: 605 
+Jun 29 13:12:28 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:28 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145645 Current Voltage: 605 
+Jun 29 13:12:29 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149837 Current Voltage: 616 
+Jun 29 13:12:29 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:29 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149609 Current Voltage: 616 
+Jun 29 13:12:31 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149582 Current Voltage: 616 
+Jun 29 13:12:31 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:31 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149288 Current Voltage: 617 
+Jun 29 13:12:33 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145871 Current Voltage: 601 
+Jun 29 13:12:33 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:33 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145923 Current Voltage: 601 
+Jun 29 13:12:34 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149870 Current Voltage: 616 
+Jun 29 13:12:34 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:34 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149475 Current Voltage: 617 
+Jun 29 13:12:37 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146150 Current Voltage: 601 
+Jun 29 13:12:37 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:37 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146190 Current Voltage: 602 
+Jun 29 13:12:37 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150103 Current Voltage: 616 
+Jun 29 13:12:37 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:37 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149889 Current Voltage: 617 
+Jun 29 13:12:38 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146335 Current Voltage: 602 
+Jun 29 13:12:39 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:39 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146353 Current Voltage: 603 
+Jun 29 13:12:39 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150073 Current Voltage: 617 
+Jun 29 13:12:39 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:39 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149844 Current Voltage: 618 
+Jun 29 13:12:40 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146341 Current Voltage: 603 
+Jun 29 13:12:40 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:40 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146318 Current Voltage: 604 
+Jun 29 13:12:40 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149935 Current Voltage: 617 
+Jun 29 13:12:40 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:41 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149480 Current Voltage: 618 
+Jun 29 13:12:43 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146189 Current Voltage: 601 
+Jun 29 13:12:43 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:43 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146190 Current Voltage: 602 
+Jun 29 13:12:44 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150024 Current Voltage: 616 
+Jun 29 13:12:44 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:44 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149883 Current Voltage: 617 
+Jun 29 13:12:45 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146375 Current Voltage: 602 
+Jun 29 13:12:45 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:45 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146390 Current Voltage: 604 
+Jun 29 13:12:45 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146129 Current Voltage: 605 
+Jun 29 13:12:45 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:45 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145889 Current Voltage: 605 
+Jun 29 13:12:45 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150068 Current Voltage: 617 
+Jun 29 13:12:45 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:45 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150089 Current Voltage: 617 
+Jun 29 13:12:48 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150130 Current Voltage: 616 
+Jun 29 13:12:48 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:48 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150015 Current Voltage: 617 
+Jun 29 13:12:50 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146165 Current Voltage: 601 
+Jun 29 13:12:50 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:50 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146215 Current Voltage: 602 
+Jun 29 13:12:50 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149734 Current Voltage: 617 
+Jun 29 13:12:50 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:50 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149356 Current Voltage: 617 
+Jun 29 13:12:54 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149774 Current Voltage: 615 
+Jun 29 13:12:54 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:54 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149662 Current Voltage: 616 
+Jun 29 13:12:55 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145941 Current Voltage: 602 
+Jun 29 13:12:55 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:55 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145877 Current Voltage: 603 
+Jun 29 13:12:56 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149985 Current Voltage: 618 
+Jun 29 13:12:56 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:56 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149534 Current Voltage: 618 
+Jun 29 13:12:58 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146455 Current Voltage: 603 
+Jun 29 13:12:58 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:58 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146477 Current Voltage: 603 
+Jun 29 13:12:59 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150237 Current Voltage: 617 
+Jun 29 13:12:59 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:59 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149943 Current Voltage: 618 
+Jun 29 13:12:59 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149321 Current Voltage: 619 
+Jun 29 13:12:59 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:12:59 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149248 Current Voltage: 619 
+Jun 29 13:13:01 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146478 Current Voltage: 603 
+Jun 29 13:13:01 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:01 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146498 Current Voltage: 604 
+Jun 29 13:13:01 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 604 Idc: 242 Pdc: 146400 Pac: 142467 Wh: 11872 IdLim: 0.96 Phi: 0.00 
+Jun 29 13:13:01 nto PU3: INFO	System	PLog2 300000 ms: tL1: 59 tL2: 59 tL3: 59 tCb: 52 tAc: 33 tDc: 23 
+Jun 29 13:13:01 nto PU3: INFO	System	PLog3 300000 ms: iL1: 208 iL2: 210 iL3: 208 vL12: 392 vL23: 391 vL31: 393 f: 50.03 
+Jun 29 13:13:01 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 619 Idc: 240 Pdc: 149125 Pac: 144986 Wh: 12082 IdLim: 0.98 Phi: 0.00 
+Jun 29 13:13:01 nto PU4: INFO	System	PLog2 300000 ms: tL1: 52 tL2: 55 tL3: 54 tCb: 53 tAc: 35 tDc: 23 
+Jun 29 13:13:01 nto PU4: INFO	System	PLog3 300000 ms: iL1: 213 iL2: 213 iL3: 212 vL12: 393 vL23: 392 vL31: 393 f: 50.02 
+Jun 29 13:13:02 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150161 Current Voltage: 617 
+Jun 29 13:13:02 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:03 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149891 Current Voltage: 617 
+Jun 29 13:13:03 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146434 Current Voltage: 603 
+Jun 29 13:13:03 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:03 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146465 Current Voltage: 604 
+Jun 29 13:13:04 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 587 Idc: 231 Pdc: 135998 Pac: 132476 Wh: 11039 IdLim: 0.93 Phi: 0.00 
+Jun 29 13:13:04 nto PU2: INFO	System	PLog2 300000 ms: tL1: 56 tL2: 57 tL3: 57 tCb: 53 tAc: 32 tDc: 23 
+Jun 29 13:13:04 nto PU2: INFO	System	PLog3 300000 ms: iL1: 194 iL2: 194 iL3: 194 vL12: 393 vL23: 392 vL31: 393 f: 50.02 
+Jun 29 13:13:04 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149933 Current Voltage: 617 
+Jun 29 13:13:04 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:04 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149696 Current Voltage: 618 
+Jun 29 13:13:05 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146374 Current Voltage: 603 
+Jun 29 13:13:05 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:05 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146388 Current Voltage: 603 
+Jun 29 13:13:05 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 590 Idc: 232 Pdc: 136791 Pac: 133034 Wh: 11086 IdLim: 0.93 Phi: 0.00 
+Jun 29 13:13:05 nto PU1: INFO	System	PLog2 300000 ms: tL1: 60 tL2: 58 tL3: 57 tCb: 50 tAc: 31 tDc: 23 
+Jun 29 13:13:05 nto PU1: INFO	System	PLog3 300000 ms: iL1: 194 iL2: 195 iL3: 195 vL12: 393 vL23: 392 vL31: 393 f: 50.02 
+Jun 29 13:13:07 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150278 Current Voltage: 617 
+Jun 29 13:13:07 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:07 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149970 Current Voltage: 618 
+Jun 29 13:13:10 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150083 Current Voltage: 617 
+Jun 29 13:13:10 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:10 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149910 Current Voltage: 617 
+Jun 29 13:13:11 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146488 Current Voltage: 603 
+Jun 29 13:13:11 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:11 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146452 Current Voltage: 604 
+Jun 29 13:13:12 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150152 Current Voltage: 617 
+Jun 29 13:13:12 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:12 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149837 Current Voltage: 618 
+Jun 29 13:13:14 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150300 Current Voltage: 618 
+Jun 29 13:13:14 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:14 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146609 Current Voltage: 604 
+Jun 29 13:13:14 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:14 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150029 Current Voltage: 618 
+Jun 29 13:13:14 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146646 Current Voltage: 604 
+Jun 29 13:13:15 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146681 Current Voltage: 603 
+Jun 29 13:13:15 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:15 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146697 Current Voltage: 604 
+Jun 29 13:13:15 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146711 Current Voltage: 605 
+Jun 29 13:13:15 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:16 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146636 Current Voltage: 606 
+Jun 29 13:13:16 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150435 Current Voltage: 617 
+Jun 29 13:13:16 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:16 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150212 Current Voltage: 618 
+Jun 29 13:13:18 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150114 Current Voltage: 617 
+Jun 29 13:13:18 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:18 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149868 Current Voltage: 618 
+Jun 29 13:13:19 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146358 Current Voltage: 605 
+Jun 29 13:13:19 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:19 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146207 Current Voltage: 605 
+Jun 29 13:13:21 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150380 Current Voltage: 617 
+Jun 29 13:13:21 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:21 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150094 Current Voltage: 618 
+Jun 29 13:13:22 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146711 Current Voltage: 604 
+Jun 29 13:13:22 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:22 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146718 Current Voltage: 604 
+Jun 29 13:13:23 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150571 Current Voltage: 618 
+Jun 29 13:13:23 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:23 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150256 Current Voltage: 619 
+Jun 29 13:13:24 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146938 Current Voltage: 605 
+Jun 29 13:13:24 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:24 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146946 Current Voltage: 606 
+Jun 29 13:13:24 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150610 Current Voltage: 620 
+Jun 29 13:13:25 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:25 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150242 Current Voltage: 621 
+Jun 29 13:13:26 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147100 Current Voltage: 605 
+Jun 29 13:13:26 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:26 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147140 Current Voltage: 606 
+Jun 29 13:13:27 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147327 Current Voltage: 607 
+Jun 29 13:13:27 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:27 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147236 Current Voltage: 608 
+Jun 29 13:13:27 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:27 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147158 Current Voltage: 608 
+Jun 29 13:13:28 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150721 Current Voltage: 620 
+Jun 29 13:13:28 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:28 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150566 Current Voltage: 619 
+Jun 29 13:13:29 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146990 Current Voltage: 609 
+Jun 29 13:13:29 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:29 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146807 Current Voltage: 609 
+Jun 29 13:13:29 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150884 Current Voltage: 619 
+Jun 29 13:13:29 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:29 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150699 Current Voltage: 620 
+Jun 29 13:13:31 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150889 Current Voltage: 620 
+Jun 29 13:13:31 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:31 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150488 Current Voltage: 621 
+Jun 29 13:13:33 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147302 Current Voltage: 607 
+Jun 29 13:13:33 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:33 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147193 Current Voltage: 608 
+Jun 29 13:13:43 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148186 Current Voltage: 607 
+Jun 29 13:13:43 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:43 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148248 Current Voltage: 608 
+Jun 29 13:13:44 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 144271 Current Voltage: 595 
+Jun 29 13:13:44 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:44 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 144176 Current Voltage: 596 
+Jun 29 13:13:45 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148248 Current Voltage: 608 
+Jun 29 13:13:45 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:45 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148269 Current Voltage: 609 
+Jun 29 13:13:46 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148327 Current Voltage: 608 
+Jun 29 13:13:46 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:46 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148342 Current Voltage: 608 
+Jun 29 13:13:47 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148762 Current Voltage: 611 
+Jun 29 13:13:47 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:47 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 144535 Current Voltage: 597 
+Jun 29 13:13:47 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148715 Current Voltage: 612 
+Jun 29 13:13:47 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:47 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 144270 Current Voltage: 599 
+Jun 29 13:13:49 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149250 Current Voltage: 615 
+Jun 29 13:13:49 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:49 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148920 Current Voltage: 616 
+Jun 29 13:13:49 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145633 Current Voltage: 600 
+Jun 29 13:13:49 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:49 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145688 Current Voltage: 601 
+Jun 29 13:13:49 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145556 Current Voltage: 602 
+Jun 29 13:13:49 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:50 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145424 Current Voltage: 602 
+Jun 29 13:13:50 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150159 Current Voltage: 616 
+Jun 29 13:13:50 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:50 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149924 Current Voltage: 617 
+Jun 29 13:13:51 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146570 Current Voltage: 604 
+Jun 29 13:13:51 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:51 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146481 Current Voltage: 605 
+Jun 29 13:13:51 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 145971 Current Voltage: 606 
+Jun 29 13:13:51 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:51 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 145912 Current Voltage: 607 
+Jun 29 13:13:52 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150105 Current Voltage: 616 
+Jun 29 13:13:52 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:52 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150010 Current Voltage: 617 
+Jun 29 13:13:54 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149439 Current Voltage: 617 
+Jun 29 13:13:54 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:13:54 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149217 Current Voltage: 617 
+Jun 29 13:14:09 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146936 Current Voltage: 603 
+Jun 29 13:14:09 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:09 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146802 Current Voltage: 605 
+Jun 29 13:14:10 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148469 Current Voltage: 609 
+Jun 29 13:14:10 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:10 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148401 Current Voltage: 610 
+Jun 29 13:14:11 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149088 Current Voltage: 612 
+Jun 29 13:14:11 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:11 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148937 Current Voltage: 613 
+Jun 29 13:14:12 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149945 Current Voltage: 616 
+Jun 29 13:14:12 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:12 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149731 Current Voltage: 618 
+Jun 29 13:14:12 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 144495 Current Voltage: 595 
+Jun 29 13:14:12 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:12 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 144555 Current Voltage: 597 
+Jun 29 13:14:12 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 144282 Current Voltage: 599 
+Jun 29 13:14:12 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:12 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 144153 Current Voltage: 600 
+Jun 29 13:14:13 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150808 Current Voltage: 621 
+Jun 29 13:14:13 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:13 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150408 Current Voltage: 621 
+Jun 29 13:14:14 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146183 Current Voltage: 602 
+Jun 29 13:14:14 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:14 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 146261 Current Voltage: 603 
+Jun 29 13:14:14 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:14 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 146070 Current Voltage: 605 
+Jun 29 13:14:15 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 151514 Current Voltage: 621 
+Jun 29 13:14:15 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:15 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151318 Current Voltage: 622 
+Jun 29 13:14:15 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147401 Current Voltage: 608 
+Jun 29 13:14:15 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:15 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147302 Current Voltage: 609 
+Jun 29 13:14:16 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147898 Current Voltage: 610 
+Jun 29 13:14:16 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 151410 Current Voltage: 622 
+Jun 29 13:14:16 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:16 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:16 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147690 Current Voltage: 611 
+Jun 29 13:14:16 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151192 Current Voltage: 622 
+Jun 29 13:14:18 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 151460 Current Voltage: 622 
+Jun 29 13:14:18 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:18 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151308 Current Voltage: 622 
+Jun 29 13:14:18 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 314 ms - 62 ms/job
+Jun 29 13:14:20 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148189 Current Voltage: 610 
+Jun 29 13:14:20 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:20 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148178 Current Voltage: 610 
+Jun 29 13:14:20 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 151622 Current Voltage: 622 
+Jun 29 13:14:20 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:20 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151389 Current Voltage: 622 
+Jun 29 13:14:20 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148046 Current Voltage: 611 
+Jun 29 13:14:20 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:20 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147918 Current Voltage: 612 
+Jun 29 13:14:22 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 151523 Current Voltage: 622 
+Jun 29 13:14:22 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:22 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151337 Current Voltage: 622 
+Jun 29 13:14:23 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148130 Current Voltage: 609 
+Jun 29 13:14:23 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:23 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148137 Current Voltage: 610 
+Jun 29 13:14:23 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 151651 Current Voltage: 622 
+Jun 29 13:14:23 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:23 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151726 Current Voltage: 622 
+Jun 29 13:14:24 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148370 Current Voltage: 611 
+Jun 29 13:14:24 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:25 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148246 Current Voltage: 612 
+Jun 29 13:14:25 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 151956 Current Voltage: 623 
+Jun 29 13:14:25 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:25 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151886 Current Voltage: 624 
+Jun 29 13:14:26 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 152104 Current Voltage: 624 
+Jun 29 13:14:26 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:27 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151949 Current Voltage: 625 
+Jun 29 13:14:27 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148765 Current Voltage: 612 
+Jun 29 13:14:27 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:27 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148786 Current Voltage: 614 
+Jun 29 13:14:29 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148847 Current Voltage: 613 
+Jun 29 13:14:29 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:29 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148809 Current Voltage: 614 
+Jun 29 13:14:30 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 152201 Current Voltage: 623 
+Jun 29 13:14:30 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:30 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 152191 Current Voltage: 624 
+Jun 29 13:14:31 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 152049 Current Voltage: 623 
+Jun 29 13:14:31 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:31 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151917 Current Voltage: 624 
+Jun 29 13:14:32 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148713 Current Voltage: 612 
+Jun 29 13:14:32 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:32 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148774 Current Voltage: 613 
+Jun 29 13:14:35 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148104 Current Voltage: 610 
+Jun 29 13:14:35 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:35 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148099 Current Voltage: 610 
+Jun 29 13:14:37 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150682 Current Voltage: 619 
+Jun 29 13:14:37 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:37 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150118 Current Voltage: 620 
+Jun 29 13:14:37 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:37 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149856 Current Voltage: 620 
+Jun 29 13:14:40 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147138 Current Voltage: 605 
+Jun 29 13:14:40 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:40 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147176 Current Voltage: 606 
+Jun 29 13:14:40 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150808 Current Voltage: 620 
+Jun 29 13:14:40 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:40 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150572 Current Voltage: 621 
+Jun 29 13:14:42 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147337 Current Voltage: 606 
+Jun 29 13:14:42 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:42 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147370 Current Voltage: 607 
+Jun 29 13:14:42 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147208 Current Voltage: 609 
+Jun 29 13:14:42 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:42 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147042 Current Voltage: 609 
+Jun 29 13:14:42 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 151625 Current Voltage: 622 
+Jun 29 13:14:42 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:42 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151350 Current Voltage: 623 
+Jun 29 13:14:43 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 152208 Current Voltage: 624 
+Jun 29 13:14:43 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:43 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 152036 Current Voltage: 625 
+Jun 29 13:14:43 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148430 Current Voltage: 610 
+Jun 29 13:14:43 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:43 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148387 Current Voltage: 611 
+Jun 29 13:14:45 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148844 Current Voltage: 613 
+Jun 29 13:14:45 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:45 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148756 Current Voltage: 614 
+Jun 29 13:14:45 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 152214 Current Voltage: 625 
+Jun 29 13:14:45 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:45 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151973 Current Voltage: 626 
+Jun 29 13:14:46 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148961 Current Voltage: 613 
+Jun 29 13:14:46 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:46 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148909 Current Voltage: 614 
+Jun 29 13:14:48 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 152401 Current Voltage: 626 
+Jun 29 13:14:48 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:48 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 152155 Current Voltage: 626 
+Jun 29 13:14:48 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149113 Current Voltage: 614 
+Jun 29 13:14:48 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:48 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149100 Current Voltage: 615 
+Jun 29 13:14:50 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 152375 Current Voltage: 625 
+Jun 29 13:14:50 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:50 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 152225 Current Voltage: 626 
+Jun 29 13:14:50 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149168 Current Voltage: 614 
+Jun 29 13:14:50 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:50 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149191 Current Voltage: 615 
+Jun 29 13:14:52 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149219 Current Voltage: 613 
+Jun 29 13:14:52 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:14:52 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149241 Current Voltage: 614 
+Jun 29 13:15:02 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150304 Current Voltage: 617 
+Jun 29 13:15:02 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:02 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150113 Current Voltage: 618 
+Jun 29 13:15:03 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 150449 Current Voltage: 620 
+Jun 29 13:15:03 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:03 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 150413 Current Voltage: 621 
+Jun 29 13:15:04 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147174 Current Voltage: 606 
+Jun 29 13:15:04 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:04 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147226 Current Voltage: 608 
+Jun 29 13:15:04 rx10025878 syslogd: restart
+Jun 29 13:15:04 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 151452 Current Voltage: 622 
+Jun 29 13:15:04 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:04 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151368 Current Voltage: 622 
+Jun 29 13:15:05 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147828 Current Voltage: 609 
+Jun 29 13:15:05 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:05 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147612 Current Voltage: 610 
+Jun 29 13:15:06 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 151984 Current Voltage: 623 
+Jun 29 13:15:06 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:06 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151997 Current Voltage: 623 
+Jun 29 13:15:06 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148262 Current Voltage: 611 
+Jun 29 13:15:06 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:06 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148220 Current Voltage: 611 
+Jun 29 13:15:06 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 147964 Current Voltage: 612 
+Jun 29 13:15:06 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:06 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 147748 Current Voltage: 613 
+Jun 29 13:15:08 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 152065 Current Voltage: 623 
+Jun 29 13:15:08 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:08 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151953 Current Voltage: 624 
+Jun 29 13:15:08 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148712 Current Voltage: 612 
+Jun 29 13:15:08 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:08 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148732 Current Voltage: 613 
+Jun 29 13:15:08 nto CI: INFO	OSLog1	MEM: 66393296 14495744 5711556 PROC:  
+Jun 29 13:15:09 rx10025878 syslogd: restart
+Jun 29 13:15:09 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 152041 Current Voltage: 623 
+Jun 29 13:15:09 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:09 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151947 Current Voltage: 624 
+Jun 29 13:15:10 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148721 Current Voltage: 612 
+Jun 29 13:15:10 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:10 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148711 Current Voltage: 613 
+Jun 29 13:15:12 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 151999 Current Voltage: 624 
+Jun 29 13:15:12 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:12 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151855 Current Voltage: 624 
+Jun 29 13:15:13 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148755 Current Voltage: 613 
+Jun 29 13:15:13 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:13 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148669 Current Voltage: 613 
+Jun 29 13:15:13 rx10025878 syslogd: restart
+Jun 29 13:15:14 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 152198 Current Voltage: 624 
+Jun 29 13:15:14 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:14 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 151927 Current Voltage: 625 
+Jun 29 13:15:15 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 148837 Current Voltage: 613 
+Jun 29 13:15:15 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:15 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 148844 Current Voltage: 614 
+Jun 29 13:15:16 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 152433 Current Voltage: 625 
+Jun 29 13:15:16 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:16 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 152316 Current Voltage: 625 
+Jun 29 13:15:16 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149082 Current Voltage: 614 
+Jun 29 13:15:16 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:16 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149106 Current Voltage: 615 
+Jun 29 13:15:17 rx10025878 syslogd: restart
+Jun 29 13:15:17 nto PU4: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 152453 Current Voltage: 625 
+Jun 29 13:15:17 nto PU4: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:17 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 152227 Current Voltage: 626 
+Jun 29 13:15:18 nto PU3: DEBUG	Mppt	IdleTracker: RUNNING Current Power: 149376 Current Voltage: 614 
+Jun 29 13:15:18 nto PU3: DEBUG	Mppt	IdleTracker: COMPLETED 
+Jun 29 13:15:18 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 149413 Current Voltage: 615 
+Jun 29 13:15:20 rx10025878 syslogd: restart

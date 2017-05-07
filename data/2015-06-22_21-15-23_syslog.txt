@@ -1,0 +1,210 @@
+Jun 22 21:00:27 rx10025878 syslogd: restart
+Jun 22 21:00:28 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateOpenAcContactor 
+Jun 22 21:00:28 nto PU1: DEBUG	Mppt	TrackingMaster: deactivated 
+Jun 22 21:00:28 nto PU1: DEBUG	Mppt	System Event:1 
+Jun 22 21:00:28 nto PU1: INFO	PuMaster	Startup FSM State: WAIT_AC_CONTACTOR_RELEASED 
+Jun 22 21:00:28 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: setDcContactorClosingCompleted called 
+Jun 22 21:00:28 nto PU1: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 0  objectId: 49 
+Jun 22 21:00:28 nto PU1: INFO	System	StatusGenerator: statuscode: 6 subcodeBit: none objectId: 0 
+Jun 22 21:00:28 nto PU1: INFO	System	CLog1 500 ms: 20008 Vdc: 683 Idc: 0 Pdc: 156 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:00:28 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForGridParamtestOk 
+Jun 22 21:00:28 nto PU1: INFO	System	StatusGenerator: statuscode: 109 subcodeBit: none objectId: 0 
+Jun 22 21:00:31 rx10025878 syslogd: restart
+Jun 22 21:00:34 rx10025878 syslogd: restart
+Jun 22 21:00:58 nto PU1: INFO	System	StatusGenerator: statuscode: 6 subcodeBit: none objectId: 0 
+Jun 22 21:01:00 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForAcContactorClosed 
+Jun 22 21:01:00 nto PU1: INFO	PuMaster	Startup FSM State: AC_CONTACTOR_RELEASED 
+Jun 22 21:01:00 nto PU1: INFO	PuMaster	Startup Sub FSM State: RUN_OC_SD_SELFTEST 
+Jun 22 21:01:02 nto PU1: INFO	PuMaster	Startup Sub FSM State: RUN_TEMP_SENSOR_SELFTEST 
+Jun 22 21:01:03 nto PU1: INFO	PuMaster	Startup Sub FSM State: READY_FOR_POWERTEST 
+Jun 22 21:01:03 nto PU1: INFO	IuMaster	Send Cmd: START_POWERTEST to PU: 1 
+Jun 22 21:01:03 nto PU1: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:01:03 nto PU1: INFO	SafetyFeatures	Powertest Failed: VdcInit: 683.653076 VdcLimit: 666.561768 VdcEnd: 665.209656 
+Jun 22 21:01:03 nto PU1: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:01:03 nto PU1: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 22 21:01:19 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateOpenAcContactor 
+Jun 22 21:01:19 nto PU2: DEBUG	Mppt	TrackingMaster: deactivated 
+Jun 22 21:01:19 nto PU2: DEBUG	Mppt	System Event:1 
+Jun 22 21:01:19 nto PU2: INFO	PuMaster	Startup FSM State: WAIT_AC_CONTACTOR_RELEASED 
+Jun 22 21:01:19 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: setDcContactorClosingCompleted called 
+Jun 22 21:01:19 nto PU2: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 0  objectId: 49 
+Jun 22 21:01:19 nto PU2: INFO	System	StatusGenerator: statuscode: 6 subcodeBit: none objectId: 0 
+Jun 22 21:01:19 nto PU2: INFO	System	CLog1 500 ms: 20008 Vdc: 681 Idc: 0 Pdc: 19 Pac: 5 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:01:19 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForGridParamtestOk 
+Jun 22 21:01:19 nto PU2: INFO	System	StatusGenerator: statuscode: 109 subcodeBit: none objectId: 0 
+Jun 22 21:01:49 nto PU2: INFO	System	StatusGenerator: statuscode: 6 subcodeBit: none objectId: 0 
+Jun 22 21:01:51 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForAcContactorClosed 
+Jun 22 21:01:51 nto PU2: INFO	PuMaster	Startup FSM State: AC_CONTACTOR_RELEASED 
+Jun 22 21:01:51 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_OC_SD_SELFTEST 
+Jun 22 21:01:53 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_TEMP_SENSOR_SELFTEST 
+Jun 22 21:01:54 nto PU2: INFO	PuMaster	Startup Sub FSM State: READY_FOR_POWERTEST 
+Jun 22 21:01:54 nto PU1: INFO	IuMaster	Send Cmd: START_POWERTEST to PU: 2 
+Jun 22 21:01:54 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:01:54 nto PU2: INFO	SafetyFeatures	Powertest Failed: VdcInit: 685.299683 VdcLimit: 668.167175 VdcEnd: 667.879822 
+Jun 22 21:01:54 nto PU2: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:01:54 nto PU2: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 22 21:02:03 nto PU1: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:02:04 nto PU1: INFO	SafetyFeatures	Powertest Failed: VdcInit: 681.487305 VdcLimit: 664.450134 VdcEnd: 664.360229 
+Jun 22 21:02:04 nto PU1: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:02:19 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 432 ms - 86 ms/job
+Jun 22 21:02:43 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 588 Idc: 1 Pdc: 625 Pac: 346 Wh: 28 IdLim: 0.95 Phi: 0.00 
+Jun 22 21:02:43 nto PU3: INFO	System	PLog2 300000 ms: tL1: 48 tL2: 49 tL3: 48 tCb: 53 tAc: 41 tDc: 23 
+Jun 22 21:02:43 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 387 vL23: 386 vL31: 387 f: 49.98 
+Jun 22 21:02:46 nto PU2: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 682 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:02:46 nto PU2: INFO	System	PLog2 300000 ms: tL1: 48 tL2: 50 tL3: 49 tCb: 51 tAc: 41 tDc: 23 
+Jun 22 21:02:46 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 387 vL23: 386 vL31: 387 f: 49.98 
+Jun 22 21:02:48 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 579 Idc: 1 Pdc: 822 Pac: 396 Wh: 33 IdLim: 0.93 Phi: 0.00 
+Jun 22 21:02:48 nto PU4: INFO	System	PLog2 300000 ms: tL1: 49 tL2: 51 tL3: 48 tCb: 51 tAc: 41 tDc: 23 
+Jun 22 21:02:48 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 387 vL23: 387 vL31: 387 f: 49.98 
+Jun 22 21:02:50 nto PU1: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 681 Idc: 0 Pdc: 132 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:02:50 nto PU1: INFO	System	PLog2 300000 ms: tL1: 48 tL2: 49 tL3: 48 tCb: 51 tAc: 38 tDc: 23 
+Jun 22 21:02:50 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 387 vL23: 387 vL31: 387 f: 49.98 
+Jun 22 21:02:54 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:02:55 nto PU2: INFO	SafetyFeatures	Powertest Failed: VdcInit: 678.422729 VdcLimit: 661.462158 VdcEnd: 660.935486 
+Jun 22 21:02:55 nto PU2: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:03:04 nto PU1: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:03:04 nto PU1: INFO	SafetyFeatures	Powertest Failed: VdcInit: 681.151184 VdcLimit: 664.122437 VdcEnd: 660.808838 
+Jun 22 21:03:04 nto PU1: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:03:55 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:03:55 nto PU2: INFO	SafetyFeatures	Powertest Failed: VdcInit: 673.595154 VdcLimit: 656.755249 VdcEnd: 655.119629 
+Jun 22 21:03:55 nto PU2: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:04:04 nto PU1: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:04:05 nto PU1: INFO	SafetyFeatures	Powertest Failed: VdcInit: 674.353882 VdcLimit: 657.495056 VdcEnd: 656.267029 
+Jun 22 21:04:05 nto PU1: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:04:55 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:04:56 nto PU2: INFO	SafetyFeatures	Powertest Failed: VdcInit: 662.608459 VdcLimit: 646.043274 VdcEnd: 644.220093 
+Jun 22 21:04:56 nto PU2: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:05:03 nto CI: INFO	OSLog1	MEM: 65397968 12996608 7190212 PROC:  
+Jun 22 21:05:05 nto PU1: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:05:05 nto PU1: INFO	SafetyFeatures	Powertest Failed: VdcInit: 663.158569 VdcLimit: 646.579590 VdcEnd: 642.435913 
+Jun 22 21:05:05 nto PU1: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:05:05 nto PU1: INFO	System	CLog1 500 ms: 20002 Vdc: 640 Idc: 0 Pdc: 228 Pac: 16 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:05:06 nto PU1: INFO	System	CLog1 500 ms: 20002 Vdc: 662 Idc: 0 Pdc: 145 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:05:18 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateOpenAcContactor 
+Jun 22 21:05:18 nto PU4: DEBUG	Mppt	TrackingMaster: deactivated 
+Jun 22 21:05:18 nto PU4: DEBUG	Mppt	System Event:1 
+Jun 22 21:05:18 nto PU4: INFO	PuMaster	Startup FSM State: WAIT_AC_CONTACTOR_RELEASED 
+Jun 22 21:05:18 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: setDcContactorClosingCompleted called 
+Jun 22 21:05:18 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 0  objectId: 49 
+Jun 22 21:05:18 nto PU4: INFO	System	StatusGenerator: statuscode: 6 subcodeBit: none objectId: 0 
+Jun 22 21:05:18 nto PU4: INFO	System	CLog1 500 ms: 20008 Vdc: 655 Idc: 0 Pdc: 206 Pac: 36 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:05:18 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForGridParamtestOk 
+Jun 22 21:05:18 nto PU4: INFO	System	StatusGenerator: statuscode: 109 subcodeBit: none objectId: 0 
+Jun 22 21:05:44 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateOpenAcContactor 
+Jun 22 21:05:44 nto PU3: DEBUG	Mppt	TrackingMaster: deactivated 
+Jun 22 21:05:44 nto PU3: DEBUG	Mppt	System Event:1 
+Jun 22 21:05:44 nto PU3: INFO	PuMaster	Startup FSM State: WAIT_AC_CONTACTOR_RELEASED 
+Jun 22 21:05:44 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: setDcContactorClosingCompleted called 
+Jun 22 21:05:44 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 0  objectId: 49 
+Jun 22 21:05:44 nto PU3: INFO	System	StatusGenerator: statuscode: 6 subcodeBit: none objectId: 0 
+Jun 22 21:05:44 nto PU3: INFO	System	CLog1 500 ms: 20008 Vdc: 651 Idc: 0 Pdc: 19 Pac: 22 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:05:44 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForGridParamtestOk 
+Jun 22 21:05:44 nto PU3: INFO	System	StatusGenerator: statuscode: 109 subcodeBit: none objectId: 0 
+Jun 22 21:05:45 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20002   INVERTER SUBCODE 0   RunLevel 1   StatusCodePriority 110
+Jun 22 21:05:49 nto PU4: INFO	System	StatusGenerator: statuscode: 6 subcodeBit: none objectId: 0 
+Jun 22 21:05:50 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20008   INVERTER SUBCODE 0   RunLevel 0   StatusCodePriority 6
+Jun 22 21:05:51 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForAcContactorClosed 
+Jun 22 21:05:51 nto PU4: INFO	PuMaster	Startup FSM State: AC_CONTACTOR_RELEASED 
+Jun 22 21:05:51 nto PU4: INFO	PuMaster	Startup Sub FSM State: RUN_OC_SD_SELFTEST 
+Jun 22 21:05:52 nto PU4: INFO	PuMaster	Startup Sub FSM State: RUN_TEMP_SENSOR_SELFTEST 
+Jun 22 21:05:53 nto PU4: INFO	PuMaster	Startup Sub FSM State: READY_FOR_POWERTEST 
+Jun 22 21:05:53 nto PU1: INFO	IuMaster	Send Cmd: START_POWERTEST to PU: 4 
+Jun 22 21:05:53 nto PU4: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:05:53 nto PU4: INFO	SafetyFeatures	Powertest Failed: VdcInit: 649.303589 VdcLimit: 633.070984 VdcEnd: 631.044922 
+Jun 22 21:05:53 nto PU4: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:05:53 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 22 21:05:54 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20002   INVERTER SUBCODE 0   RunLevel 1   StatusCodePriority 110
+Jun 22 21:05:56 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:05:56 nto PU2: INFO	SafetyFeatures	Powertest Failed: VdcInit: 651.809387 VdcLimit: 635.514160 VdcEnd: 634.253418 
+Jun 22 21:05:56 nto PU2: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:06:05 nto PU1: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:06:06 nto PU1: INFO	SafetyFeatures	Powertest Failed: VdcInit: 646.860352 VdcLimit: 630.688843 VdcEnd: 628.020996 
+Jun 22 21:06:06 nto PU1: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:06:15 nto PU3: INFO	System	StatusGenerator: statuscode: 6 subcodeBit: none objectId: 0 
+Jun 22 21:06:15 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20008   INVERTER SUBCODE 0   RunLevel 0   StatusCodePriority 6
+Jun 22 21:06:17 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForAcContactorClosed 
+Jun 22 21:06:17 nto PU3: INFO	PuMaster	Startup FSM State: AC_CONTACTOR_RELEASED 
+Jun 22 21:06:17 nto PU3: INFO	PuMaster	Startup Sub FSM State: RUN_OC_SD_SELFTEST 
+Jun 22 21:06:18 nto PU3: INFO	PuMaster	Startup Sub FSM State: RUN_TEMP_SENSOR_SELFTEST 
+Jun 22 21:06:19 nto PU3: INFO	PuMaster	Startup Sub FSM State: READY_FOR_POWERTEST 
+Jun 22 21:06:19 nto PU1: INFO	IuMaster	Send Cmd: START_POWERTEST to PU: 3 
+Jun 22 21:06:19 nto PU3: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:06:19 nto PU3: INFO	SafetyFeatures	Powertest Failed: VdcInit: 647.778320 VdcLimit: 631.583862 VdcEnd: 629.318909 
+Jun 22 21:06:19 nto PU3: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:06:19 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 22 21:06:20 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20002   INVERTER SUBCODE 0   RunLevel 1   StatusCodePriority 110
+Jun 22 21:06:53 nto PU4: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:06:54 nto PU4: INFO	SafetyFeatures	Powertest Failed: VdcInit: 639.064209 VdcLimit: 623.087585 VdcEnd: 620.289185 
+Jun 22 21:06:54 nto PU4: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:06:56 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:06:57 nto PU2: INFO	SafetyFeatures	Powertest Failed: VdcInit: 639.510498 VdcLimit: 623.522766 VdcEnd: 620.825317 
+Jun 22 21:06:57 nto PU2: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:07:06 nto PU1: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:07:06 nto PU1: INFO	SafetyFeatures	Powertest Failed: VdcInit: 634.305542 VdcLimit: 618.447876 VdcEnd: 615.666748 
+Jun 22 21:07:06 nto PU1: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:07:19 nto PU3: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:07:20 nto PU3: INFO	SafetyFeatures	Powertest Failed: VdcInit: 636.924438 VdcLimit: 621.001343 VdcEnd: 620.053101 
+Jun 22 21:07:20 nto PU3: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:07:35 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForGridParamtestOk 
+Jun 22 21:07:35 nto PU4: INFO	PuMaster	Startup FSM State: WAIT_AC_CONTACTOR_RELEASED 
+Jun 22 21:07:35 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: setDcContactorClosingCompleted called 
+Jun 22 21:07:35 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 22 21:07:35 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 22 21:07:36 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 22 21:07:44 nto PU3: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 633 Idc: 0 Pdc: 0 Pac: 20 Wh: 1 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:07:44 nto PU3: INFO	System	PLog2 300000 ms: tL1: 47 tL2: 48 tL3: 47 tCb: 51 tAc: 40 tDc: 23 
+Jun 22 21:07:44 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 386 vL23: 386 vL31: 387 f: 49.96 
+Jun 22 21:07:47 nto PU2: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 632 Idc: 0 Pdc: 0 Pac: 5 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:07:47 nto PU2: INFO	System	PLog2 300000 ms: tL1: 47 tL2: 48 tL3: 47 tCb: 51 tAc: 41 tDc: 23 
+Jun 22 21:07:47 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 386 vL23: 386 vL31: 386 f: 49.96 
+Jun 22 21:07:49 nto PU4: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 624 Idc: 0 Pdc: 167 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:07:49 nto PU4: INFO	System	PLog2 300000 ms: tL1: 48 tL2: 50 tL3: 47 tCb: 51 tAc: 41 tDc: 23 
+Jun 22 21:07:49 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 386 vL23: 386 vL31: 386 f: 49.96 
+Jun 22 21:07:51 nto PU1: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 629 Idc: 0 Pdc: 133 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:07:51 nto PU1: INFO	System	PLog2 300000 ms: tL1: 47 tL2: 48 tL3: 47 tCb: 51 tAc: 38 tDc: 23 
+Jun 22 21:07:51 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 386 vL23: 386 vL31: 387 f: 49.95 
+Jun 22 21:07:54 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForGridParamtestOk 
+Jun 22 21:07:54 nto PU1: INFO	PuMaster	Startup FSM State: WAIT_AC_CONTACTOR_RELEASED 
+Jun 22 21:07:54 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: setDcContactorClosingCompleted called 
+Jun 22 21:07:54 nto PU1: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 22 21:07:54 nto PU1: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 22 21:07:54 nto PU1: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 22 21:07:57 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 22 21:07:57 nto PU2: INFO	SafetyFeatures	Powertest Failed: VdcInit: 631.148254 VdcLimit: 615.369568 VdcEnd: 614.142578 
+Jun 22 21:07:57 nto PU2: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 22 21:07:57 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForGridParamtestOk 
+Jun 22 21:07:57 nto PU2: INFO	PuMaster	Startup FSM State: WAIT_AC_CONTACTOR_RELEASED 
+Jun 22 21:07:57 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: setDcContactorClosingCompleted called 
+Jun 22 21:07:58 nto PU2: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 22 21:07:58 nto PU2: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 22 21:08:12 nto PU2: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 22 21:08:14 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForGridParamtestOk 
+Jun 22 21:08:14 nto PU3: INFO	PuMaster	Startup FSM State: WAIT_AC_CONTACTOR_RELEASED 
+Jun 22 21:08:14 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: setDcContactorClosingCompleted called 
+Jun 22 21:08:14 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 22 21:08:14 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 22 21:08:14 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 22 21:08:15 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 22 21:08:16 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 22 21:08:48 nto CI: INFO	statistics	statistics: write: 20 statistics jobs in 916 ms - 45 ms/job
+Jun 22 21:10:03 nto CI: INFO	OSLog1	MEM: 65402064 12996608 7190212 PROC:  
+Jun 22 21:12:03 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 2035 ms - 84 ms/job
+Jun 22 21:12:45 nto PU3: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 575 Idc: 0 Pdc: 0 Pac: 12 Wh: 1 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:12:45 nto PU3: INFO	System	PLog2 300000 ms: tL1: 46 tL2: 47 tL3: 46 tCb: 51 tAc: 40 tDc: 23 
+Jun 22 21:12:45 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 385 vL31: 386 f: 49.97 
+Jun 22 21:12:48 nto PU2: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 570 Idc: 0 Pdc: 20 Pac: 26 Wh: 2 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:12:48 nto PU2: INFO	System	PLog2 300000 ms: tL1: 46 tL2: 47 tL3: 46 tCb: 50 tAc: 40 tDc: 23 
+Jun 22 21:12:48 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 385 vL31: 386 f: 49.98 
+Jun 22 21:12:50 nto PU4: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 570 Idc: 0 Pdc: 152 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:12:50 nto PU4: INFO	System	PLog2 300000 ms: tL1: 46 tL2: 48 tL3: 45 tCb: 50 tAc: 41 tDc: 23 
+Jun 22 21:12:50 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 386 vL23: 385 vL31: 386 f: 49.97 
+Jun 22 21:12:52 nto PU1: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 570 Idc: 0 Pdc: 119 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:12:52 nto PU1: INFO	System	PLog2 300000 ms: tL1: 45 tL2: 47 tL3: 46 tCb: 50 tAc: 38 tDc: 23 
+Jun 22 21:12:52 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 385 vL31: 386 f: 49.98 
+Jun 22 21:14:19 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 312 ms - 62 ms/job
+Jun 22 21:15:04 rx10025878 syslogd: restart
+Jun 22 21:15:08 nto CI: INFO	OSLog1	MEM: 67167440 14495744 5711556 PROC:  
+Jun 22 21:15:09 rx10025878 syslogd: restart
+Jun 22 21:15:12 rx10025878 syslogd: restart
+Jun 22 21:15:16 rx10025878 syslogd: restart
+Jun 22 21:15:19 rx10025878 syslogd: restart

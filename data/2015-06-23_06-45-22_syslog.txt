@@ -1,0 +1,123 @@
+Jun 23 06:30:20 rx10025878 syslogd: restart
+Jun 23 06:30:23 rx10025878 syslogd: restart
+Jun 23 06:30:27 rx10025878 syslogd: restart
+Jun 23 06:31:01 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 23 06:31:01 nto PU2: INFO	SafetyFeatures	Powertest Failed: VdcInit: 724.523804 VdcLimit: 706.410706 VdcEnd: 704.824158 
+Jun 23 06:31:01 nto PU2: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 23 06:31:06 nto PU3: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 23 06:31:06 nto PU3: INFO	SafetyFeatures	Powertest Failed: VdcInit: 717.976990 VdcLimit: 700.027588 VdcEnd: 699.258911 
+Jun 23 06:31:06 nto PU3: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 23 06:31:12 nto PU3: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 718 Idc: 0 Pdc: 25 Pac: 6 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 23 06:31:12 nto PU3: INFO	System	PLog2 300000 ms: tL1: 20 tL2: 20 tL3: 20 tCb: 38 tAc: 19 tDc: 23 
+Jun 23 06:31:12 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 387 vL23: 386 vL31: 387 f: 49.97 
+Jun 23 06:31:12 nto PU1: INFO	System	PLog1 300000 ms: 3 20307 Vdc: 725 Idc: 0 Pdc: 0 Pac: 8 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 23 06:31:12 nto PU1: INFO	System	PLog2 300000 ms: tL1: 20 tL2: 20 tL3: 20 tCb: 36 tAc: 19 tDc: 23 
+Jun 23 06:31:12 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 387 vL23: 387 vL31: 387 f: 49.97 
+Jun 23 06:31:12 nto PU2: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 724 Idc: 0 Pdc: 46 Pac: 22 Wh: 1 IdLim: 0.00 Phi: 0.00 
+Jun 23 06:31:12 nto PU2: INFO	System	PLog2 300000 ms: tL1: 20 tL2: 20 tL3: 20 tCb: 37 tAc: 19 tDc: 23 
+Jun 23 06:31:12 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 387 vL23: 386 vL31: 387 f: 49.96 
+Jun 23 06:31:12 nto PU4: INFO	System	PLog1 300000 ms: 3 20307 Vdc: 723 Idc: 0 Pdc: 4 Pac: 19 Wh: 1 IdLim: 0.00 Phi: 0.00 
+Jun 23 06:31:12 nto PU4: INFO	System	PLog2 300000 ms: tL1: 20 tL2: 20 tL3: 20 tCb: 37 tAc: 19 tDc: 23 
+Jun 23 06:31:12 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 387 vL23: 386 vL31: 387 f: 49.97 
+Jun 23 06:32:01 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 23 06:32:02 nto PU2: INFO	SafetyFeatures	Powertest Failed: VdcInit: 733.727417 VdcLimit: 715.384216 VdcEnd: 713.428467 
+Jun 23 06:32:02 nto PU2: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 23 06:32:06 nto PU3: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 23 06:32:07 nto PU3: INFO	SafetyFeatures	Powertest Failed: VdcInit: 733.731323 VdcLimit: 715.388062 VdcEnd: 713.197693 
+Jun 23 06:32:07 nto PU3: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 23 06:33:02 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 23 06:33:02 nto PU2: INFO	SafetyFeatures	Powertest Failed: VdcInit: 745.068726 VdcLimit: 726.442017 VdcEnd: 725.500488 
+Jun 23 06:33:02 nto PU2: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 23 06:33:07 nto PU3: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 23 06:33:07 nto PU3: INFO	SafetyFeatures	Powertest Failed: VdcInit: 745.216431 VdcLimit: 726.585999 VdcEnd: 724.739502 
+Jun 23 06:33:07 nto PU3: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 23 06:34:02 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 23 06:34:03 nto PU2: INFO	SafetyFeatures	Powertest Failed: VdcInit: 753.969482 VdcLimit: 735.120239 VdcEnd: 734.895142 
+Jun 23 06:34:03 nto PU2: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 23 06:34:08 nto PU3: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 23 06:34:08 nto PU3: INFO	SafetyFeatures	Powertest Failed: VdcInit: 754.717285 VdcLimit: 735.849365 VdcEnd: 735.375977 
+Jun 23 06:34:08 nto PU3: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 23 06:35:03 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 23 06:35:03 nto CI: INFO	OSLog1	MEM: 64169168 12996608 7190212 PROC:  
+Jun 23 06:35:08 nto PU3: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 23 06:35:13 nto PU2: INFO	PuMaster	Startup Sub FSM State: READY_TO_CLOSE_AC_CONTACTOR 
+Jun 23 06:35:13 nto PU2: INFO	PuMaster	Startup Sub FSM State: GRID_CONNECTION 
+Jun 23 06:35:13 nto PU1: INFO	IuMaster	Send Cmd: CONNECT_TO_GRID to PU: 2 
+Jun 23 06:35:17 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateBothContactorClosed 
+Jun 23 06:35:17 nto PU2: INFO	System	CLog1 500 ms: 20002 Vdc: 712 Idc: 2 Pdc: 2003 Pac: 1648 IdLim: 0.00 Phi: 0.00 
+Jun 23 06:35:17 nto PU2: INFO	PuMaster	Startup Sub FSM State: MAINS_OPERATION 
+Jun 23 06:35:17 nto PU2: INFO	PuMaster	MainsOperation FSM State: READY_FOR_FEED_IN 
+Jun 23 06:35:17 nto PU2: INFO	System	StatusGenerator: statuscode: 104 subcodeBit: none objectId: 0 
+Jun 23 06:35:17 nto PU2: INFO	System	CLog1 500 ms: 20023 Vdc: 770 Idc: 0 Pdc: 66 Pac: 68 IdLim: 0.00 Phi: 0.00 
+Jun 23 06:35:18 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x00040000 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x00040000
+Jun 23 06:35:18 nto PU3: INFO	PuMaster	Startup Sub FSM State: READY_TO_CLOSE_AC_CONTACTOR 
+Jun 23 06:35:19 nto PU1: INFO	IuMaster	Send Cmd: CONNECT_TO_GRID to PU: 3 
+Jun 23 06:35:19 nto PU3: INFO	PuMaster	Startup Sub FSM State: GRID_CONNECTION 
+Jun 23 06:35:22 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateBothContactorClosed 
+Jun 23 06:35:22 nto PU3: INFO	System	CLog1 500 ms: 20002 Vdc: 725 Idc: 2 Pdc: 1856 Pac: 1655 IdLim: 0.00 Phi: 0.00 
+Jun 23 06:35:22 nto PU3: INFO	PuMaster	Startup Sub FSM State: MAINS_OPERATION 
+Jun 23 06:35:22 nto PU3: INFO	PuMaster	MainsOperation FSM State: READY_FOR_FEED_IN 
+Jun 23 06:35:23 nto PU3: INFO	System	StatusGenerator: statuscode: 104 subcodeBit: none objectId: 0 
+Jun 23 06:35:23 nto PU3: INFO	System	CLog1 500 ms: 20023 Vdc: 768 Idc: 0 Pdc: 47 Pac: 64 IdLim: 0.00 Phi: 0.00 
+Jun 23 06:35:23 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20023   INVERTER SUBCODE 0   RunLevel 1   StatusCodePriority 104
+Jun 23 06:35:23 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x00040000 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x00040000
+Jun 23 06:35:24 nto PU1: INFO	IuMaster	Send Cmd: START_FEED_IN to PU: 2 
+Jun 23 06:35:24 nto PU2: INFO	PuMaster	MainsOperation FSM State: START_FEED_IN 
+Jun 23 06:35:24 nto PU2: INFO	System	StatusGenerator: statuscode: 112 subcodeBit: none objectId: 0 
+Jun 23 06:35:24 nto PU2: DEBUG	Mppt	TrackingMaster: activated 
+Jun 23 06:35:24 nto PU2: DEBUG	Mppt	System Event:0 
+Jun 23 06:35:24 nto PU2: DEBUG	Mppt	StartupTracker: RUNNING Current Power: 0 Current Voltage: 779 
+Jun 23 06:35:24 nto PU2: INFO	PuMaster	MainsOperation FSM State: FEED_IN 
+Jun 23 06:35:24 nto PU2: INFO	System	StatusGenerator: statuscode: 6 subcodeBit: none objectId: 0 
+Jun 23 06:35:24 nto PU2: INFO	System	CLog1 500 ms: 20008 Vdc: 780 Idc: 0 Pdc: 0 Pac: 0 IdLim: 1.00 Phi: 0.00 
+Jun 23 06:35:25 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20008   INVERTER SUBCODE 0   RunLevel 0   StatusCodePriority 6
+Jun 23 06:35:25 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x00040000 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x00040000
+Jun 23 06:35:29 nto PU1: INFO	IuMaster	Send Cmd: START_FEED_IN to PU: 3 
+Jun 23 06:35:29 nto PU3: INFO	PuMaster	MainsOperation FSM State: START_FEED_IN 
+Jun 23 06:35:29 nto PU3: INFO	System	StatusGenerator: statuscode: 112 subcodeBit: none objectId: 0 
+Jun 23 06:35:29 nto PU3: INFO	System	CLog1 500 ms: 20003 Vdc: 762 Idc: 0 Pdc: 514 Pac: 93 IdLim: 1.00 Phi: 0.00 
+Jun 23 06:35:29 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x00040000 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x00040000
+Jun 23 06:35:29 nto PU3: DEBUG	Mppt	TrackingMaster: activated 
+Jun 23 06:35:29 nto PU3: DEBUG	Mppt	System Event:0 
+Jun 23 06:35:29 nto PU3: DEBUG	Mppt	StartupTracker: RUNNING Current Power: 520 Current Voltage: 762 
+Jun 23 06:35:30 nto PU3: INFO	PuMaster	MainsOperation FSM State: FEED_IN 
+Jun 23 06:35:30 nto PU3: INFO	System	StatusGenerator: statuscode: 6 subcodeBit: none objectId: 0 
+Jun 23 06:35:31 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x00040000 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x00040000
+Jun 23 06:35:32 nto PU2: DEBUG	Mppt	StartupTracker: COMPLETED 
+Jun 23 06:35:32 nto PU2: DEBUG	Mppt	SlowHsiaoChenTracker: RUNNING Current Power: 2630 Current Voltage: 663 
+Jun 23 06:35:38 nto PU3: DEBUG	Mppt	StartupTracker: COMPLETED 
+Jun 23 06:35:38 nto PU3: DEBUG	Mppt	SlowHsiaoChenTracker: RUNNING Current Power: 2865 Current Voltage: 652 
+Jun 23 06:36:02 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 818 ms - 34 ms/job
+Jun 23 06:36:13 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 647 Idc: 5 Pdc: 3414 Pac: 3033 Wh: 252 IdLim: 1.00 Phi: 0.00 
+Jun 23 06:36:13 nto PU3: INFO	System	PLog2 300000 ms: tL1: 20 tL2: 20 tL3: 20 tCb: 38 tAc: 19 tDc: 23 
+Jun 23 06:36:13 nto PU3: INFO	System	PLog3 300000 ms: iL1: 4 iL2: 4 iL3: 4 vL12: 388 vL23: 387 vL31: 387 f: 49.96 
+Jun 23 06:36:13 nto PU1: INFO	System	PLog1 300000 ms: 3 20307 Vdc: 781 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 23 06:36:13 nto PU1: INFO	System	PLog2 300000 ms: tL1: 20 tL2: 20 tL3: 20 tCb: 36 tAc: 19 tDc: 23 
+Jun 23 06:36:13 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 654 Idc: 4 Pdc: 3182 Pac: 2608 Wh: 217 IdLim: 1.00 Phi: 0.00 
+Jun 23 06:36:13 nto PU2: INFO	System	PLog2 300000 ms: tL1: 20 tL2: 20 tL3: 20 tCb: 37 tAc: 19 tDc: 23 
+Jun 23 06:36:13 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 387 vL23: 387 vL31: 387 f: 49.96 
+Jun 23 06:36:13 nto PU2: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 4 iL3: 3 vL12: 387 vL23: 387 vL31: 387 f: 49.95 
+Jun 23 06:36:13 nto PU4: INFO	System	PLog1 300000 ms: 3 20307 Vdc: 780 Idc: 0 Pdc: 3 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 23 06:36:13 nto PU4: INFO	System	PLog2 300000 ms: tL1: 20 tL2: 20 tL3: 20 tCb: 37 tAc: 19 tDc: 23 
+Jun 23 06:36:13 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 388 vL23: 387 vL31: 387 f: 49.96 
+Jun 23 06:38:19 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 310 ms - 62 ms/job
+Jun 23 06:39:51 nto CI: INFO	statistics	statistics: write: 20 statistics jobs in 918 ms - 45 ms/job
+Jun 23 06:40:03 nto CI: INFO	OSLog1	MEM: 64160976 12996608 7190212 PROC:  
+Jun 23 06:41:14 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 652 Idc: 3 Pdc: 2046 Pac: 1825 Wh: 152 IdLim: 1.00 Phi: 0.00 
+Jun 23 06:41:14 nto PU3: INFO	System	PLog2 300000 ms: tL1: 21 tL2: 21 tL3: 21 tCb: 38 tAc: 19 tDc: 23 
+Jun 23 06:41:14 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 634 Idc: 3 Pdc: 1922 Pac: 1430 Wh: 119 IdLim: 1.00 Phi: 0.00 
+Jun 23 06:41:14 nto PU3: INFO	System	PLog3 300000 ms: iL1: 2 iL2: 2 iL3: 2 vL12: 388 vL23: 388 vL31: 388 f: 49.97 
+Jun 23 06:41:14 nto PU2: INFO	System	PLog2 300000 ms: tL1: 21 tL2: 21 tL3: 21 tCb: 37 tAc: 19 tDc: 23 
+Jun 23 06:41:14 nto PU2: INFO	System	PLog3 300000 ms: iL1: 2 iL2: 2 iL3: 2 vL12: 388 vL23: 388 vL31: 388 f: 49.97 
+Jun 23 06:41:14 nto PU1: INFO	System	PLog1 300000 ms: 3 20307 Vdc: 756 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 23 06:41:14 nto PU1: INFO	System	PLog2 300000 ms: tL1: 20 tL2: 20 tL3: 20 tCb: 36 tAc: 19 tDc: 23 
+Jun 23 06:41:14 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 388 vL23: 388 vL31: 388 f: 49.97 
+Jun 23 06:41:14 nto PU4: INFO	System	PLog1 300000 ms: 3 20307 Vdc: 756 Idc: 0 Pdc: 4 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 23 06:41:14 nto PU4: INFO	System	PLog2 300000 ms: tL1: 20 tL2: 20 tL3: 20 tCb: 37 tAc: 19 tDc: 23 
+Jun 23 06:41:14 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 388 vL23: 388 vL31: 388 f: 49.97 
+Jun 23 06:45:04 rx10025878 syslogd: restart
+Jun 23 06:45:08 nto CI: INFO	OSLog1	MEM: 66184400 14495744 5711556 PROC:  
+Jun 23 06:45:08 rx10025878 syslogd: restart
+Jun 23 06:45:12 rx10025878 syslogd: restart
+Jun 23 06:45:15 rx10025878 syslogd: restart
+Jun 23 06:45:18 rx10025878 syslogd: restart

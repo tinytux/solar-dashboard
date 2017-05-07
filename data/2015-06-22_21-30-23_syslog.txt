@@ -1,0 +1,107 @@
+Jun 22 21:15:22 rx10025878 syslogd: restart
+Jun 22 21:15:26 rx10025878 syslogd: restart
+Jun 22 21:15:29 rx10025878 syslogd: restart
+Jun 22 21:15:33 rx10025878 syslogd: restart
+Jun 22 21:15:36 rx10025878 syslogd: restart
+Jun 22 21:15:39 rx10025878 syslogd: restart
+Jun 22 21:15:43 rx10025878 syslogd: restart
+Jun 22 21:15:47 nto CI: INFO	iumanager	iumanager: Ambient temperature change from 32.3 to 30.3
+Jun 22 21:17:46 nto PU3: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 553 Idc: 0 Pdc: 0 Pac: 4 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:17:46 nto PU3: INFO	System	PLog2 300000 ms: tL1: 45 tL2: 46 tL3: 45 tCb: 51 tAc: 40 tDc: 23 
+Jun 22 21:17:46 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 50.00 
+Jun 22 21:17:49 nto PU2: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 552 Idc: 0 Pdc: 7 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:17:49 nto PU2: INFO	System	PLog2 300000 ms: tL1: 45 tL2: 46 tL3: 45 tCb: 50 tAc: 40 tDc: 23 
+Jun 22 21:17:49 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 384 vL31: 385 f: 49.99 
+Jun 22 21:17:51 nto PU4: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 547 Idc: 0 Pdc: 148 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:17:51 nto PU4: INFO	System	PLog2 300000 ms: tL1: 45 tL2: 47 tL3: 44 tCb: 50 tAc: 41 tDc: 23 
+Jun 22 21:17:51 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 384 vL31: 385 f: 49.99 
+Jun 22 21:17:53 nto PU1: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 548 Idc: 0 Pdc: 116 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:17:53 nto PU1: INFO	System	PLog2 300000 ms: tL1: 44 tL2: 45 tL3: 45 tCb: 50 tAc: 38 tDc: 23 
+Jun 22 21:17:53 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 49.99 
+Jun 22 21:20:03 nto CI: INFO	OSLog1	MEM: 65402064 12996608 7190212 PROC:  
+Jun 22 21:20:47 nto CI: INFO	statistics	statistics: write: 20 statistics jobs in 841 ms - 42 ms/job
+Jun 22 21:21:11 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateOpenBothContactors 
+Jun 22 21:21:11 nto PU2: DEBUG	Mppt	TrackingMaster: deactivated 
+Jun 22 21:21:11 nto PU2: DEBUG	Mppt	System Event:1 
+Jun 22 21:21:11 nto PU2: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 22 21:21:11 nto PU2: INFO	System	StatusGenerator: statuscode: 202 subcodeBit: none objectId: 34 
+Jun 22 21:21:11 nto PU2: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 22 21:21:11 nto PU2: INFO	PuMaster	Startup FSM State: WAIT_DC_CONTACTOR_RELEASED 
+Jun 22 21:21:11 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 22 21:21:11 nto PU2: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 22 21:21:12 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitBackgroundMonitoringOk 
+Jun 22 21:21:12 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20002   INVERTER SUBCODE 4   RunLevel 1   StatusCodePriority 110
+Jun 22 21:21:12 nto PU2: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 22 21:21:12 nto PU2: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 1  objectId: 76 
+Jun 22 21:21:22 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateOpenBothContactors 
+Jun 22 21:21:22 nto PU4: DEBUG	Mppt	TrackingMaster: deactivated 
+Jun 22 21:21:22 nto PU4: DEBUG	Mppt	System Event:1 
+Jun 22 21:21:22 nto PU4: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 22 21:21:22 nto PU4: INFO	System	StatusGenerator: statuscode: 202 subcodeBit: none objectId: 34 
+Jun 22 21:21:22 nto PU4: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 22 21:21:22 nto PU4: INFO	PuMaster	Startup FSM State: WAIT_DC_CONTACTOR_RELEASED 
+Jun 22 21:21:22 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 22 21:21:22 nto PU4: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 22 21:21:22 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitBackgroundMonitoringOk 
+Jun 22 21:21:23 nto PU4: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 22 21:21:23 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 1  objectId: 76 
+Jun 22 21:21:23 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20002   INVERTER SUBCODE 0   RunLevel 1   StatusCodePriority 110
+Jun 22 21:21:27 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateOpenBothContactors 
+Jun 22 21:21:27 nto PU3: DEBUG	Mppt	TrackingMaster: deactivated 
+Jun 22 21:21:27 nto PU3: DEBUG	Mppt	System Event:1 
+Jun 22 21:21:27 nto PU3: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 22 21:21:27 nto PU3: INFO	System	StatusGenerator: statuscode: 202 subcodeBit: none objectId: 34 
+Jun 22 21:21:27 nto PU3: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 22 21:21:27 nto PU3: INFO	PuMaster	Startup FSM State: WAIT_DC_CONTACTOR_RELEASED 
+Jun 22 21:21:27 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 22 21:21:27 nto PU3: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 22 21:21:28 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitBackgroundMonitoringOk 
+Jun 22 21:21:28 nto PU3: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 22 21:21:28 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 1  objectId: 76 
+Jun 22 21:21:28 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateOpenBothContactors 
+Jun 22 21:21:28 nto PU1: DEBUG	Mppt	TrackingMaster: deactivated 
+Jun 22 21:21:28 nto PU1: DEBUG	Mppt	System Event:1 
+Jun 22 21:21:28 nto PU1: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 22 21:21:28 nto PU1: INFO	System	StatusGenerator: statuscode: 202 subcodeBit: none objectId: 34 
+Jun 22 21:21:28 nto PU1: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 22 21:21:28 nto PU1: INFO	PuMaster	Startup FSM State: WAIT_DC_CONTACTOR_RELEASED 
+Jun 22 21:21:28 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 22 21:21:28 nto PU1: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 22 21:21:29 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitBackgroundMonitoringOk 
+Jun 22 21:21:29 nto PU1: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 22 21:21:29 nto PU1: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 1  objectId: 76 
+Jun 22 21:22:47 nto PU3: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 490 Idc: 0 Pdc: 15 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:22:47 nto PU3: INFO	System	PLog2 300000 ms: tL1: 43 tL2: 45 tL3: 44 tCb: 50 tAc: 40 tDc: 23 
+Jun 22 21:22:47 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 384 vL31: 385 f: 49.99 
+Jun 22 21:22:50 nto PU2: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 488 Idc: 0 Pdc: 15 Pac: 36 Wh: 3 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:22:50 nto PU2: INFO	System	PLog2 300000 ms: tL1: 44 tL2: 45 tL3: 44 tCb: 50 tAc: 40 tDc: 23 
+Jun 22 21:22:50 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 384 vL31: 385 f: 49.99 
+Jun 22 21:22:52 nto PU4: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 486 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:22:52 nto PU4: INFO	System	PLog2 300000 ms: tL1: 44 tL2: 46 tL3: 43 tCb: 50 tAc: 41 tDc: 23 
+Jun 22 21:22:52 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 385 vL31: 385 f: 49.99 
+Jun 22 21:22:54 nto PU1: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 480 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:22:54 nto PU1: INFO	System	PLog2 300000 ms: tL1: 43 tL2: 44 tL3: 44 tCb: 49 tAc: 38 tDc: 23 
+Jun 22 21:22:54 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 384 vL31: 385 f: 49.99 
+Jun 22 21:24:02 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 949 ms - 39 ms/job
+Jun 22 21:25:03 nto CI: INFO	OSLog1	MEM: 65406160 12996608 7190212 PROC:  
+Jun 22 21:26:20 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 359 ms - 71 ms/job
+Jun 22 21:27:48 nto PU3: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 441 Idc: 0 Pdc: 2 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:27:48 nto PU3: INFO	System	PLog2 300000 ms: tL1: 43 tL2: 44 tL3: 43 tCb: 50 tAc: 39 tDc: 23 
+Jun 22 21:27:48 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 384 vL31: 385 f: 50.01 
+Jun 22 21:27:51 nto PU2: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 438 Idc: 0 Pdc: 1 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:27:51 nto PU2: INFO	System	PLog2 300000 ms: tL1: 43 tL2: 44 tL3: 43 tCb: 49 tAc: 40 tDc: 23 
+Jun 22 21:27:51 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 50.00 
+Jun 22 21:27:53 nto PU4: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 447 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:27:53 nto PU4: INFO	System	PLog2 300000 ms: tL1: 43 tL2: 45 tL3: 42 tCb: 49 tAc: 40 tDc: 23 
+Jun 22 21:27:53 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 384 vL31: 385 f: 50.00 
+Jun 22 21:27:56 nto PU1: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 439 Idc: 0 Pdc: 0 Pac: 1 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 22 21:27:56 nto PU1: INFO	System	PLog2 300000 ms: tL1: 42 tL2: 43 tL3: 43 tCb: 49 tAc: 37 tDc: 23 
+Jun 22 21:27:56 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 49.99 
+Jun 22 21:29:34 nto CI: INFO	iumanager	iumanager: WAKEUP_XT_TQM1 input change from TRUE to FALSE
+Jun 22 21:29:34 nto CI: INFO	iumanager	iumanager: WAKEUP_XT_TQM2 input change from TRUE to FALSE
+Jun 22 21:30:04 rx10025878 syslogd: restart
+Jun 22 21:30:08 nto CI: INFO	OSLog1	MEM: 67380432 14495744 5711556 PROC:  
+Jun 22 21:30:09 rx10025878 syslogd: restart
+Jun 22 21:30:12 rx10025878 syslogd: restart
+Jun 22 21:30:15 rx10025878 syslogd: restart
+Jun 22 21:30:19 rx10025878 syslogd: restart

@@ -1,0 +1,91 @@
+Jun  6 19:15:23 rx10025878 syslogd: restart
+Jun 06 19:17:37 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 595 Idc: 5 Pdc: 3268 Pac: 3044 Wh: 253 IdLim: 0.96 Phi: 0.00 
+Jun 06 19:17:37 nto PU2: INFO	System	PLog2 300000 ms: tL1: 45 tL2: 45 tL3: 44 tCb: 53 tAc: 38 tDc: 23 
+Jun 06 19:17:37 nto PU2: INFO	System	PLog3 300000 ms: iL1: 4 iL2: 4 iL3: 4 vL12: 385 vL23: 385 vL31: 385 f: 49.99 
+Jun 06 19:17:39 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 599 Idc: 5 Pdc: 3385 Pac: 3250 Wh: 270 IdLim: 0.96 Phi: 0.00 
+Jun 06 19:17:39 nto PU3: INFO	System	PLog2 300000 ms: tL1: 44 tL2: 45 tL3: 44 tCb: 51 tAc: 36 tDc: 23 
+Jun 06 19:17:39 nto PU3: INFO	System	PLog3 300000 ms: iL1: 4 iL2: 4 iL3: 4 vL12: 385 vL23: 385 vL31: 385 f: 49.99 
+Jun 06 19:17:40 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 600 Idc: 6 Pdc: 3855 Pac: 3460 Wh: 288 IdLim: 0.97 Phi: 0.00 
+Jun 06 19:17:40 nto PU4: INFO	System	PLog2 300000 ms: tL1: 45 tL2: 46 tL3: 44 tCb: 53 tAc: 38 tDc: 23 
+Jun 06 19:17:40 nto PU4: INFO	System	PLog3 300000 ms: iL1: 5 iL2: 5 iL3: 5 vL12: 385 vL23: 385 vL31: 385 f: 49.99 
+Jun 06 19:17:41 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 588 Idc: 5 Pdc: 3434 Pac: 2541 Wh: 211 IdLim: 0.95 Phi: 0.00 
+Jun 06 19:17:41 nto PU1: INFO	System	PLog2 300000 ms: tL1: 45 tL2: 45 tL3: 45 tCb: 53 tAc: 38 tDc: 23 
+Jun 06 19:17:41 nto PU1: INFO	System	PLog3 300000 ms: iL1: 4 iL2: 4 iL3: 4 vL12: 385 vL23: 385 vL31: 386 f: 49.99 
+Jun 06 19:19:12 nto PU2: DEBUG	Mppt	FraunhoferIseTracker: COMPLETED 
+Jun 06 19:19:12 nto PU2: DEBUG	Mppt	SlowHsiaoChenTracker: RUNNING Current Power: 2990 Current Voltage: 582 
+Jun 06 19:20:03 nto CI: INFO	OSLog1	MEM: 64726224 12996608 7190212 PROC:  
+Jun 06 19:20:47 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: COMPLETED 
+Jun 06 19:20:48 nto PU3: DEBUG	Mppt	SlowHsiaoChenTracker: RUNNING Current Power: 2995 Current Voltage: 594 
+Jun 06 19:21:02 nto PU1: DEBUG	Mppt	FraunhoferIseTracker: COMPLETED 
+Jun 06 19:21:02 nto PU1: DEBUG	Mppt	SlowHsiaoChenTracker: RUNNING Current Power: 3000 Current Voltage: 587 
+Jun 06 19:21:05 nto CI: INFO	statistics	statistics: write: 20 statistics jobs in 1056 ms - 52 ms/job
+Jun 06 19:22:38 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 593 Idc: 4 Pdc: 2626 Pac: 2277 Wh: 189 IdLim: 0.95 Phi: 0.00 
+Jun 06 19:22:38 nto PU2: INFO	System	PLog2 300000 ms: tL1: 45 tL2: 46 tL3: 45 tCb: 53 tAc: 38 tDc: 23 
+Jun 06 19:22:38 nto PU2: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 3 iL3: 3 vL12: 385 vL23: 384 vL31: 385 f: 50.00 
+Jun 06 19:22:40 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 588 Idc: 4 Pdc: 2697 Pac: 2531 Wh: 210 IdLim: 0.95 Phi: 0.00 
+Jun 06 19:22:40 nto PU3: INFO	System	PLog2 300000 ms: tL1: 45 tL2: 45 tL3: 44 tCb: 51 tAc: 36 tDc: 23 
+Jun 06 19:22:40 nto PU3: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 3 iL3: 3 vL12: 385 vL23: 384 vL31: 385 f: 50.00 
+Jun 06 19:22:41 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 596 Idc: 5 Pdc: 3085 Pac: 2923 Wh: 243 IdLim: 0.96 Phi: 0.00 
+Jun 06 19:22:41 nto PU4: INFO	System	PLog2 300000 ms: tL1: 45 tL2: 46 tL3: 45 tCb: 51 tAc: 37 tDc: 23 
+Jun 06 19:22:41 nto PU4: INFO	System	PLog3 300000 ms: iL1: 4 iL2: 4 iL3: 4 vL12: 385 vL23: 384 vL31: 385 f: 49.99 
+Jun 06 19:22:42 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 592 Idc: 4 Pdc: 2765 Pac: 2542 Wh: 211 IdLim: 0.95 Phi: 0.00 
+Jun 06 19:22:43 nto PU1: INFO	System	PLog2 300000 ms: tL1: 46 tL2: 46 tL3: 45 tCb: 49 tAc: 35 tDc: 23 
+Jun 06 19:22:43 nto PU1: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 3 iL3: 3 vL12: 385 vL23: 384 vL31: 385 f: 49.99 
+Jun 06 19:23:10 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: COMPLETED 
+Jun 06 19:23:10 nto PU4: DEBUG	Mppt	SlowHsiaoChenTracker: RUNNING Current Power: 3000 Current Voltage: 594 
+Jun 06 19:24:02 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 941 ms - 39 ms/job
+Jun 06 19:25:03 nto CI: INFO	OSLog1	MEM: 64730320 12996608 7190212 PROC:  
+Jun 06 19:26:19 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 549 ms - 109 ms/job
+Jun 06 19:27:39 nto PU2: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 585 Idc: 3 Pdc: 1872 Pac: 1506 Wh: 125 IdLim: 0.94 Phi: 0.00 
+Jun 06 19:27:39 nto PU2: INFO	System	PLog2 300000 ms: tL1: 46 tL2: 46 tL3: 45 tCb: 54 tAc: 38 tDc: 23 
+Jun 06 19:27:39 nto PU2: INFO	System	PLog3 300000 ms: iL1: 2 iL2: 2 iL3: 2 vL12: 384 vL23: 385 vL31: 385 f: 49.99 
+Jun 06 19:27:41 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 579 Idc: 3 Pdc: 1942 Pac: 1789 Wh: 149 IdLim: 0.93 Phi: 0.00 
+Jun 06 19:27:41 nto PU3: INFO	System	PLog2 300000 ms: tL1: 45 tL2: 46 tL3: 45 tCb: 53 tAc: 36 tDc: 23 
+Jun 06 19:27:41 nto PU3: INFO	System	PLog3 300000 ms: iL1: 2 iL2: 2 iL3: 2 vL12: 385 vL23: 385 vL31: 385 f: 49.99 
+Jun 06 19:27:42 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 589 Idc: 3 Pdc: 2298 Pac: 2010 Wh: 167 IdLim: 0.95 Phi: 0.00 
+Jun 06 19:27:42 nto PU4: INFO	System	PLog2 300000 ms: tL1: 46 tL2: 47 tL3: 45 tCb: 50 tAc: 36 tDc: 23 
+Jun 06 19:27:42 nto PU4: INFO	System	PLog3 300000 ms: iL1: 3 iL2: 3 iL3: 3 vL12: 385 vL23: 385 vL31: 385 f: 49.99 
+Jun 06 19:27:44 nto PU1: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 585 Idc: 3 Pdc: 2031 Pac: 1749 Wh: 145 IdLim: 0.95 Phi: 0.00 
+Jun 06 19:27:44 nto PU1: INFO	System	PLog2 300000 ms: tL1: 46 tL2: 46 tL3: 46 tCb: 53 tAc: 36 tDc: 23 
+Jun 06 19:27:44 nto PU1: INFO	System	PLog3 300000 ms: iL1: 2 iL2: 2 iL3: 2 vL12: 384 vL23: 384 vL31: 385 f: 49.99 
+Jun 06 19:29:58 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateOpenBothContactors 
+Jun 06 19:29:58 nto PU1: DEBUG	Mppt	TrackingMaster: deactivated 
+Jun 06 19:29:58 nto PU1: DEBUG	Mppt	System Event:1 
+Jun 06 19:29:58 nto PU1: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 06 19:29:58 nto PU1: INFO	System	StatusGenerator: statuscode: 202 subcodeBit: none objectId: 34 
+Jun 06 19:29:58 nto PU1: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 06 19:29:58 nto PU1: INFO	PuMaster	Startup FSM State: WAIT_DC_CONTACTOR_RELEASED 
+Jun 06 19:29:58 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 06 19:29:58 nto PU1: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 06 19:29:58 nto PU3: INFO	System	CLog1 500 ms: 20008 Vdc: 559 Idc: 3 Pdc: 1685 Pac: 0 IdLim: 0.95 Phi: 0.00 
+Jun 06 19:29:59 nto PU1: INFO	System	CLog1 500 ms: 20017 Vdc: 706 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 06 19:29:59 nto PU3: INFO	System	CLog1 500 ms: 20008 Vdc: 585 Idc: 2 Pdc: 1685 Pac: 1664 IdLim: 0.94 Phi: 0.00 
+Jun 06 19:29:59 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitBackgroundMonitoringOk 
+Jun 06 19:30:04 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitDcContactorClosed 
+Jun 06 19:30:04 nto PU1: INFO	PuMaster	Startup FSM State: RUN_DC_CONT_SELFTEST 
+Jun  6 19:30:04 rx10025878 syslogd: restart
+Jun 06 19:30:08 nto CI: INFO	OSLog1	MEM: 66708688 14495744 5711556 PROC:  
+Jun  6 19:30:09 rx10025878 syslogd: restart
+Jun 06 19:30:09 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateOpenBothContactors 
+Jun 06 19:30:09 nto PU1: DEBUG	Mppt	TrackingMaster: deactivated 
+Jun 06 19:30:09 nto PU1: DEBUG	Mppt	System Event:1 
+Jun 06 19:30:09 nto PU1: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 06 19:30:09 nto PU1: INFO	System	StatusGenerator: statuscode: 211 subcodeBit: none objectId: 58 
+Jun 06 19:30:09 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitBackgroundMonitoringOk 
+Jun 06 19:30:09 nto PU1: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 06 19:30:09 nto PU1: INFO	PuMaster	Startup FSM State: WAIT_DC_CONTACTOR_RELEASED 
+Jun 06 19:30:09 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 06 19:30:09 nto PU1: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun  6 19:30:12 rx10025878 syslogd: restart
+Jun 06 19:30:15 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitDcContactorClosed 
+Jun 06 19:30:15 nto PU1: INFO	PuMaster	Startup FSM State: RUN_DC_CONT_SELFTEST 
+Jun 06 19:30:15 nto PU1: INFO	PuMaster	Startup FSM State: PRECHARGE_DC_BUS 
+Jun  6 19:30:16 rx10025878 syslogd: restart
+Jun 06 19:30:16 nto PU1: INFO	PuMaster	Startup FSM State: READY_TO_CLOSE_DC_CONTACTOR 
+Jun 06 19:30:17 nto PU1: INFO	IuMaster	Send Cmd: CLOSE_DC_CONTACTOR to PU: 1 
+Jun 06 19:30:17 nto PU1: INFO	PuMaster	Startup FSM State: CLOSE_DC_CONTACTOR 
+Jun 06 19:30:19 nto PU1: INFO	PuMaster	Startup FSM State: WAIT_AC_CONTACTOR_RELEASED 
+Jun 06 19:30:19 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: setDcContactorClosingCompleted called 
+Jun 06 19:30:19 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForGridParamtestOk 
+Jun 06 19:30:19 nto PU1: INFO	System	StatusGenerator: statuscode: 109 subcodeBit: none objectId: 0 
+Jun  6 19:30:19 rx10025878 syslogd: restart

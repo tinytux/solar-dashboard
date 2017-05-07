@@ -1,0 +1,362 @@
+Jun  7 21:00:21 rx10025878 syslogd: restart
+Jun  7 21:00:24 rx10025878 syslogd: restart
+Jun 07 21:00:25 nto CI: INFO	statistics	statistics: write: 20 statistics jobs in 1058 ms - 52 ms/job
+Jun  7 21:00:28 rx10025878 syslogd: restart
+Jun 07 21:01:34 nto PU3: INFO	System	PLog1 300000 ms: 3 20307 Vdc: 402 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:01:34 nto PU3: INFO	System	PLog2 300000 ms: tL1: 41 tL2: 41 tL3: 41 tCb: 51 tAc: 38 tDc: 23 
+Jun 07 21:01:34 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 49.99 
+Jun 07 21:01:36 nto PU4: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 419 Idc: 0 Pdc: 0 Pac: 3 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:01:36 nto PU4: INFO	System	PLog2 300000 ms: tL1: 40 tL2: 42 tL3: 40 tCb: 50 tAc: 38 tDc: 23 
+Jun 07 21:01:36 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 384 vL31: 385 f: 49.98 
+Jun 07 21:01:46 nto PU1: INFO	System	PLog1 300000 ms: 3 20307 Vdc: 399 Idc: 0 Pdc: 7 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:01:46 nto PU1: INFO	System	PLog2 300000 ms: tL1: 42 tL2: 42 tL3: 42 tCb: 50 tAc: 36 tDc: 23 
+Jun 07 21:01:46 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 49.99 
+Jun 07 21:01:51 nto CI: INFO	iumanager	iumanager: WAKEUP_XT_TQM1 input change from TRUE to FALSE
+Jun 07 21:01:51 nto CI: INFO	iumanager	iumanager: WAKEUP_XT_TQM2 input change from TRUE to FALSE
+Jun 07 21:02:08 nto PU2: INFO	System	PLog1 300000 ms: 3 20307 Vdc: 397 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:02:08 nto PU2: INFO	System	PLog2 300000 ms: tL1: 41 tL2: 41 tL3: 40 tCb: 50 tAc: 38 tDc: 23 
+Jun 07 21:02:08 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 50.01 
+Jun 07 21:02:19 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 344 ms - 68 ms/job
+Jun 07 21:03:10 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 412 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:03:10 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 383 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:04:13 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 383 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:04:13 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 361 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:04:44 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 388 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:04:45 nto PU4: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 07 21:04:45 nto CI: INFO	iumanager	iumanager: WAKEUP_XT_TQM1 input change from FALSE to TRUE
+Jun 07 21:04:45 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 07 21:04:45 nto CI: INFO	iumanager	iumanager: WAKEUP_XT_TQM2 input change from FALSE to TRUE
+Jun 07 21:04:45 nto PU4: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 07 21:04:45 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 588 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:04:45 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 491 Idc: 0 Pdc: 6 Pac: 10 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:04:45 nto PU4: INFO	System	CLog1 500 ms: 20017 Vdc: 481 Idc: 0 Pdc: 0 Pac: 6 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:04:45 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 485 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:04:45 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x00040000 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x00040000
+Jun 07 21:04:45 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 384 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:04:45 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 384 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:04:45 nto PU4: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 07 21:04:45 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 1  objectId: 76 
+Jun 07 21:04:45 nto PU4: INFO	System	CLog1 500 ms: 20002 Vdc: 390 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:04:46 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 349 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:04:46 nto CI: INFO	iumanager	iumanager: WAKEUP_XT_TQM1 input change from TRUE to FALSE
+Jun 07 21:04:46 nto CI: INFO	iumanager	iumanager: WAKEUP_XT_TQM2 input change from TRUE to FALSE
+Jun 07 21:04:46 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 348 Idc: 0 Pdc: 0 Pac: 23 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:04:46 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 349 Idc: 0 Pdc: 6 Pac: 6 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:04:46 nto PU4: INFO	System	CLog1 500 ms: 20002 Vdc: 368 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:04:46 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x00040000 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x00040000
+Jun 07 21:05:02 nto CI: INFO	OSLog1	MEM: 63943888 12996608 7190212 PROC:  
+Jun 07 21:06:35 nto PU3: INFO	System	PLog1 300000 ms: 3 20307 Vdc: 323 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:06:35 nto PU3: INFO	System	PLog2 300000 ms: tL1: 40 tL2: 41 tL3: 40 tCb: 51 tAc: 38 tDc: 23 
+Jun 07 21:06:35 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 384 vL31: 385 f: 49.99 
+Jun 07 21:06:37 nto PU4: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 349 Idc: 0 Pdc: 0 Pac: 3 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:06:37 nto PU4: INFO	System	PLog2 300000 ms: tL1: 40 tL2: 41 tL3: 39 tCb: 50 tAc: 38 tDc: 23 
+Jun 07 21:06:37 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 384 vL31: 385 f: 49.99 
+Jun 07 21:06:47 nto PU1: INFO	System	PLog1 300000 ms: 3 20307 Vdc: 321 Idc: 0 Pdc: 7 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:06:47 nto PU1: INFO	System	PLog2 300000 ms: tL1: 41 tL2: 42 tL3: 41 tCb: 50 tAc: 36 tDc: 23 
+Jun 07 21:06:47 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 49.98 
+Jun 07 21:07:10 nto PU2: INFO	System	PLog1 300000 ms: 3 20307 Vdc: 318 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:07:10 nto PU2: INFO	System	PLog2 300000 ms: tL1: 40 tL2: 41 tL3: 40 tCb: 50 tAc: 38 tDc: 23 
+Jun 07 21:07:10 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 49.98 
+Jun 07 21:07:52 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 363 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:07:52 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 388 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:07:52 nto PU4: INFO	System	CLog1 500 ms: 20002 Vdc: 364 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:07:53 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 311 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:07:53 nto PU4: INFO	System	CLog1 500 ms: 20002 Vdc: 336 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:08:47 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 322 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:08:48 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 293 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:09:14 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 324 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:09:15 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 286 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:10:02 nto CI: INFO	OSLog1	MEM: 63943888 12996608 7190212 PROC:  
+Jun 07 21:10:16 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 296 Idc: 0 Pdc: 0 Pac: 7 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:10:16 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 387 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:10:17 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 305 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:10:17 nto PU4: INFO	System	CLog1 500 ms: 20002 Vdc: 435 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:10:17 nto PU4: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 07 21:10:17 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 07 21:10:17 nto PU4: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 07 21:10:17 nto CI: INFO	iumanager	iumanager: WAKEUP_XT_TQM1 input change from FALSE to TRUE
+Jun 07 21:10:17 nto CI: INFO	iumanager	iumanager: WAKEUP_XT_TQM2 input change from FALSE to TRUE
+Jun 07 21:10:17 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 505 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:10:17 nto PU4: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 07 21:10:17 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 1  objectId: 76 
+Jun 07 21:10:17 nto PU4: INFO	System	CLog1 500 ms: 20002 Vdc: 337 Idc: 0 Pdc: 1 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:10:17 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 350 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:10:17 nto PU4: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 07 21:10:17 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 07 21:10:17 nto PU4: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 07 21:10:17 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x00040000 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x00040000
+Jun 07 21:10:17 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 411 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:10:18 nto PU4: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 07 21:10:18 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 1  objectId: 76 
+Jun 07 21:10:18 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 275 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:10:18 nto CI: INFO	iumanager	iumanager: WAKEUP_XT_TQM1 input change from TRUE to FALSE
+Jun 07 21:10:18 nto CI: INFO	iumanager	iumanager: WAKEUP_XT_TQM2 input change from TRUE to FALSE
+Jun 07 21:10:18 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 276 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:10:18 nto PU4: INFO	System	CLog1 500 ms: 20002 Vdc: 306 Idc: 0 Pdc: 0 Pac: 2 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:10:19 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x00040000 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x00040000
+Jun 07 21:10:49 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 274 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:10:50 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 249 Idc: 0 Pdc: 0 Pac: 5 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:11:37 nto PU3: INFO	System	PLog1 300000 ms: 3 20307 Vdc: 241 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:11:37 nto PU3: INFO	System	PLog2 300000 ms: tL1: 40 tL2: 40 tL3: 40 tCb: 51 tAc: 38 tDc: 23 
+Jun 07 21:11:37 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 49.99 
+Jun 07 21:11:38 nto PU4: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 288 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:11:38 nto PU4: INFO	System	PLog2 300000 ms: tL1: 39 tL2: 40 tL3: 39 tCb: 50 tAc: 38 tDc: 23 
+Jun 07 21:11:38 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 49.99 
+Jun 07 21:11:48 nto PU1: INFO	System	PLog1 300000 ms: 3 20307 Vdc: 239 Idc: 0 Pdc: 7 Pac: 11 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:11:48 nto PU1: INFO	System	PLog2 300000 ms: tL1: 41 tL2: 41 tL3: 41 tCb: 50 tAc: 36 tDc: 23 
+Jun 07 21:11:48 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 49.98 
+Jun 07 21:11:54 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 286 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:11:54 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 234 Idc: 0 Pdc: 0 Pac: 1 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:12:03 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 2236 ms - 93 ms/job
+Jun 07 21:12:12 nto PU2: INFO	System	PLog1 300000 ms: 3 20307 Vdc: 239 Idc: 0 Pdc: 0 Pac: 3 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:12:12 nto PU2: INFO	System	PLog2 300000 ms: tL1: 40 tL2: 40 tL3: 40 tCb: 50 tAc: 38 tDc: 23 
+Jun 07 21:12:12 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 385 vL31: 385 f: 49.99 
+Jun 07 21:12:24 nto CI: INFO	statistics	statistics: write: 20 statistics jobs in 732 ms - 36 ms/job
+Jun 07 21:12:27 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 257 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:12:28 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 221 Idc: 0 Pdc: 0 Pac: 6 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:00 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 213 Idc: 0 Pdc: 0 Pac: 2 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:03 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 240 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:04 nto PU4: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 07 21:13:04 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 07 21:13:04 nto PU4: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 07 21:13:04 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x00040000 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x00040000
+Jun 07 21:13:04 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 390 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:04 nto PU4: INFO	System	CLog1 500 ms: 20017 Vdc: 418 Idc: 0 Pdc: 0 Pac: 5 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:04 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 338 Idc: 0 Pdc: 0 Pac: 24 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:04 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 388 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:04 nto PU4: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 07 21:13:04 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 1  objectId: 76 
+Jun 07 21:13:04 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 210 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:04 nto PU4: INFO	System	CLog1 500 ms: 20002 Vdc: 270 Idc: 0 Pdc: 0 Pac: 19 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:04 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 223 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:04 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 194 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:05 nto CI: INFO	iumanager	iumanager: INVERTER WARNINGS == 0x00040000 OR 0x00000000 OR 0x00000000 OR 0x00000000 OR 0x00000000 == 0x00040000
+Jun 07 21:13:11 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 12 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:12 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 286 Idc: 0 Pdc: 0 Pac: 13 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:16 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:16 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 298 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:17 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:18 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 297 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:21 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:22 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 297 Idc: 0 Pdc: 0 Pac: 7 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:23 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:24 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 297 Idc: 0 Pdc: 0 Pac: 23 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:27 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 14 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:28 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 298 Idc: 0 Pdc: 0 Pac: 14 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:29 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 12 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:29 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 305 Idc: 0 Pdc: 6 Pac: 21 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:29 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 25 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:30 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 298 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:33 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 89 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:33 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:33 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 10 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:34 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 306 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:35 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 297 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:35 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 20 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:36 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 306 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:36 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:37 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 295 Idc: 0 Pdc: 0 Pac: 6 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:39 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:40 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:40 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 306 Idc: 0 Pdc: 7 Pac: 6 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:41 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 297 Idc: 0 Pdc: 0 Pac: 2 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:41 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 20 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:42 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 200 Idc: 0 Pdc: 6 Pac: 4 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:42 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:42 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 306 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:43 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 297 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:45 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:46 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:46 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 305 Idc: 0 Pdc: 6 Pac: 4 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:47 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 296 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:48 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 20 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:49 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 7 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:49 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 305 Idc: 0 Pdc: 7 Pac: 13 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:49 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 291 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:51 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 220 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:51 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 20 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:52 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 27 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:52 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 303 Idc: 0 Pdc: 6 Pac: 27 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:53 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 295 Idc: 0 Pdc: 0 Pac: 7 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:54 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 19 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:55 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 25 Idc: 0 Pdc: 0 Pac: 6 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:55 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 304 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:56 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 296 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:56 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 13 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:56 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 297 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:57 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 19 Idc: 0 Pdc: 6 Pac: 11 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:58 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:58 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 304 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:13:59 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 288 Idc: 0 Pdc: 0 Pac: 13 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:00 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 23 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:00 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 296 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:01 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 19 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:01 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:01 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 27 Idc: 0 Pdc: 0 Pac: 11 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:02 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 303 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:02 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 295 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:02 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 296 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:04 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 19 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:04 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 10 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:04 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 302 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:05 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 296 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:05 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 23 Idc: 0 Pdc: 0 Pac: 25 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:06 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 297 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:08 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 19 Idc: 0 Pdc: 7 Pac: 20 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:08 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:08 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 23 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:08 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 284 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:09 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 302 Idc: 0 Pdc: 7 Pac: 3 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:09 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 297 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:10 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 19 Idc: 0 Pdc: 6 Pac: 33 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:11 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:11 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 302 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:11 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 291 Idc: 0 Pdc: 0 Pac: 8 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:11 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 7 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:12 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 296 Idc: 0 Pdc: 0 Pac: 8 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:14 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:14 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:15 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 19 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:15 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 293 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:15 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 300 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:15 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 297 Idc: 0 Pdc: 0 Pac: 21 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:17 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 19 Idc: 0 Pdc: 7 Pac: 4 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:17 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:17 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 26 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:18 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 302 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:18 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 294 Idc: 0 Pdc: 0 Pac: 31 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:18 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 296 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:19 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 325 ms - 65 ms/job
+Jun 07 21:14:21 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 7 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:21 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 11 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:21 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 19 Idc: 0 Pdc: 6 Pac: 5 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:21 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 293 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:21 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 292 Idc: 0 Pdc: 0 Pac: 14 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:22 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 301 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:23 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 24 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:23 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 18 Idc: 0 Pdc: 6 Pac: 4 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:23 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:24 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 278 Idc: 0 Pdc: 7 Pac: 9 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:24 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 295 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:24 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 301 Idc: 0 Pdc: 6 Pac: 8 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:24 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 293 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:27 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:27 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 1 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:28 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 18 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:28 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 293 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:28 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 295 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:29 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 299 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:29 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 24 Idc: 0 Pdc: 0 Pac: 4 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:30 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 18 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:30 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:30 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 295 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:30 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 215 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:31 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 300 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:31 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 293 Idc: 0 Pdc: 0 Pac: 2 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:33 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 26 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:34 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:34 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 7 Pac: 1 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:34 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 291 Idc: 0 Pdc: 0 Pac: 5 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:34 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 295 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:35 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 23 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:35 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 299 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:36 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 295 Idc: 0 Pdc: 0 Pac: 14 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:36 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 18 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:36 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 20 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:37 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 298 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:37 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 293 Idc: 0 Pdc: 0 Pac: 9 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:39 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 4 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:40 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 7 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:40 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 295 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:41 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 19 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:41 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 78 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:41 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 293 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:42 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 298 Idc: 0 Pdc: 7 Pac: 13 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:42 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 18 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:42 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 293 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:43 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 20 Idc: 0 Pdc: 0 Pac: 8 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:43 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 18 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:44 nto PU4: INFO	System	CLog1 500 ms: 20002 Vdc: 290 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:44 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 309 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:44 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 297 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:44 nto PU4: INFO	System	CLog1 500 ms: 20002 Vdc: 236 Idc: 0 Pdc: 0 Pac: 8 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:45 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 5 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:46 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 295 Idc: 0 Pdc: 0 Pac: 8 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:47 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:47 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 20 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:48 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 292 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:48 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 298 Idc: 0 Pdc: 6 Pac: 2 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:48 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:49 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 261 Idc: 0 Pdc: 0 Pac: 2 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:49 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 20 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:49 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 294 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:50 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 18 Idc: 0 Pdc: 6 Pac: 3 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:50 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 292 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:51 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 298 Idc: 0 Pdc: 6 Pac: 15 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:51 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:52 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 293 Idc: 0 Pdc: 0 Pac: 1 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:54 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 20 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:54 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 18 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:54 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 290 Idc: 0 Pdc: 0 Pac: 9 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:55 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 287 Idc: 0 Pdc: 6 Pac: 10 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:55 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:56 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 294 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:56 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 19 Idc: 0 Pdc: 0 Pac: 2 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:57 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 289 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:57 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 18 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:58 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 7 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:58 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 296 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:14:58 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 294 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:00 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:01 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 18 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:01 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 293 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:02 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 296 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:02 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:02 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 291 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:03 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 19 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun  7 21:15:03 rx10025878 syslogd: restart
+Jun 07 21:15:04 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 290 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:04 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 15 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:04 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 18 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:05 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 293 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:05 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 286 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:06 nto CI: INFO	OSLog1	MEM: 65922256 14495744 5711556 PROC:  
+Jun  7 21:15:07 rx10025878 syslogd: restart
+Jun 07 21:15:07 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 20 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:08 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 18 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:08 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 260 Idc: 0 Pdc: 0 Pac: 20 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:08 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 284 Idc: 0 Pdc: 7 Pac: 12 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:08 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 290 Idc: 0 Pdc: 0 Pac: 2 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:08 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:09 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 292 Idc: 0 Pdc: 0 Pac: 4 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:10 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 19 Idc: 0 Pdc: 0 Pac: 16 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:10 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 227 Idc: 0 Pdc: 0 Pac: 2 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:10 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun  7 21:15:11 rx10025878 syslogd: restart
+Jun 07 21:15:11 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 290 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:11 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 290 Idc: 0 Pdc: 0 Pac: 14 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:12 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 17 Idc: 0 Pdc: 6 Pac: 5 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:13 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 287 Idc: 0 Pdc: 7 Pac: 15 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:13 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 318 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:14 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 290 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:14 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 20 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:14 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 20 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:15 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 287 Idc: 0 Pdc: 0 Pac: 16 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:15 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 22 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:15 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 287 Idc: 0 Pdc: 6 Pac: 1 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:16 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 285 Idc: 0 Pdc: 0 Pac: 7 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:16 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 24 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun  7 21:15:17 rx10025878 syslogd: restart
+Jun 07 21:15:17 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:17 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 287 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:18 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 289 Idc: 0 Pdc: 0 Pac: 4 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:19 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 18 Idc: 0 Pdc: 6 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:20 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 286 Idc: 0 Pdc: 7 Pac: 22 IdLim: 0.00 Phi: 0.00 
+Jun  7 21:15:20 rx10025878 syslogd: restart
+Jun 07 21:15:21 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 27 Idc: 0 Pdc: 0 Pac: 7 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:21 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 121 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:21 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 19 Idc: 0 Pdc: 7 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:22 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 21 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:22 nto PU3: INFO	System	CLog1 500 ms: 20307 Vdc: 287 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:22 nto PU2: INFO	System	CLog1 500 ms: 20307 Vdc: 290 Idc: 0 Pdc: 0 Pac: 0 IdLim: 0.00 Phi: 0.00 
+Jun 07 21:15:22 nto PU1: INFO	System	CLog1 500 ms: 20307 Vdc: 286 Idc: 0 Pdc: 7 Pac: 24 IdLim: 0.00 Phi: 0.00 

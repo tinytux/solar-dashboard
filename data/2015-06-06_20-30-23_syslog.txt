@@ -1,0 +1,145 @@
+Jun  6 20:15:20 rx10025878 syslogd: restart
+Jun  6 20:15:24 rx10025878 syslogd: restart
+Jun  6 20:15:27 rx10025878 syslogd: restart
+Jun  6 20:15:30 rx10025878 syslogd: restart
+Jun  6 20:15:34 rx10025878 syslogd: restart
+Jun 06 20:15:36 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 06 20:15:36 nto PU2: INFO	SafetyFeatures	Powertest Failed: VdcInit: 636.289612 VdcLimit: 620.382385 VdcEnd: 617.391907 
+Jun 06 20:15:36 nto PU2: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun  6 20:15:37 rx10025878 syslogd: restart
+Jun 06 20:15:58 nto PU4: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 06 20:15:58 nto PU4: INFO	SafetyFeatures	Powertest Failed: VdcInit: 633.920044 VdcLimit: 618.072021 VdcEnd: 614.607544 
+Jun 06 20:15:58 nto PU4: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 06 20:16:10 nto PU1: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 06 20:16:11 nto PU1: INFO	SafetyFeatures	Powertest Failed: VdcInit: 632.011841 VdcLimit: 616.211548 VdcEnd: 611.424133 
+Jun 06 20:16:11 nto PU1: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 06 20:16:14 nto PU3: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 06 20:16:14 nto PU3: INFO	SafetyFeatures	Powertest Failed: VdcInit: 634.656738 VdcLimit: 618.790344 VdcEnd: 614.853149 
+Jun 06 20:16:14 nto PU3: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 06 20:16:36 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForGridParamtestOk 
+Jun 06 20:16:36 nto PU4: INFO	PuMaster	Startup FSM State: WAIT_AC_CONTACTOR_RELEASED 
+Jun 06 20:16:36 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: setDcContactorClosingCompleted called 
+Jun 06 20:16:36 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:16:36 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:16:36 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 06 20:16:36 nto PU2: INFO	SafetyFeatures	Powertest Failed: VdcInit: 633.465942 VdcLimit: 617.629272 VdcEnd: 614.614746 
+Jun 06 20:16:36 nto PU2: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 06 20:16:38 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:16:38 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:16:39 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:16:39 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:16:40 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:16:41 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:16:41 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:16:41 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:16:42 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:16:43 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:16:43 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:16:43 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:16:44 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:16:45 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:16:46 nto PU4: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:17:11 nto PU1: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 06 20:17:11 nto PU1: INFO	SafetyFeatures	Powertest Failed: VdcInit: 631.959106 VdcLimit: 616.160156 VdcEnd: 614.737000 
+Jun 06 20:17:11 nto PU1: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 06 20:17:14 nto PU3: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 06 20:17:15 nto PU3: INFO	SafetyFeatures	Powertest Failed: VdcInit: 632.342896 VdcLimit: 616.534302 VdcEnd: 613.845459 
+Jun 06 20:17:15 nto PU3: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 06 20:17:37 nto PU2: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 06 20:17:37 nto PU2: INFO	SafetyFeatures	Powertest Failed: VdcInit: 631.925171 VdcLimit: 616.127014 VdcEnd: 612.999878 
+Jun 06 20:17:37 nto PU2: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 06 20:17:50 nto PU2: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 631 Idc: 0 Pdc: 0 Pac: 4 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 06 20:17:50 nto PU2: INFO	System	PLog2 300000 ms: tL1: 47 tL2: 47 tL3: 46 tCb: 54 tAc: 38 tDc: 23 
+Jun 06 20:17:50 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 49.99 
+Jun 06 20:17:52 nto PU3: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 630 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 06 20:17:52 nto PU3: INFO	System	PLog2 300000 ms: tL1: 47 tL2: 48 tL3: 47 tCb: 53 tAc: 36 tDc: 23 
+Jun 06 20:17:52 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 383 vL23: 383 vL31: 384 f: 49.99 
+Jun 06 20:17:54 nto PU4: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 624 Idc: 0 Pdc: 152 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 06 20:17:54 nto PU4: INFO	System	PLog2 300000 ms: tL1: 47 tL2: 48 tL3: 46 tCb: 53 tAc: 37 tDc: 23 
+Jun 06 20:17:54 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 384 f: 50.00 
+Jun 06 20:17:55 nto PU1: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 629 Idc: 0 Pdc: 0 Pac: 12 Wh: 1 IdLim: 0.00 Phi: 0.00 
+Jun 06 20:17:55 nto PU1: INFO	System	PLog2 300000 ms: tL1: 42 tL2: 42 tL3: 42 tCb: 53 tAc: 37 tDc: 23 
+Jun 06 20:17:55 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 383 vL23: 383 vL31: 384 f: 49.99 
+Jun 06 20:18:11 nto PU1: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 06 20:18:12 nto PU1: INFO	SafetyFeatures	Powertest Failed: VdcInit: 630.102112 VdcLimit: 614.349548 VdcEnd: 612.637817 
+Jun 06 20:18:12 nto PU1: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 06 20:18:12 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForGridParamtestOk 
+Jun 06 20:18:12 nto PU1: INFO	PuMaster	Startup FSM State: WAIT_AC_CONTACTOR_RELEASED 
+Jun 06 20:18:12 nto PU1: DEBUG	SafetyM	SafetyManagerFSM: setDcContactorClosingCompleted called 
+Jun 06 20:18:12 nto PU1: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:12 nto PU1: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:18:15 nto PU3: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 06 20:18:15 nto PU3: INFO	SafetyFeatures	Powertest Failed: VdcInit: 629.818542 VdcLimit: 614.073059 VdcEnd: 612.079407 
+Jun 06 20:18:15 nto PU3: INFO	PuMaster	Startup Sub FSM State: POWERTEST_FAILED 
+Jun 06 20:18:15 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForGridParamtestOk 
+Jun 06 20:18:15 nto PU3: INFO	PuMaster	Startup FSM State: WAIT_AC_CONTACTOR_RELEASED 
+Jun 06 20:18:15 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: setDcContactorClosingCompleted called 
+Jun 06 20:18:15 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:15 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:18:16 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:16 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:18:19 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:19 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:18:19 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:20 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:18:21 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:21 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:18:22 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:22 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:18:23 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:28 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:18:28 nto PU3: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:34 nto PU1: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:34 nto PU1: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:18:35 nto PU1: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:35 nto PU1: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:18:36 nto PU1: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:36 nto PU1: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:18:37 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForGridParamtestOk 
+Jun 06 20:18:37 nto PU2: INFO	PuMaster	Startup FSM State: WAIT_AC_CONTACTOR_RELEASED 
+Jun 06 20:18:37 nto PU2: DEBUG	SafetyM	SafetyManagerFSM: setDcContactorClosingCompleted called 
+Jun 06 20:18:37 nto PU2: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:37 nto PU2: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:18:38 nto PU2: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:38 nto PU2: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:18:38 nto PU1: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:38 nto PU2: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:39 nto PU2: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:18:39 nto PU2: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:18:41 nto PU2: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: none objectId: 0 
+Jun 06 20:18:41 nto PU2: INFO	System	StatusGenerator: statuscode: 110 subcodeBit: 2  objectId: 33 
+Jun 06 20:20:03 nto CI: INFO	OSLog1	MEM: 64738512 12996608 7190212 PROC:  
+Jun 06 20:21:04 nto CI: INFO	statistics	statistics: write: 20 statistics jobs in 873 ms - 43 ms/job
+Jun 06 20:22:51 nto PU2: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 621 Idc: 0 Pdc: 0 Pac: 11 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 06 20:22:51 nto PU2: INFO	System	PLog2 300000 ms: tL1: 46 tL2: 47 tL3: 46 tCb: 47 tAc: 36 tDc: 23 
+Jun 06 20:22:51 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 50.00 
+Jun 06 20:22:54 nto PU3: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 621 Idc: 0 Pdc: 0 Pac: 10 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 06 20:22:54 nto PU3: INFO	System	PLog2 300000 ms: tL1: 46 tL2: 47 tL3: 46 tCb: 54 tAc: 38 tDc: 23 
+Jun 06 20:22:54 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 384 vL31: 385 f: 50.00 
+Jun 06 20:22:55 nto PU4: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 619 Idc: 0 Pdc: 159 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 06 20:22:55 nto PU4: INFO	System	PLog2 300000 ms: tL1: 46 tL2: 47 tL3: 45 tCb: 53 tAc: 38 tDc: 23 
+Jun 06 20:22:55 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 384 vL31: 385 f: 50.00 
+Jun 06 20:22:57 nto PU1: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 622 Idc: 0 Pdc: 0 Pac: 14 Wh: 1 IdLim: 0.00 Phi: 0.00 
+Jun 06 20:22:57 nto PU1: INFO	System	PLog2 300000 ms: tL1: 42 tL2: 42 tL3: 41 tCb: 49 tAc: 35 tDc: 23 
+Jun 06 20:22:57 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 49.99 
+Jun 06 20:24:02 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 886 ms - 36 ms/job
+Jun 06 20:25:03 nto CI: INFO	OSLog1	MEM: 64738512 12996608 7190212 PROC:  
+Jun 06 20:26:19 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 573 ms - 114 ms/job
+Jun 06 20:27:53 nto PU2: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 619 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 06 20:27:53 nto PU2: INFO	System	PLog2 300000 ms: tL1: 46 tL2: 46 tL3: 45 tCb: 53 tAc: 36 tDc: 23 
+Jun 06 20:27:53 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 49.98 
+Jun 06 20:27:55 nto PU3: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 613 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 06 20:27:55 nto PU3: INFO	System	PLog2 300000 ms: tL1: 46 tL2: 47 tL3: 45 tCb: 50 tAc: 37 tDc: 23 
+Jun 06 20:27:55 nto PU3: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 49.98 
+Jun 06 20:27:56 nto PU4: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 614 Idc: 0 Pdc: 145 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 06 20:27:56 nto PU4: INFO	System	PLog2 300000 ms: tL1: 45 tL2: 47 tL3: 44 tCb: 48 tAc: 37 tDc: 23 
+Jun 06 20:27:56 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 384 f: 49.98 
+Jun 06 20:27:58 nto PU1: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 618 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 06 20:27:58 nto PU1: INFO	System	PLog2 300000 ms: tL1: 41 tL2: 42 tL3: 41 tCb: 53 tAc: 35 tDc: 23 
+Jun 06 20:27:58 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 384 vL23: 384 vL31: 385 f: 49.98 
+Jun  6 20:30:04 rx10025878 syslogd: restart
+Jun 06 20:30:08 nto CI: INFO	OSLog1	MEM: 66512080 14495744 5711556 PROC:  
+Jun  6 20:30:08 rx10025878 syslogd: restart
+Jun  6 20:30:12 rx10025878 syslogd: restart
+Jun  6 20:30:15 rx10025878 syslogd: restart
+Jun  6 20:30:19 rx10025878 syslogd: restart

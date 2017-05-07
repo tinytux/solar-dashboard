@@ -1,0 +1,211 @@
+Jun 24 10:00:22 rx10025878 syslogd: restart
+Jun 24 10:00:22 nto PU3: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 24 10:00:24 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForAcContactorClosed 
+Jun 24 10:00:24 nto PU3: INFO	PuMaster	Startup FSM State: AC_CONTACTOR_RELEASED 
+Jun 24 10:00:24 nto PU3: INFO	PuMaster	Startup Sub FSM State: RUN_OC_SD_SELFTEST 
+Jun 24 10:00:25 rx10025878 syslogd: restart
+Jun 24 10:00:26 nto PU3: INFO	PuMaster	Startup Sub FSM State: RUN_TEMP_SENSOR_SELFTEST 
+Jun 24 10:00:26 nto PU3: INFO	PuMaster	Startup Sub FSM State: READY_FOR_POWERTEST 
+Jun 24 10:00:26 nto PU1: INFO	IuMaster	Send Cmd: START_POWERTEST to PU: 3 
+Jun 24 10:00:26 nto PU3: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 24 10:00:29 rx10025878 syslogd: restart
+Jun 24 10:00:32 rx10025878 syslogd: restart
+Jun 24 10:00:35 rx10025878 syslogd: restart
+Jun 24 10:00:37 nto PU3: INFO	PuMaster	Startup Sub FSM State: READY_TO_CLOSE_AC_CONTACTOR 
+Jun 24 10:00:37 nto PU1: INFO	IuMaster	Send Cmd: CONNECT_TO_GRID to PU: 3 
+Jun 24 10:00:37 nto PU3: INFO	PuMaster	Startup Sub FSM State: GRID_CONNECTION 
+Jun 24 10:00:39 rx10025878 syslogd: restart
+Jun 24 10:00:41 nto PU3: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateBothContactorClosed 
+Jun 24 10:00:41 nto PU3: INFO	PuMaster	Startup Sub FSM State: MAINS_OPERATION 
+Jun 24 10:00:41 nto PU3: INFO	PuMaster	MainsOperation FSM State: READY_FOR_FEED_IN 
+Jun 24 10:00:41 nto PU3: INFO	System	StatusGenerator: statuscode: 104 subcodeBit: none objectId: 0 
+Jun 24 10:00:42 rx10025878 syslogd: restart
+Jun 24 10:00:42 nto PU3: INFO	PuMaster	MainsOperation FSM State: START_FEED_IN 
+Jun 24 10:00:42 nto PU1: INFO	IuMaster	Send Cmd: START_FEED_IN to PU: 3 
+Jun 24 10:00:42 nto PU3: INFO	System	StatusGenerator: statuscode: 112 subcodeBit: none objectId: 0 
+Jun 24 10:00:42 nto PU3: INFO	System	CLog1 500 ms: 20003 Vdc: 811 Idc: 1 Pdc: 1082 Pac: 790 IdLim: 1.00 Phi: 0.00 
+Jun 24 10:00:43 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20003   INVERTER SUBCODE 0   RunLevel 1   StatusCodePriority 112
+Jun 24 10:00:43 nto PU3: DEBUG	Mppt	TrackingMaster: activated 
+Jun 24 10:00:43 nto PU3: DEBUG	Mppt	System Event:0 
+Jun 24 10:00:43 nto PU3: DEBUG	Mppt	StartupTracker: RUNNING Current Power: 1186 Current Voltage: 811 
+Jun 24 10:00:43 nto PU3: INFO	PuMaster	MainsOperation FSM State: FEED_IN 
+Jun 24 10:00:43 nto PU3: INFO	System	StatusGenerator: statuscode: 6 subcodeBit: none objectId: 0 
+Jun 24 10:00:44 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20008   INVERTER SUBCODE 0   RunLevel 0   StatusCodePriority 6
+Jun 24 10:00:46 rx10025878 syslogd: restart
+Jun 24 10:00:51 nto PU3: DEBUG	Mppt	StartupTracker: COMPLETED 
+Jun 24 10:00:51 nto PU3: DEBUG	Mppt	SlowHsiaoChenTracker: RUNNING Current Power: 46983 Current Voltage: 689 
+Jun 24 10:00:51 nto PU3: DEBUG	Mppt	SlowHsiaoChenTracker: COMPLETED 
+Jun 24 10:00:51 nto PU3: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 47006 Current Voltage: 689 
+Jun 24 10:04:25 nto PU4: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 24 10:04:25 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 24 10:04:25 nto PU4: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 24 10:04:25 nto PU4: INFO	System	CLog1 500 ms: 20017 Vdc: 817 Idc: 0 Pdc: 0 Pac: 7 IdLim: 0.00 Phi: 0.00 
+Jun 24 10:04:30 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitDcContactorClosed 
+Jun 24 10:04:30 nto PU4: INFO	PuMaster	Startup FSM State: RUN_DC_CONT_SELFTEST 
+Jun 24 10:04:30 nto PU4: INFO	PuMaster	Startup FSM State: PRECHARGE_DC_BUS 
+Jun 24 10:04:35 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateOpenBothContactors 
+Jun 24 10:04:35 nto PU4: DEBUG	Mppt	TrackingMaster: deactivated 
+Jun 24 10:04:35 nto PU4: DEBUG	Mppt	System Event:1 
+Jun 24 10:04:35 nto PU4: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 24 10:04:35 nto PU4: INFO	System	StatusGenerator: statuscode: 211 subcodeBit: none objectId: 58 
+Jun 24 10:04:36 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitBackgroundMonitoringOk 
+Jun 24 10:04:36 nto PU4: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 24 10:04:36 nto PU4: INFO	PuMaster	Startup FSM State: WAIT_DC_CONTACTOR_RELEASED 
+Jun 24 10:04:36 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 24 10:04:36 nto PU4: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 24 10:04:41 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitDcContactorClosed 
+Jun 24 10:04:41 nto PU4: INFO	PuMaster	Startup FSM State: RUN_DC_CONT_SELFTEST 
+Jun 24 10:04:41 nto PU4: INFO	PuMaster	Startup FSM State: PRECHARGE_DC_BUS 
+Jun 24 10:04:46 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateOpenBothContactors 
+Jun 24 10:04:46 nto PU4: DEBUG	Mppt	TrackingMaster: deactivated 
+Jun 24 10:04:46 nto PU4: DEBUG	Mppt	System Event:1 
+Jun 24 10:04:46 nto PU4: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 24 10:04:46 nto PU4: INFO	System	StatusGenerator: statuscode: 211 subcodeBit: none objectId: 58 
+Jun 24 10:04:46 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitBackgroundMonitoringOk 
+Jun 24 10:04:46 nto PU4: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 24 10:04:46 nto PU4: INFO	PuMaster	Startup FSM State: WAIT_DC_CONTACTOR_RELEASED 
+Jun 24 10:04:46 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 24 10:04:46 nto PU4: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 24 10:04:51 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitDcContactorClosed 
+Jun 24 10:04:51 nto PU4: INFO	PuMaster	Startup FSM State: RUN_DC_CONT_SELFTEST 
+Jun 24 10:04:51 nto PU4: INFO	PuMaster	Startup FSM State: PRECHARGE_DC_BUS 
+Jun 24 10:04:56 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateOpenBothContactors 
+Jun 24 10:04:56 nto PU4: DEBUG	Mppt	TrackingMaster: deactivated 
+Jun 24 10:04:56 nto PU4: DEBUG	Mppt	System Event:1 
+Jun 24 10:04:56 nto PU4: INFO	PuMaster	Main FSM State: SEVERE_ERROR 
+Jun 24 10:04:56 nto PU4: INFO	System	StatusGenerator: statuscode: 211 subcodeBit: none objectId: 58 
+Jun 24 10:04:57 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterMainStateWaitBackgroundMonitoringOk 
+Jun 24 10:04:57 nto PU4: INFO	PuMaster	Main FSM State: STARTUP 
+Jun 24 10:04:57 nto PU4: INFO	PuMaster	Startup FSM State: WAIT_DC_CONTACTOR_RELEASED 
+Jun 24 10:04:57 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: readyForBackgroundMonitoring called 
+Jun 24 10:04:57 nto PU4: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 24 10:05:02 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitDcContactorClosed 
+Jun 24 10:05:02 nto PU4: INFO	PuMaster	Startup FSM State: RUN_DC_CONT_SELFTEST 
+Jun 24 10:05:02 nto PU4: INFO	PuMaster	Startup FSM State: PRECHARGE_DC_BUS 
+Jun 24 10:05:03 nto CI: INFO	OSLog1	MEM: 64255184 12996608 7190212 PROC:  
+Jun 24 10:05:08 nto PU4: INFO	PuMaster	Startup FSM State: READY_TO_CLOSE_DC_CONTACTOR 
+Jun 24 10:05:08 nto PU1: INFO	IuMaster	Send Cmd: CLOSE_DC_CONTACTOR to PU: 4 
+Jun 24 10:05:08 nto PU4: INFO	PuMaster	Startup FSM State: CLOSE_DC_CONTACTOR 
+Jun 24 10:05:10 nto PU4: INFO	PuMaster	Startup FSM State: WAIT_AC_CONTACTOR_RELEASED 
+Jun 24 10:05:10 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: setDcContactorClosingCompleted called 
+Jun 24 10:05:10 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForGridParamtestOk 
+Jun 24 10:05:10 nto PU4: INFO	System	StatusGenerator: statuscode: 109 subcodeBit: none objectId: 0 
+Jun 24 10:05:11 nto PU2: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 0 Idc: 0 Pdc: 3 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 24 10:05:11 nto PU2: INFO	System	PLog2 300000 ms: tL1: 24 tL2: 24 tL3: 24 tCb: 33 tAc: 24 tDc: 23 
+Jun 24 10:05:11 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 388 vL23: 388 vL31: 388 f: 49.99 
+Jun 24 10:05:11 nto PU1: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 0 Idc: 0 Pdc: 0 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 24 10:05:11 nto PU1: INFO	System	PLog2 300000 ms: tL1: 25 tL2: 25 tL3: 25 tCb: 33 tAc: 23 tDc: 23 
+Jun 24 10:05:11 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 654 Idc: 76 Pdc: 49932 Pac: 48855 Wh: 4071 IdLim: 1.00 Phi: 0.00 
+Jun 24 10:05:11 nto PU3: INFO	System	PLog2 300000 ms: tL1: 30 tL2: 31 tL3: 30 tCb: 35 tAc: 24 tDc: 23 
+Jun 24 10:05:11 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 386 vL23: 385 vL31: 386 f: 50.00 
+Jun 24 10:05:11 nto PU3: INFO	System	PLog3 300000 ms: iL1: 72 iL2: 73 iL3: 72 vL12: 388 vL23: 388 vL31: 388 f: 49.99 
+Jun 24 10:05:11 nto PU4: INFO	System	PLog1 300000 ms: 1 20013 Vdc: 820 Idc: 0 Pdc: 0 Pac: 16 Wh: 1 IdLim: 0.00 Phi: 0.00 
+Jun 24 10:05:11 nto PU4: INFO	System	PLog2 300000 ms: tL1: 24 tL2: 24 tL3: 24 tCb: 33 tAc: 24 tDc: 23 
+Jun 24 10:05:11 nto PU4: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 386 vL23: 385 vL31: 386 f: 50.00 
+Jun 24 10:05:40 nto PU4: INFO	System	StatusGenerator: statuscode: 107 subcodeBit: none objectId: 0 
+Jun 24 10:05:42 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateWaitForAcContactorClosed 
+Jun 24 10:05:42 nto PU4: INFO	PuMaster	Startup FSM State: AC_CONTACTOR_RELEASED 
+Jun 24 10:05:42 nto PU4: INFO	PuMaster	Startup Sub FSM State: RUN_OC_SD_SELFTEST 
+Jun 24 10:05:44 nto PU4: INFO	PuMaster	Startup Sub FSM State: RUN_TEMP_SENSOR_SELFTEST 
+Jun 24 10:05:44 nto PU4: INFO	PuMaster	Startup Sub FSM State: READY_FOR_POWERTEST 
+Jun 24 10:05:45 nto PU1: INFO	IuMaster	Send Cmd: START_POWERTEST to PU: 4 
+Jun 24 10:05:45 nto PU4: INFO	PuMaster	Startup Sub FSM State: RUN_POWERTEST 
+Jun 24 10:05:55 nto PU4: INFO	PuMaster	Startup Sub FSM State: READY_TO_CLOSE_AC_CONTACTOR 
+Jun 24 10:05:55 nto PU1: INFO	IuMaster	Send Cmd: CONNECT_TO_GRID to PU: 4 
+Jun 24 10:05:55 nto PU4: INFO	PuMaster	Startup Sub FSM State: GRID_CONNECTION 
+Jun 24 10:05:59 nto PU4: DEBUG	SafetyM	SafetyManagerFSM: enterSubStateBothContactorClosed 
+Jun 24 10:05:59 nto PU4: INFO	PuMaster	Startup Sub FSM State: MAINS_OPERATION 
+Jun 24 10:05:59 nto PU4: INFO	PuMaster	MainsOperation FSM State: READY_FOR_FEED_IN 
+Jun 24 10:05:59 nto PU4: INFO	System	StatusGenerator: statuscode: 104 subcodeBit: none objectId: 0 
+Jun 24 10:06:00 nto PU1: INFO	IuMaster	Send Cmd: START_FEED_IN to PU: 4 
+Jun 24 10:06:00 nto PU4: INFO	PuMaster	MainsOperation FSM State: START_FEED_IN 
+Jun 24 10:06:00 nto PU4: INFO	System	StatusGenerator: statuscode: 112 subcodeBit: none objectId: 0 
+Jun 24 10:06:01 nto PU4: DEBUG	Mppt	TrackingMaster: activated 
+Jun 24 10:06:01 nto PU4: DEBUG	Mppt	System Event:0 
+Jun 24 10:06:01 nto PU4: DEBUG	Mppt	StartupTracker: RUNNING Current Power: 0 Current Voltage: 820 
+Jun 24 10:06:01 nto PU4: INFO	PuMaster	MainsOperation FSM State: FEED_IN 
+Jun 24 10:06:01 nto PU4: INFO	System	CLog1 500 ms: 20003 Vdc: 820 Idc: 0 Pdc: 0 Pac: 0 IdLim: 1.00 Phi: 0.00 
+Jun 24 10:06:01 nto PU4: INFO	System	StatusGenerator: statuscode: 6 subcodeBit: none objectId: 0 
+Jun 24 10:06:02 nto PU4: INFO	System	CLog1 500 ms: 20008 Vdc: 810 Idc: 19 Pdc: 14669 Pac: 14954 IdLim: 1.00 Phi: 0.00 
+Jun 24 10:06:03 nto PU4: INFO	System	CLog1 500 ms: 20008 Vdc: 794 Idc: 44 Pdc: 35181 Pac: 34716 IdLim: 1.00 Phi: 0.00 
+Jun 24 10:06:03 nto PU4: INFO	System	CLog1 500 ms: 20008 Vdc: 785 Idc: 58 Pdc: 45704 Pac: 44966 IdLim: 1.00 Phi: 0.00 
+Jun 24 10:06:09 nto PU4: DEBUG	Mppt	StartupTracker: COMPLETED 
+Jun 24 10:06:09 nto PU4: DEBUG	Mppt	SlowHsiaoChenTracker: RUNNING Current Power: 95839 Current Voltage: 697 
+Jun 24 10:06:09 nto PU4: DEBUG	Mppt	SlowHsiaoChenTracker: COMPLETED 
+Jun 24 10:06:09 nto PU4: DEBUG	Mppt	FraunhoferIseTracker: RUNNING Current Power: 95888 Current Voltage: 697 
+Jun 24 10:07:18 nto CI: INFO	statistics	statistics: write: 20 statistics jobs in 859 ms - 42 ms/job
+Jun 24 10:07:18 nto CI: INFO	statistics	statistics: write: 5 statistics jobs in 397 ms - 79 ms/job
+Jun 24 10:10:03 nto CI: INFO	OSLog1	MEM: 64328912 12996608 7190212 PROC:  
+Jun 24 10:10:12 nto PU2: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 0 Idc: 0 Pdc: 4 Pac: 0 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 24 10:10:12 nto PU2: INFO	System	PLog2 300000 ms: tL1: 24 tL2: 24 tL3: 24 tCb: 34 tAc: 24 tDc: 23 
+Jun 24 10:10:12 nto PU3: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 652 Idc: 78 Pdc: 51589 Pac: 50322 Wh: 4193 IdLim: 1.00 Phi: 0.00 
+Jun 24 10:10:12 nto PU1: INFO	System	PLog1 300000 ms: 1 20002 Vdc: 0 Idc: 0 Pdc: 0 Pac: 9 Wh: 0 IdLim: 0.00 Phi: 0.00 
+Jun 24 10:10:12 nto PU2: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 385 vL23: 385 vL31: 386 f: 50.00 
+Jun 24 10:10:12 nto PU4: INFO	System	PLog1 300000 ms: 0 20008 Vdc: 666 Idc: 153 Pdc: 102486 Pac: 100165 Wh: 8347 IdLim: 1.00 Phi: 0.00 
+Jun 24 10:10:12 nto PU3: INFO	System	PLog2 300000 ms: tL1: 37 tL2: 38 tL3: 37 tCb: 36 tAc: 24 tDc: 23 
+Jun 24 10:10:12 nto PU1: INFO	System	PLog2 300000 ms: tL1: 25 tL2: 25 tL3: 25 tCb: 34 tAc: 23 tDc: 23 
+Jun 24 10:10:12 nto PU4: INFO	System	PLog2 300000 ms: tL1: 39 tL2: 39 tL3: 37 tCb: 35 tAc: 24 tDc: 23 
+Jun 24 10:10:12 nto PU3: INFO	System	PLog3 300000 ms: iL1: 74 iL2: 75 iL3: 74 vL12: 388 vL23: 387 vL31: 388 f: 49.99 
+Jun 24 10:10:12 nto PU1: INFO	System	PLog3 300000 ms: iL1: 0 iL2: 0 iL3: 0 vL12: 386 vL23: 386 vL31: 386 f: 50.00 
+Jun 24 10:10:12 nto PU4: INFO	System	PLog3 300000 ms: iL1: 148 iL2: 149 iL3: 148 vL12: 388 vL23: 388 vL31: 388 f: 50.00 
+Jun 24 10:10:16 nto CI: INFO	iumanager	iumanager: WAKEUP_XT_TQM1 and WAKEUP_XT_TQM2 inputs low for 15 minutes, setting DATA_KEY_ID_INVERTER_LOW_DC_VOLTAGE to TRUE
+Jun 24 10:10:16 nto CI: INFO	pumanager1	pumanager: PU control master FSM disabled, reboot PU and block until (re)enabled...
+Jun 24 10:10:16 nto CI: INFO	statistics	statistics: PU1 disabled => deactivate statistic generator...
+Jun 24 10:10:16 nto CI: INFO	pumanager1	pumanager: FSM State: RESET_SLAVE
+Jun 24 10:10:16 nto CI: INFO	pumanager3	pumanager: PU control master FSM disabled, reboot PU and block until (re)enabled...
+Jun 24 10:10:16 nto CI: INFO	pumanager4	pumanager: PU control master FSM disabled, reboot PU and block until (re)enabled...
+Jun 24 10:10:16 nto CI: INFO	pumanager1	pumanager: Perform PU reset, slaveState = 6
+Jun 24 10:10:16 nto CI: INFO	statistics	statistics: PU3 disabled => deactivate statistic generator...
+Jun 24 10:10:16 nto CI: INFO	pumanager3	pumanager: FSM State: RESET_SLAVE
+Jun 24 10:10:16 nto CI: INFO	pumanager2	pumanager: PU control master FSM disabled, reboot PU and block until (re)enabled...
+Jun 24 10:10:16 nto CI: INFO	pumanager3	pumanager: Perform PU reset, slaveState = 6
+Jun 24 10:10:16 nto CI: INFO	statistics	statistics: PU4 disabled => deactivate statistic generator...
+Jun 24 10:10:16 nto CI: INFO	pumanager1	pumanager: FSM State: WAIT_FOR_POWER
+Jun 24 10:10:16 nto CI: INFO	pumanager2	pumanager: FSM State: RESET_SLAVE
+Jun 24 10:10:16 nto CI: INFO	statistics	statistics: PU2 disabled => deactivate statistic generator...
+Jun 24 10:10:16 nto CI: INFO	pumanager4	pumanager: FSM State: RESET_SLAVE
+Jun 24 10:10:16 nto CI: INFO	pumanager2	pumanager: Perform PU reset, slaveState = 6
+Jun 24 10:10:16 nto CI: INFO	pumanager1	pumanager: PU1: regular reset detected, reset measurement data keys to default values...
+Jun 24 10:10:16 nto CI: INFO	pumanager3	pumanager: FSM State: WAIT_FOR_POWER
+Jun 24 10:10:16 nto CI: INFO	pumanager4	pumanager: Perform PU reset, slaveState = 6
+Jun 24 10:10:16 nto CI: INFO	pumanager3	pumanager: PU3: regular reset detected, reset measurement data keys to default values...
+Jun 24 10:10:16 nto CI: INFO	pumanager2	pumanager: FSM State: WAIT_FOR_POWER
+Jun 24 10:10:16 nto CI: INFO	pumanager4	pumanager: FSM State: WAIT_FOR_POWER
+Jun 24 10:10:16 nto CI: INFO	pumanager4	pumanager: PU4: regular reset detected, reset measurement data keys to default values...
+Jun 24 10:10:16 nto CI: INFO	pumanager2	pumanager: PU2: regular reset detected, reset measurement data keys to default values...
+Jun 24 10:10:16 nto CI: INFO	pumanager1	pumanager: Wait for PU enable...
+Jun 24 10:10:16 nto CI: INFO	pumanager3	pumanager: Wait for PU enable...
+Jun 24 10:10:16 nto CI: INFO	pumanager2	pumanager: Wait for PU enable...
+Jun 24 10:10:17 nto CI: INFO	pumanager4	pumanager: Wait for PU enable...
+Jun 24 10:10:17 nto CI: INFO	iumanager	iumanager:   INVERTER STATUS 20099   INVERTER SUBCODE 0   RunLevel 1   StatusCodePriority 101
+Jun 24 10:10:18 nto PU1: INFO	BootFsm	********** Hello from Solarmax RX! ********** 
+Jun 24 10:10:18 nto PU1: DEBUG	BootFsm	Reset cause is an expected SW reset (e.g. firmware update or remote reset) 
+Jun 24 10:10:18 nto PU1: INFO	BootFsm	Basic system successfully built, duration: 85.62ms 
+Jun 24 10:10:18 nto PU3: INFO	BootFsm	********** Hello from Solarmax RX! ********** 
+Jun 24 10:10:18 nto PU1: INFO	BootFsm	Communication system successfully built, duration: 0.23ms 
+Jun 24 10:10:18 nto PU3: DEBUG	BootFsm	Reset cause is an expected SW reset (e.g. firmware update or remote reset) 
+Jun 24 10:10:18 nto PU1: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_POWER_OK, wait for PU_CONTROL_SLAVE_COMMAND_PREPARE_FOR_CONFIG... 
+Jun 24 10:10:18 nto PU3: INFO	BootFsm	Basic system successfully built, duration: 85.62ms 
+Jun 24 10:10:18 nto PU3: INFO	BootFsm	Communication system successfully built, duration: 0.23ms 
+Jun 24 10:10:18 nto PU3: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_POWER_OK, wait for PU_CONTROL_SLAVE_COMMAND_PREPARE_FOR_CONFIG... 
+Jun 24 10:10:18 nto PU2: INFO	BootFsm	********** Hello from Solarmax RX! ********** 
+Jun 24 10:10:18 nto PU2: DEBUG	BootFsm	Reset cause is an expected SW reset (e.g. firmware update or remote reset) 
+Jun 24 10:10:18 nto PU2: INFO	BootFsm	Basic system successfully built, duration: 85.62ms 
+Jun 24 10:10:18 nto PU2: INFO	BootFsm	Communication system successfully built, duration: 0.23ms 
+Jun 24 10:10:18 nto PU2: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_POWER_OK, wait for PU_CONTROL_SLAVE_COMMAND_PREPARE_FOR_CONFIG... 
+Jun 24 10:10:18 nto PU4: INFO	BootFsm	********** Hello from Solarmax RX! ********** 
+Jun 24 10:10:18 nto PU4: DEBUG	BootFsm	Reset cause is an expected SW reset (e.g. firmware update or remote reset) 
+Jun 24 10:10:18 nto PU4: INFO	BootFsm	Basic system successfully built, duration: 85.62ms 
+Jun 24 10:10:18 nto PU4: INFO	BootFsm	Communication system successfully built, duration: 0.23ms 
+Jun 24 10:10:18 nto PU4: DEBUG	BootFsm	PU_CONTROL_SLAVE_STATE_POWER_OK, wait for PU_CONTROL_SLAVE_COMMAND_PREPARE_FOR_CONFIG... 
+Jun 24 10:10:18 nto CI: INFO	iumanager	iumanager: WAKEUP: DC voltage low, disabling power supplies
+Jun 24 10:10:18 nto CI: INFO	iumanager	iumanager: GpioWriter::setCiPowerSupplies(): OFF
+Jun 24 10:10:19 nto CI: INFO	iumanager	iumanager: VXTBUS change from 15.300000 to 15.800000
+Jun 24 10:10:35 nto CI: INFO	iumanager	iumanager: VXTBUS change from 15.800000 to 11.800000
+Jun 24 10:12:02 nto CI: INFO	statistics	statistics: write: 24 day chart jobs in 1349 ms - 56 ms/job
+Jun 24 10:15:03 rx10025878 syslogd: restart
+Jun 24 10:15:05 nto CI: INFO	OSLog1	MEM: 66159824 14495744 5711556 PROC:  
+Jun 24 10:15:06 rx10025878 syslogd: restart
+Jun 24 10:15:09 rx10025878 syslogd: restart
+Jun 24 10:15:11 rx10025878 syslogd: restart
+Jun 24 10:15:14 rx10025878 syslogd: restart
