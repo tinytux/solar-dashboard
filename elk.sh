@@ -6,10 +6,36 @@
 SCRIPTDIR="$(dirname "$0")"
 
 if ! [ -x "$(command -v docker-compose)" ]; then
-  echo "docker and docker-compose required."
-  echo "See https://docs.docker.com/compose/install/"
-  exit 1
+    echo "docker and docker-compose required."
+    echo "See https://docs.docker.com/compose/install/"
+    exit 1
 fi
+
+if ! [ -x "$(command -v awk)" ]; then
+    echo "awk required. Run 'sudo apt-get install gawk'"
+    exit 1
+fi
+
+RAMSIZE="$(free | awk '/^Mem:/{print int($2 / 1000000)}')"
+if [[ ${RAMSIZE} -lt 8 ]]; then
+    echo "${RAMSIZE} GB RAM detected. This configuration requires at least 8 GB RAM."
+    exit 1
+fi
+
+MAPCOUNT="$(cat /proc/sys/vm/max_map_count)"
+if [[ ${MAPCOUNT} -lt 262144 ]]; then
+    echo "Current max_map_count is ${MAPCOUNT}. elasticsearch requires at least 262144:"
+    echo "https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html"
+    echo "Run 'sudo sysctl -w vm.max_map_count=262144'"
+    exit 1
+fi
+
+RAMSIZE="$(free | awk '/^Mem:/{print int($2 / 1000000)}')"
+if [[ ${RAMSIZE} -lt 8 ]]; then
+    echo "${RAMSIZE} GB RAM detected. This configuration requires at least 8 GB RAM."
+    exit 1
+fi
+
 
 case "$1" in
 'start' | '--start')
