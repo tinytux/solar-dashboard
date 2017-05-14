@@ -36,6 +36,7 @@ HOW TO
 4. Clone this repository and start the ELK stack:
     ```
     $ git clone https://github.com/tinytux/solar-dashboard.git
+    $ cd solar-dashboard
     $ ./elk.sh start
     ```
 5. After 30-40 seconds, check if elasticsearch is up and running: [http://localhost:9200/_search?pretty=true](http://localhost:9200/_search?pretty=true)
