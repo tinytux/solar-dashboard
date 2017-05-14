@@ -9,6 +9,9 @@ This demo shows how to use [elastic](https://www.elastic.co/products) as develop
 ![screenshot](doc/screenshot-01-yield-dashboard-mini.png "Yield dashboard screenshot")
 ![screenshot](doc/screenshot-02-developer-dashboard-mini.png "Developer dashboard screenshot")
 
+Example: [Yield dashboard](doc/screenshot-01-yield-dashboard.png) and [Developer dashboard](doc/screenshot-02-developer-dashboard.png)
+
+
 
 HOW TO
 ------
